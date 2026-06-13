@@ -1,4 +1,4 @@
-anthropic
+openai
 flask
 flask-cors
 python-dotenv

@@ -1,12 +1,9 @@
 Python backend — rules engine, FCA compliance logic, and API.
 
 Files:
-  rules_prompt.py         — the 8-rule system prompt (R1–R8) stored as a string constant.
-                            This is the moat. The model is a commodity; the encoded regulatory
-                            logic is not. Do not change this without testing all three demo adverts.
-
-  scanner.py              — core scan function. Takes advert text, calls the Anthropic API with
-                            the system prompt, returns the verdict as a parsed Python dict.
+  scanner.py              — core scan function. Takes advert text, sends it to the OpenAI API
+                            with FCA.md as the system prompt, returns the verdict as a parsed dict.
+                            Rules live in FCA.md at the project root — edit there, not here.
 
   warning_list_checker.py — loads data/warning_list.json and fuzzy-matches firm names from
                             scan results. Forces overall_status to RED on a hit.
@@ -18,7 +15,6 @@ Files:
 
 To run the API server:
   python main.py
-  (or from this folder: python api.py)
 
 Requires .env at the project root with:
-  ANTHROPIC_API_KEY=your_key_here
+  OPENAI_API_KEY=your_key_here
