@@ -421,4 +421,104 @@ function IntakeView({ onSubmit, onCancel }) {
   );
 }
 
-Object.assign(window, { QueueView, CaseView, IntakeView });
+/* ============================================================
+   DASHBOARD — simple at-a-glance counts over the current queue
+   ============================================================ */
+function DashboardView({ complaints, onNew }) {
+  const analysed = complaints.filter(c => c.analysis);
+  const count = (rag) => analysed.filter(c => c.analysis.rag === rag).length;
+  const red = count("red"), amber = count("amber"), green = count("green");
+  const total = analysed.length;
+  const awaiting = complaints.filter(c => c.stage === "inbox" || c.stage === "analysing").length;
+  const maxV = Math.max(red, amber, green, 1);
+
+  // firms matched on the FCA Warning List
+  const flaggedFirms = [...new Set(analysed
+    .filter(c => c.analysis.company && c.analysis.company.warningList && c.analysis.company.warningList.status === "match")
+    .map(c => c.analysis.company.name))];
+
+  // most common rule breaches across the queue
+  const tally = {};
+  analysed.forEach(c => (c.analysis.breaches || []).forEach(b => {
+    const key = (b.rule || "—") + " — " + (b.title || "Breach");
+    tally[key] = (tally[key] || 0) + 1;
+  }));
+  const topBreaches = Object.entries(tally).sort((a, b) => b[1] - a[1]).slice(0, 5);
+  const maxB = topBreaches.length ? topBreaches[0][1] : 1;
+
+  const VerdictBar = ({ label, tone, n }) => (
+    <div className="bar-row">
+      <span className="br-label"><span className="ldot" style={{ background: `var(--${tone})` }} />{label}</span>
+      <span className="br-track"><span className={"br-fill " + tone} style={{ width: (n / maxV * 100) + "%" }} /></span>
+      <span className="br-count">{n}</span>
+    </div>
+  );
+
+  return (
+    <div className="queue-stage">
+      <div className="queue-wrap">
+        <div className="board-head">
+          <div>
+            <h1>Dashboard</h1>
+            <div className="fca-accent" />
+            <p className="sub">A live snapshot of the triage queue — how many reported promotions fall into each risk band.</p>
+          </div>
+          <div className="spacer" />
+          <button className="btn btn-primary" onClick={onNew} style={{ padding: "11px 18px" }}>
+            <Icon name="plus" size={16} stroke={2.4} /> Log complaint
+          </button>
+        </div>
+
+        <div className="statbar">
+          <div className="stat brand"><span className="bar-accent" /><div className="n">{total}</div><div className="l">Triaged</div></div>
+          <div className="stat red"><span className="bar-accent" /><div className="n">{red}</div><div className="l">Red · high risk</div></div>
+          <div className="stat amber"><span className="bar-accent" /><div className="n">{amber}</div><div className="l">Amber · amend</div></div>
+          <div className="stat green"><span className="bar-accent" /><div className="n">{green}</div><div className="l">Green · compliant</div></div>
+          <div className="stat neutral"><span className="bar-accent" /><div className="n">{awaiting}</div><div className="l">Awaiting triage</div></div>
+        </div>
+
+        <div className="dash-grid">
+          <div className="card">
+            <div className="card-head"><Icon name="alert" size={17} /><h3>Most common rule breaches</h3></div>
+            <div className="card-pad">
+              {topBreaches.length === 0
+                ? <div className="empty-note"><Icon name="check" size={18} stroke={2.4} /> No breaches recorded yet.</div>
+                : topBreaches.map(([label, n], i) => {
+                    const sep = label.indexOf(" — ");
+                    const code = sep > -1 ? label.slice(0, sep) : label;
+                    return (
+                      <div className="bar-row" key={i}>
+                        <span className="rule-code">{code}</span>
+                        <span className="br-track"><span className="br-fill red" style={{ width: (n / maxB * 100) + "%" }} /></span>
+                        <span className="br-count">{n}</span>
+                      </div>
+                    );
+                  })}
+            </div>
+          </div>
+
+          <div className="card">
+            <div className="card-head"><Icon name="shield" size={17} /><h3>Verdict mix</h3></div>
+            <div className="card-pad">
+              <VerdictBar label="Red" tone="red" n={red} />
+              <VerdictBar label="Amber" tone="amber" n={amber} />
+              <VerdictBar label="Green" tone="green" n={green} />
+            </div>
+          </div>
+        </div>
+
+        <div className="card" style={{ marginTop: 24 }}>
+          <div className="card-head"><Icon name="flag" size={17} /><h3>Firms flagged on the FCA Warning List</h3>
+            <span className="count">{flaggedFirms.length}</span></div>
+          <div className="card-pad" style={{ paddingTop: 6, paddingBottom: 6 }}>
+            {flaggedFirms.length === 0
+              ? <div className="dash-empty">No Warning List matches in the current queue.</div>
+              : flaggedFirms.map((f, i) => <div className="dash-firm" key={i}><span className="fdot" />{f}</div>)}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+Object.assign(window, { QueueView, CaseView, IntakeView, DashboardView });
