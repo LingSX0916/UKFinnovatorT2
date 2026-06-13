@@ -6,3 +6,11 @@ streamlit
 requests
 gunicorn
 supabase
+
+# --- KYB & UK Sanctions Intelligence module (backend/kyb) ---
+lxml             # fast, lossless UKSL XML parsing
+rapidfuzz        # token-set / partial-ratio fuzzy name scoring
+jellyfish        # Jaro-Winkler + Double Metaphone (phonetic blocking)
+unidecode        # transliterate non-Latin scripts to Latin for matching
+pydantic>=2      # schema-validate Companies House API responses
+reportlab        # PDF case-file export (optional; export falls back to JSON without it)

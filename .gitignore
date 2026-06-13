@@ -219,3 +219,11 @@ __marimo__/
 
 # macOS
 .DS_Store
+
+# KYB: the full UK Sanctions List XML is ~21 MB — keep it local, not in git.
+# A 30-designation sample is committed at tests/kyb/fixtures/uksl_sample.xml,
+# and the full file is re-downloadable from the FCDO page on GOV.UK.
+inputs/UK-Sanctions-List.xml
+inputs/*.xml
+# Local preview server config (created by the preview tooling)
+.claude/launch.json

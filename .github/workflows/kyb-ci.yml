@@ -1,0 +1,36 @@
+name: KYB CI
+
+# Lints and tests the KYB & UK Sanctions module. Runs fully offline — no
+# Companies House key, no Supabase, no 21 MB sanctions file (the committed
+# 30-designation sample at tests/kyb/fixtures/uksl_sample.xml is used).
+
+on:
+  push:
+    branches: [main, "feat/**"]
+    paths: ["backend/**", "tests/**", "data/**", ".github/workflows/kyb-ci.yml"]
+  pull_request:
+    paths: ["backend/**", "tests/**", "data/**", ".github/workflows/kyb-ci.yml"]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r backend/requirements.txt
+          pip install ruff pytest
+
+      - name: Ruff (lint backend/kyb + tests/kyb)
+        run: ruff check backend/kyb tests/kyb
+
+      - name: Pytest (offline KYB engine + API suite)
+        run: pytest tests/kyb -q
