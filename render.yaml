@@ -17,6 +17,6 @@ services:
       - key: OPENAI_MODEL
         value: gpt-4o
       - key: SUPABASE_URL
-        sync: false            # https://kbcstsfoipforuapqtev.supabase.co
+        sync: false            # your Supabase project URL — set in the dashboard
       - key: SUPABASE_SERVICE_ROLE_KEY
         sync: false            # service-role key (rotate the one shared in chat first)

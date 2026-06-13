@@ -13,8 +13,11 @@ SAMPLE_DESIGNATION_COUNT = 30  # designations in uksl_sample.xml (see test_inges
 # Pin the engines to fixtures BEFORE backend.kyb is imported anywhere.
 os.environ["UKSL_XML_PATH"] = str(SAMPLE)
 os.environ["KYB_WARM_INDEX"] = "0"
+# Force the suite offline. Set these to empty (not pop) so backend.api's
+# import-time load_dotenv() — which does NOT override already-set vars — cannot
+# repopulate them from a local .env and silently re-enable live Supabase/CH.
 for secret in ("COMPANIES_HOUSE_API_KEY", "SUPABASE_URL", "SUPABASE_SERVICE_ROLE_KEY"):
-    os.environ.pop(secret, None)
+    os.environ[secret] = ""
 
 
 @pytest.fixture(scope="session")
