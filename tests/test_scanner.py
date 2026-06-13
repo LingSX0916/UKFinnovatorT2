@@ -15,7 +15,7 @@ def load(path: str) -> str:
 
 
 def test_green():
-    advert = load("data/compliant/brightline_isa.txt")
+    advert = load("data/compliant/brightline_isa_TEST.txt")
     result = scan_advert(advert)
     assert result["overall_status"] == "GREEN", (
         f"Expected GREEN, got {result['overall_status']}\n{result.get('overall_summary')}"
@@ -24,7 +24,7 @@ def test_green():
 
 
 def test_amber():
-    advert = load("data/borderline/meridian_growth_fund.txt")
+    advert = load("data/borderline/meridian_growth_fund_TEST.txt")
     result = scan_advert(advert)
     assert result["overall_status"] == "AMBER", (
         f"Expected AMBER, got {result['overall_status']}\n{result.get('overall_summary')}"
@@ -33,7 +33,7 @@ def test_amber():
 
 
 def test_red():
-    advert = load("data/scam/coinvault_pro.txt")
+    advert = load("data/scam/coinvault_pro_TEST.txt")
     result = scan_advert(advert)
     hits = check_warning_list(result.get("named_firms", []), result.get("named_people", []))
     if hits:
