@@ -35,8 +35,35 @@ async function loadRulebook() {
   return RULEBOOK_TEXT;
 }
 
-/* ---- Backend endpoint (Flask /scan, OpenAI gpt-4o grounded in FCA.md) ---- */
-const SCAN_ENDPOINT = "/scan";
+/* ---- Backend endpoints ---- */
+const SCAN_ENDPOINT = "/scan";              // OpenAI gpt-4o grounded in FCA.md
+const COMPLAINTS_ENDPOINT = "/complaints";  // Supabase-backed persistence (via Flask)
+
+// Load previously persisted complaints (each already carries its analysis).
+async function fetchSavedComplaints() {
+  try {
+    const res = await fetch(COMPLAINTS_ENDPOINT);
+    if (!res.ok) return [];
+    const data = await res.json();
+    return Array.isArray(data.complaints) ? data.complaints : [];
+  } catch (e) {
+    console.warn("Could not load saved complaints:", e);
+    return [];
+  }
+}
+
+// Persist one triaged complaint card. No-op (silent) if persistence is off.
+async function saveComplaint(card) {
+  try {
+    await fetch(COMPLAINTS_ENDPOINT, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(card)
+    });
+  } catch (e) {
+    console.warn("Could not save complaint:", e);
+  }
+}
 
 /* The backend returns the FCA.md rules-engine contract (v2.0):
      { overall_verdict: "RED"|"AMBER"|"GREEN", summary, warning_list_hit,
@@ -406,4 +433,4 @@ const INBOX = [
   }
 ];
 
-Object.assign(window, { COMPLAINTS, INBOX, INCOMING, SCAN_STEPS, analyseAdvert, relTime, loadRulebook, RULEBOOK });
+Object.assign(window, { COMPLAINTS, INBOX, INCOMING, SCAN_STEPS, analyseAdvert, relTime, loadRulebook, RULEBOOK, fetchSavedComplaints, saveComplaint });
