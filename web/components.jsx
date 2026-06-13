@@ -34,7 +34,8 @@ function Icon({ name, size = 18, stroke = 1.8 }) {
     bolt: <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />,
     user: <g><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" /><circle cx="12" cy="7" r="4" /></g>,
     pin: <g><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0Z" /><circle cx="12" cy="10" r="3" /></g>,
-    clock: <g><circle cx="12" cy="12" r="9" /><polyline points="12 7 12 12 15 14" /></g>
+    clock: <g><circle cx="12" cy="12" r="9" /><polyline points="12 7 12 12 15 14" /></g>,
+    image: <g><rect x="3" y="3" width="18" height="18" rx="2" /><circle cx="8.5" cy="8.5" r="1.5" /><polyline points="21 15 16 10 5 21" /></g>
   };
   return <svg {...p}>{paths[name] || null}</svg>;
 }
@@ -110,13 +111,14 @@ function buildSegments(text, quotes) {
   return segs;
 }
 
-function AdvertView({ advert, quotes, activeQuote }) {
-  const segs = React.useMemo(() => buildSegments(advert, quotes), [advert, quotes]);
+function AdvertView({ advert, quotes, activeQuote, image }) {
+  const segs = React.useMemo(() => buildSegments(advert || "", quotes), [advert, quotes]);
   return (
     <div className="advert-view">
-      {segs.map((s, i) => s.hl
+      {image ? <img className="advert-image" src={image} alt="Reported advert" /> : null}
+      {advert ? segs.map((s, i) => s.hl
         ? <mark key={i} className={"hl" + (activeQuote && quotes[s.qi] === activeQuote ? " on" : "")}>{s.t}</mark>
-        : <React.Fragment key={i}>{s.t}</React.Fragment>)}
+        : <React.Fragment key={i}>{s.t}</React.Fragment>) : null}
     </div>
   );
 }

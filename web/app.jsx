@@ -36,7 +36,7 @@ function App() {
     const minDwell = window.SCAN_STEPS.length * 520 + 400;
     const t0 = Date.now();
     const ctx = `Channel: ${card.channels.join(", ")}. Product type: ${card.productTypes.join(", ")}. Complainant reports the firm is ${card.authorisedClaim === "No" ? "NOT authorised" : card.authorisedClaim === "Yes" ? "authorised" : "of unknown authorisation"}. Reason given: ${card.reason}`;
-    window.analyseAdvert(card.advert, card.promoter, ctx).then(analysis => {
+    window.analyseAdvert(card.advert, card.promoter, ctx, card.image).then(analysis => {
       const wait = Math.max(0, minDwell - (Date.now() - t0));
       setTimeout(() => {
         patch(card.ref, { analysis, stage: analysis.rag });
