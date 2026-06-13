@@ -31,7 +31,13 @@ RULEBOOK (FCA.md) follows.
 def _get_client() -> OpenAI:
     global _client
     if _client is None:
-        _client = OpenAI(api_key=os.environ["OPENAI_API_KEY"])
+        # max_retries rides out transient 429 TPM rate-limits (the board fires a
+        # few scans on load); the SDK backs off and retries before we fall back.
+        _client = OpenAI(
+            api_key=os.environ["OPENAI_API_KEY"],
+            max_retries=int(os.environ.get("OPENAI_MAX_RETRIES", "4")),
+            timeout=90,
+        )
     return _client
 
 
