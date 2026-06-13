@@ -12,14 +12,17 @@ wired to the project's Python backend.
   arrives live mid-stream to show the flow.
 - **Case detail** (`CaseView`) — two switchable layouts (Dossier / Signal):
   RAG verdict, rule breaches with the exact offending words highlighted in the
-  advert, plus Warning List / Companies House / FS Register checks.
-- **Intake** (`IntakeView`) — log a new complaint; the agent triages it.
+  advert (or the uploaded image shown), plus the firm / Warning List checks.
+- **Intake** (`IntakeView`) — log a new complaint with **text and/or an uploaded
+  advert screenshot**; the agent triages it. Images are downscaled client-side
+  (longest edge → 1600px JPEG) and read by gpt-4o vision.
 
 ## How it connects to the AI
 
 `data.jsx → analyseAdvert()` POSTs to **`/scan`** (served by the Flask backend
-in `backend/api.py`). The backend calls **OpenAI gpt-4o** grounded in the
-repo-root **`FCA.md`** rules engine (v2.0 — 17 rules R1–R17) and authoritatively
+in `backend/api.py`). The backend calls **OpenAI gpt-4o** (text **and** vision for
+uploaded images) grounded in the repo-root **`FCA.md`** rules engine (v2.0 — 17
+rules R1–R17, with an explicit model instruction in `scanner.py`) and authoritatively
 cross-references the FCA Warning List (`data/warning_list.json`) against the
 advert + promoter. The backend returns the rules-engine contract
 (`overall_verdict` / `summary` / `rules[]` with `triggered`+`severity` …);
