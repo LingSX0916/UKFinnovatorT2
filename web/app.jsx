@@ -94,6 +94,7 @@ function App() {
   const openCase = (ref) => { setActiveRef(ref); setView("case"); };
   const goHome = () => setView("queue");
   const goNew = () => setView("intake");
+  const goDashboard = () => setView("dashboard");
 
   const submitComplaint = (complaint) => {
     const c = { ...complaint, analysis: null, stage: "inbox", persist: true };
@@ -108,11 +109,13 @@ function App() {
 
   return (
     <div className="app">
-      <Topbar onHome={goHome} onNew={goNew} view={view} />
+      <Topbar onHome={goHome} onNew={goNew} onDashboard={goDashboard} view={view} />
 
       {view === "queue" &&
         <QueueView complaints={complaints} freshRef={freshRef} analysingNow={analysingNow}
           onOpen={openCase} onNew={goNew} />}
+      {view === "dashboard" &&
+        <DashboardView complaints={complaints} onNew={goNew} />}
       {view === "case" && active && active.analysis &&
         <CaseView c={active} t={t} onBack={goHome} onToggleStyle={toggleStyle} />}
       {view === "intake" &&

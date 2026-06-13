@@ -766,3 +766,22 @@ mark.hl:hover, mark.hl.on { background: #ffd24d; box-shadow: 0 0 0 2px rgba(217,
 .kc-analysing { display: flex; align-items: center; gap: 9px; margin-top: 9px; font-size: 12px; font-weight: 700; color: var(--teal-700); }
 .kc-analysing .step-now { display: block; font-weight: 400; color: var(--ink-400); font-size: 11px; margin-top: 3px; }
 .fresh-flag2 { display: inline-flex; align-items: center; gap: 4px; font-size: 9.5px; font-weight: 800; letter-spacing: .05em; text-transform: uppercase; color: var(--teal-700); background: var(--teal-100); padding: 2px 6px; border-radius: 999px; }
+
+/* ============================================================
+   DASHBOARD — at-a-glance risk counts
+   ============================================================ */
+.dash-grid { display: grid; grid-template-columns: 1.25fr 1fr; gap: 24px; align-items: start; }
+.bar-row { display: flex; align-items: center; gap: 12px; padding: 12px 0; border-bottom: 1px solid var(--border-2); }
+.bar-row:last-child { border-bottom: none; }
+.bar-row .br-label { display: inline-flex; align-items: center; gap: 8px; min-width: 92px; font-size: 13.5px; font-weight: 700; }
+.bar-row .br-label .ldot { width: 9px; height: 9px; border-radius: 50%; flex: 0 0 auto; }
+.bar-row .br-track { flex: 1; height: 10px; background: var(--bg); border-radius: 999px; overflow: hidden; }
+.bar-row .br-fill { display: block; height: 100%; border-radius: 999px; transition: width .4s cubic-bezier(.2,.7,.3,1); }
+.bar-row .br-fill.red { background: var(--red); } .bar-row .br-fill.amber { background: var(--amber); }
+.bar-row .br-fill.green { background: var(--green); } .bar-row .br-fill.brand { background: var(--teal-700); }
+.bar-row .br-count { min-width: 26px; text-align: right; font-size: 13.5px; font-weight: 800; color: var(--ink); }
+.dash-firm { display: flex; align-items: center; gap: 10px; padding: 11px 0; border-bottom: 1px solid var(--border-2); font-size: 14px; font-weight: 600; }
+.dash-firm:last-child { border-bottom: none; }
+.dash-firm .fdot { width: 9px; height: 9px; border-radius: 50%; background: var(--red); flex: 0 0 auto; box-shadow: 0 0 0 3px var(--red-bg); }
+.dash-empty { font-size: 13.5px; color: var(--ink-400); padding: 8px 0; }
+@media (max-width: 880px) { .dash-grid { grid-template-columns: 1fr; } }

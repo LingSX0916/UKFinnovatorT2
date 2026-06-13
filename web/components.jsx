@@ -197,7 +197,7 @@ function ComplaintRecord({ complaint, showAdvert }) {
 }
 
 /* ---- top bar ---- */
-function Topbar({ onHome, onNew, view }) {
+function Topbar({ onHome, onNew, onDashboard, view }) {
   return (
     <header className="topbar">
       <div className="brand" style={{ cursor: "pointer" }} onClick={onHome}>
@@ -209,6 +209,9 @@ function Topbar({ onHome, onNew, view }) {
       <div className="topbar-meta">
         {view !== "queue" ? (
           <button className="btn-link" onClick={onHome}>Board</button>
+        ) : null}
+        {view !== "dashboard" ? (
+          <button className="btn-link" onClick={onDashboard}>Dashboard</button>
         ) : null}
         <button className="btn-link" style={{ display: "inline-flex", alignItems: "center", gap: 6 }} onClick={onNew}>
           <Icon name="plus" size={15} stroke={2.4} /> Log complaint
