@@ -1,0 +1,43 @@
+[
+  {
+    "id": "WL-CLONE-001",
+    "entry_type": "domain",
+    "name": "Goldsmith Capital Partners (clone site)",
+    "domain": "goldsmith-capital-partners.com",
+    "details": {
+      "reason": "Clone of an authorised firm misusing a genuine FRN (142087).",
+      "open_alert": true
+    },
+    "source": "fca_warning_list_kyb"
+  },
+  {
+    "id": "WL-FIRM-101",
+    "entry_type": "firm",
+    "name": "Quantum Yield Capital Ltd",
+    "details": {
+      "reason": "Unauthorised business — guaranteed-return crypto scam; fake endorsements.",
+      "aliases": ["QuantumYield AI", "Quantum Yield"]
+    },
+    "source": "fca_warning_list_kyb"
+  },
+  {
+    "id": "WL-FIRM-102",
+    "entry_type": "firm",
+    "name": "BritWealth Recovery",
+    "details": {
+      "reason": "Advance-fee 'recovery room' targeting prior scam victims.",
+      "aliases": ["BritWealth Recovery Specialists"]
+    },
+    "source": "fca_warning_list_kyb"
+  },
+  {
+    "id": "WL-INDIV-201",
+    "entry_type": "individual",
+    "name": "Marcus Delaney",
+    "details": {
+      "reason": "Named director associated with two unauthorised clone firms.",
+      "also_known_as": ["Marc Delaney"]
+    },
+    "source": "fca_warning_list_kyb"
+  }
+]

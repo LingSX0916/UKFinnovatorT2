@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "company_name": "MERIDIAN HOLDINGS LTD",
+    "company_number": "SC900003",
+    "company_status": "active",
+    "type": "ltd",
+    "jurisdiction": "scotland",
+    "date_of_creation": "2023-07-19",
+    "sic_codes": ["70100"],
+    "registered_office_address": {
+      "address_line_1": "Suite 4, 200 Bath Street",
+      "locality": "Glasgow",
+      "postal_code": "G2 4HZ",
+      "country": "United Kingdom"
+    },
+    "accounts": { "next_due": "2026-04-19", "overdue": false },
+    "confirmation_statement": { "next_due": "2026-08-02", "overdue": false }
+  },
+  "officers": {
+    "items": [
+      {
+        "name": "AL-FARSI, Reza",
+        "officer_role": "director",
+        "appointed_on": "2023-07-19",
+        "nationality": "Iranian",
+        "country_of_residence": "Iran",
+        "date_of_birth": { "month": 11, "year": 1976 },
+        "links": { "officer": { "appointments": "/officers/ra-meridian/appointments" } }
+      }
+    ]
+  },
+  "persons-with-significant-control": {
+    "items": [
+      {
+        "kind": "persons-with-significant-control-statement",
+        "statement": "no-individual-or-entity-with-significant-control",
+        "notified_on": "2023-07-19"
+      }
+    ]
+  },
+  "filing-history": {
+    "items": [
+      { "category": "incorporation", "type": "NEWINC", "date": "2023-07-19", "description": "Incorporation" }
+    ]
+  },
+  "charges": { "items": [] }
+}

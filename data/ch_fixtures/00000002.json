@@ -1,0 +1,60 @@
+{
+  "profile": {
+    "company_name": "BRIGHTLINE SAVINGS PLC",
+    "company_number": "00000002",
+    "company_status": "active",
+    "type": "plc",
+    "jurisdiction": "england-wales",
+    "date_of_creation": "2009-04-21",
+    "sic_codes": ["64191"],
+    "registered_office_address": {
+      "address_line_1": "1 Finsbury Avenue",
+      "locality": "London",
+      "postal_code": "EC2M 2PF",
+      "country": "United Kingdom"
+    },
+    "accounts": { "next_due": "2026-12-31", "overdue": false },
+    "confirmation_statement": { "next_due": "2026-05-01", "overdue": false }
+  },
+  "officers": {
+    "items": [
+      {
+        "name": "SMITH, Jane Eleanor",
+        "officer_role": "director",
+        "appointed_on": "2009-04-21",
+        "nationality": "British",
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": { "month": 9, "year": 1971 },
+        "links": { "officer": { "appointments": "/officers/js-brightline/appointments" } }
+      },
+      {
+        "name": "OKAFOR, Daniel",
+        "officer_role": "director",
+        "appointed_on": "2014-01-10",
+        "nationality": "British",
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": { "month": 2, "year": 1979 }
+      }
+    ]
+  },
+  "persons-with-significant-control": {
+    "items": [
+      {
+        "name": "Jane Eleanor Smith",
+        "kind": "individual-person-with-significant-control",
+        "natures_of_control": ["ownership-of-shares-50-to-75-percent"],
+        "notified_on": "2016-04-06",
+        "nationality": "British",
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": { "month": 9, "year": 1971 }
+      }
+    ]
+  },
+  "filing-history": {
+    "items": [
+      { "category": "accounts", "type": "AA", "date": "2025-09-30", "description": "Full accounts made up to 31 December 2024" },
+      { "category": "confirmation-statement", "type": "CS01", "date": "2025-05-01", "description": "Confirmation statement made on 21 April 2025" }
+    ]
+  },
+  "charges": { "items": [] }
+}

@@ -1,0 +1,55 @@
+{
+  "profile": {
+    "company_name": "NORTHWIND TRADING (UK) LTD",
+    "company_number": "SC900001",
+    "company_status": "active",
+    "type": "ltd",
+    "jurisdiction": "scotland",
+    "date_of_creation": "2025-11-02",
+    "sic_codes": ["46909", "64209"],
+    "registered_office_address": {
+      "address_line_1": "12 Carrick Quay",
+      "locality": "Glasgow",
+      "postal_code": "G1 5EZ",
+      "country": "United Kingdom"
+    },
+    "accounts": { "next_due": "2026-08-02", "overdue": true },
+    "confirmation_statement": { "next_due": "2026-11-16", "overdue": false }
+  },
+  "officers": {
+    "items": [
+      {
+        "name": "WHITFIELD, Sarah Louise",
+        "officer_role": "director",
+        "appointed_on": "2025-11-02",
+        "nationality": "British",
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": { "month": 6, "year": 1984 },
+        "links": { "officer": { "appointments": "/officers/sw-northwind/appointments" } }
+      }
+    ]
+  },
+  "persons-with-significant-control": {
+    "items": [
+      {
+        "name": "Granite Nominees Ltd",
+        "kind": "corporate-entity-person-with-significant-control",
+        "natures_of_control": ["ownership-of-shares-75-to-100-percent", "voting-rights-75-to-100-percent"],
+        "notified_on": "2025-11-02",
+        "identification": {
+          "registration_number": "SC900002",
+          "country_registered": "United Kingdom",
+          "legal_form": "Private Limited Company",
+          "place_registered": "Companies House"
+        }
+      }
+    ]
+  },
+  "filing-history": {
+    "items": [
+      { "category": "incorporation", "type": "NEWINC", "date": "2025-11-02", "description": "Incorporation" },
+      { "category": "gazette", "type": "GAZ1", "date": "2026-05-20", "description": "First Gazette notice for compulsory strike-off" }
+    ]
+  },
+  "charges": { "items": [] }
+}

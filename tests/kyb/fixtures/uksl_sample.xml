@@ -1,0 +1,2867 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Designations>
+  <DateGenerated>10/06/2026</DateGenerated>
+  <Designation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <LastUpdated>16/04/2026</LastUpdated>
+    <DateDesignated>29/06/2012</DateDesignated>
+    <UniqueID>AFG0001</UniqueID>
+    <OFSIGroupID>12703</OFSIGroupID>
+    <UNReferenceNumber>TAe.010</UNReferenceNumber>
+    <Names>
+      <Name>
+        <Name6>HAJI KHAIRULLAH HAJI SATTAR MONEY EXCHANGE</Name6>
+        <NameType>Primary Name</NameType>
+      </Name>
+      <Name>
+        <Name6>Haji Alim Hawala</Name6>
+        <NameType>Alias</NameType>
+      </Name>
+      <Name>
+        <Name6>Haji Hakim Hawala</Name6>
+        <NameType>Alias</NameType>
+      </Name>
+      <Name>
+        <Name6>Haji Khair Ullah Money Service</Name6>
+        <NameType>Alias</NameType>
+      </Name>
+      <Name>
+        <Name6>Haji Khairullah and Abdul Sattar and Company</Name6>
+        <NameType>Alias</NameType>
+      </Name>
+      <Name>
+        <Name6>Haji Khairullah Money Exchange</Name6>
+        <NameType>Alias</NameType>
+      </Name>
+      <Name>
+        <Name6>Haji Khairullah-Haji Sattar Sarafi</Name6>
+        <NameType>Alias</NameType>
+      </Name>
+      <Name>
+        <Name6>Haji Salam Hawala</Name6>
+        <NameType>Alias</NameType>
+      </Name>
+      <Name>
+        <Name6>Sarafi-yi Haji Khairullah Haji Satar Haji Esmatullah</Name6>
+        <NameType>Alias</NameType>
+      </Name>
+    </Names>
+    <NonLatinNames>
+      <NonLatinName>
+        <NameNonLatinScript>حاجی خيرالله و حاجی ستار صرافی</NameNonLatinScript>
+      </NonLatinName>
+    </NonLatinNames>
+    <RegimeName>The Afghanistan (Sanctions) (EU Exit) Regulations 2020</RegimeName>
+    <IndividualEntityShip>Entity</IndividualEntityShip>
+    <DesignationSource>UN</DesignationSource>
+    <SanctionsImposed>Asset freeze</SanctionsImposed>
+    <SanctionsImposedIndicators>
+      <AssetFreeze>true</AssetFreeze>
+      <ArmsEmbargo>false</ArmsEmbargo>
+      <TargetedArmsEmbargo>false</TargetedArmsEmbargo>
+      <CharteringOfShips>false</CharteringOfShips>
+      <ClosureOfRepresentativeOffices>false</ClosureOfRepresentativeOffices>
+      <CrewServicingOfShipsAndAircraft>false</CrewServicingOfShipsAndAircraft>
+      <Deflag>false</Deflag>
+      <PreventionOfBusinessArrangements>false</PreventionOfBusinessArrangements>
+      <ProhibitionOfPortEntry>false</ProhibitionOfPortEntry>
+      <TravelBan>false</TravelBan>
+      <PreventionOfCharteringOfShips>false</PreventionOfCharteringOfShips>
+      <PreventionOfCharteringOfShipsAndAircraft>false</PreventionOfCharteringOfShipsAndAircraft>
+      <TechnicalAssistanceRelatedToAircraft>false</TechnicalAssistanceRelatedToAircraft>
+      <TrustServicesSanctions>false</TrustServicesSanctions>
+      <DirectorDisqualificationSanction>false</DirectorDisqualificationSanction>
+    </SanctionsImposedIndicators>
+    <OtherInformation>Afghan Money Service Provider License Number: 044. Haji Khairullah Haji Sattar Money Exchange was used by Taliban leadership to transfer money to Taliban commanders to fund fighters and operations in Afghanistan as of 2011. Active in Kunar Province. Associated with Abdul Sattar Abdul Manan (TAi.162) and Khairullah Barakzai Khudai Nazar (TAi.163). INTERPOL-UN Security Council Special Notice web link:  https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals.</OtherInformation>
+    <UKStatementofReasons>
+</UKStatementofReasons>
+    <Addresses>
+      <Address>
+        <AddressLine1>Ansari Market, 2nd Floor</AddressLine1>
+        <AddressLine6>Nimroz Province</AddressLine6>
+        <AddressCountry>Afghanistan</AddressCountry>
+      </Address>
+      <Address>
+        <AddressLine1>Branch Office 10</AddressLine1>
+        <AddressLine2>Suite numbers 196-197, 3rd Floor</AddressLine2>
+        <AddressLine3>Khorasan Market</AddressLine3>
+        <AddressLine5>Herat City</AddressLine5>
+        <AddressLine6>Herat Province</AddressLine6>
+        <AddressCountry>Afghanistan</AddressCountry>
+      </Address>
+      <Address>
+        <AddressLine1>Branch Office 11</AddressLine1>
+        <AddressLine2>Sarafi Market</AddressLine2>
+        <AddressLine5>Zaranj District</AddressLine5>
+        <AddressLine6>Nimroz Province</AddressLine6>
+        <AddressCountry>Afghanistan</AddressCountry>
+      </Address>
+      <Address>
+        <AddressLine1>Branch Office 12</AddressLine1>
+        <AddressLine2>Sarafi Market</AddressLine2>
+        <AddressLine3>Wesh</AddressLine3>
+        <AddressLine5>Spin Boldak District</AddressLine5>
+        <AddressCountry>Afghanistan</AddressCountry>
+      </Address>
+      <Address>
+        <AddressLine1>Branch Office 13</AddressLine1>
+        <AddressLine2>Sarafi Market</AddressLine2>
+        <AddressLine6>Farah</AddressLine6>
+        <AddressCountry>Afghanistan</AddressCountry>
+      </Address>
+      <Address>
+        <AddressLine1>Branch Office 14</AddressLine1>
+        <AddressLine6>Dubai</AddressLine6>
+        <AddressCountry>United Arab Emirates</AddressCountry>
+      </Address>
+      <Address>
+        <AddressLine1>Branch Office 15</AddressLine1>
+        <AddressLine6>Zahedan</AddressLine6>
+        <AddressCountry>Iran</AddressCountry>
+      </Address>
+      <Address>
+        <AddressLine1>Branch Office 16</AddressLine1>
+        <AddressLine6>Zabul</AddressLine6>
+        <AddressCountry>Iran</AddressCountry>
+      </Address>
+      <Address>
+        <AddressLine1>Branch Office 6</AddressLine1>
+        <AddressLine2>Shop number 237</AddressLine2>
+        <AddressLine3>Shah Zada Market (also known as Sarai Shahzada)</AddressLine3>
+        <AddressLine4>Puli Khishti area</AddressLine4>
+        <AddressLine5>Police District 1</AddressLine5>
+        <AddressLine6>Kabul</AddressLine6>
+        <AddressCountry>Afghanistan</AddressCountry>
+      </Address>
+      <Address>
+        <AddressLine1>Branch Office 7</AddressLine1>
+        <AddressLine2>Shop numbers 21 and 22, 2nd Floor</AddressLine2>
+        <AddressLine3>Kandahar City Sarafi Market</AddressLine3>
+        <AddressLine5>Kandahar City</AddressLine5>
+        <AddressLine6>Kandahar Province</AddressLine6>
+        <AddressCountry>Afghanistan</AddressCountry>
+      </Address>
+      <Address>
+        <AddressLine1>Branch Office 8</AddressLine1>
+        <AddressLine2>Gereshk City</AddressLine2>
+        <AddressLine3>Nahr-e Saraj District</AddressLine3>
+        <AddressLine6>Helmand Province</AddressLine6>
+        <AddressCountry>Afghanistan</AddressCountry>
+      </Address>
+      <Address>
+        <AddressLine1>Branch Office 9</AddressLine1>
+        <AddressLine2>Lashkar Gah Bazaar</AddressLine2>
+        <AddressLine3>Lashkar Gah</AddressLine3>
+        <AddressLine4>Lashkar Gah District</AddressLine4>
+        <AddressLine6>Helmand Province</AddressLine6>
+        <AddressCountry>Afghanistan</AddressCountry>
+      </Address>
+      <Address>
+        <AddressLine1>Haji Ghulam Nabi Market, 2nd Floor</AddressLine1>
+        <AddressLine2>Lashkar Gah District</AddressLine2>
+        <AddressLine6>Helmand Province</AddressLine6>
+        <AddressCountry>Afghanistan</AddressCountry>
+      </Address>
+      <Address>
+        <AddressLine1>Khorasan Market</AddressLine1>
+        <AddressLine2>Shahre Naw</AddressLine2>
+        <AddressLine3>District 5</AddressLine3>
+        <AddressLine5>Herat City</AddressLine5>
+        <AddressLine6>Herat Province</AddressLine6>
+        <AddressCountry>Afghanistan</AddressCountry>
+      </Address>
+      <Address>
+        <AddressLine1>New Sarafi Market, 2nd Floor</AddressLine1>
+        <AddressLine5>Kandahar City</AddressLine5>
+        <AddressLine6>Kandahar Province</AddressLine6>
+        <AddressCountry>Afghanistan</AddressCountry>
+      </Address>
+      <Address>
+        <AddressLine1>Safi Market</AddressLine1>
+        <AddressLine5>Kandahar City</AddressLine5>
+        <AddressLine6>Kandahar Province</AddressLine6>
+        <AddressCountry>Afghanistan</AddressCountry>
+      </Address>
+    </Addresses>
+    <PhoneNumbers>
+      <PhoneNumber>-103495</PhoneNumber>
+      <PhoneNumber>-101823</PhoneNumber>
+      <PhoneNumber>-222831</PhoneNumber>
+      <PhoneNumber>0202-104748</PhoneNumber>
+      <PhoneNumber>-59763</PhoneNumber>
+    </PhoneNumbers>
+    <EmailAddresses>
+      <EmailAddress>helmand_exchange_msp@yahoo.com</EmailAddress>
+    </EmailAddresses>
+  </Designation>
+  <Designation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <LastUpdated>12/01/2022</LastUpdated>
+    <DateDesignated>29/06/2012</DateDesignated>
+    <UniqueID>AFG0002</UniqueID>
+    <OFSIGroupID>12704</OFSIGroupID>
+    <UNReferenceNumber>TAe.011</UNReferenceNumber>
+    <Names>
+      <Name>
+        <Name6>ROSHAN MONEY EXCHANGE</Name6>
+        <NameType>Primary Name</NameType>
+      </Name>
+      <Name>
+        <Name6>Haji Ahmad Shah Hawala</Name6>
+        <NameType>Alias</NameType>
+      </Name>
+      <Name>
+        <Name6>Maulawi Ahmed Shah Hawala</Name6>
+        <NameType>Alias</NameType>
+      </Name>
+      <Name>
+        <Name6>Mullah Ahmed Shah Hawala</Name6>
+        <NameType>Alias</NameType>
+      </Name>
+      <Name>
+        <Name6>Roshan Sarafi</Name6>
+        <NameType>Alias</NameType>
+      </Name>
+      <Name>
+        <Name6>Roshan Shirkat</Name6>
+        <NameType>Alias</NameType>
+      </Name>
+      <Name>
+        <Name6>Roshan Trading Company</Name6>
+        <NameType>Alias</NameType>
+      </Name>
+      <Name>
+        <Name6>Rushaan Trading Company</Name6>
+        <NameType>Alias</NameType>
+      </Name>
+    </Names>
+    <NonLatinNames>
+      <NonLatinName>
+        <NameNonLatinScript>صرافی روشان</NameNonLatinScript>
+      </NonLatinName>
+    </NonLatinNames>
+    <RegimeName>The Afghanistan (Sanctions) (EU Exit) Regulations 2020</RegimeName>
+    <IndividualEntityShip>Entity</IndividualEntityShip>
+    <DesignationSource>UN</DesignationSource>
+    <SanctionsImposed>Asset freeze</SanctionsImposed>
+    <SanctionsImposedIndicators>
+      <AssetFreeze>true</AssetFreeze>
+      <ArmsEmbargo>false</ArmsEmbargo>
+      <TargetedArmsEmbargo>false</TargetedArmsEmbargo>
+      <CharteringOfShips>false</CharteringOfShips>
+      <ClosureOfRepresentativeOffices>false</ClosureOfRepresentativeOffices>
+      <CrewServicingOfShipsAndAircraft>false</CrewServicingOfShipsAndAircraft>
+      <Deflag>false</Deflag>
+      <PreventionOfBusinessArrangements>false</PreventionOfBusinessArrangements>
+      <ProhibitionOfPortEntry>false</ProhibitionOfPortEntry>
+      <TravelBan>false</TravelBan>
+      <PreventionOfCharteringOfShips>false</PreventionOfCharteringOfShips>
+      <PreventionOfCharteringOfShipsAndAircraft>false</PreventionOfCharteringOfShipsAndAircraft>
+      <TechnicalAssistanceRelatedToAircraft>false</TechnicalAssistanceRelatedToAircraft>
+      <TrustServicesSanctions>false</TrustServicesSanctions>
+      <DirectorDisqualificationSanction>false</DirectorDisqualificationSanction>
+    </SanctionsImposedIndicators>
+    <OtherInformation>Roshan Money Exchange stores and transfers funds to support Taliban military operations and narcotics trade in Afghanistan. Owned by Ahmed Shah Noorzai Obaidullah (TAi.166). INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/How-wework/Notices/View-UN-Notices-Entities click here</OtherInformation>
+    <UKStatementofReasons>
+</UKStatementofReasons>
+    <Addresses>
+      <Address>
+        <AddressLine1>Chaghi</AddressLine1>
+        <AddressLine2>Chaghi District</AddressLine2>
+        <AddressLine6>Baluchistan Province</AddressLine6>
+        <AddressCountry>Pakistan</AddressCountry>
+      </Address>
+      <Address>
+        <AddressLine1>Cholmon Road</AddressLine1>
+        <AddressLine5>Quetta</AddressLine5>
+        <AddressLine6>Baluchistan Province</AddressLine6>
+        <AddressCountry>Pakistan</AddressCountry>
+      </Address>
+      <Address>
+        <AddressLine1>Flat number 4</AddressLine1>
+        <AddressLine2>Furqan Centre</AddressLine2>
+        <AddressLine3>Jamaluddin Afghani Road</AddressLine3>
+        <AddressLine5>Quetta</AddressLine5>
+        <AddressLine6>Baluchistan Province</AddressLine6>
+        <AddressCountry>Pakistan</AddressCountry>
+      </Address>
+      <Address>
+        <AddressLine1>Gerd-e-Jangal</AddressLine1>
+        <AddressLine2>Chaghi District</AddressLine2>
+        <AddressLine6>Baluchistan Province</AddressLine6>
+        <AddressCountry>Pakistan</AddressCountry>
+      </Address>
+      <Address>
+        <AddressLine1>Haji Ghulam Nabi Market</AddressLine1>
+        <AddressLine2>Lashkar Gar</AddressLine2>
+        <AddressLine6>Helmand Province</AddressLine6>
+        <AddressCountry>Afghanistan</AddressCountry>
+      </Address>
+      <Address>
+        <AddressLine1>Hazar Joft</AddressLine1>
+        <AddressLine2>Garmser District</AddressLine2>
+        <AddressLine6>Helmand Province</AddressLine6>
+        <AddressCountry>Afghanistan</AddressCountry>
+      </Address>
+      <Address>
+        <AddressLine1>Ismat Bazaar</AddressLine1>
+        <AddressLine2>Marjah District</AddressLine2>
+        <AddressLine6>Helmand Province</AddressLine6>
+        <AddressCountry>Afghanistan</AddressCountry>
+      </Address>
+      <Address>
+        <AddressLine1>Lakri City</AddressLine1>
+        <AddressLine6>Helmand Province</AddressLine6>
+        <AddressCountry>Afghanistan</AddressCountry>
+      </Address>
+      <Address>
+        <AddressLine1>Lashkar Gar Bazaar</AddressLine1>
+        <AddressLine6>Helmand Province</AddressLine6>
+        <AddressCountry>Afghanistan</AddressCountry>
+      </Address>
+      <Address>
+        <AddressLine1>Main Bazaar</AddressLine1>
+        <AddressLine2>Safar</AddressLine2>
+        <AddressLine6>Helmand Province</AddressLine6>
+        <AddressCountry>Afghanistan</AddressCountry>
+      </Address>
+      <Address>
+        <AddressLine1>Money Exchange Market</AddressLine1>
+        <AddressLine2>Lashkar Gar</AddressLine2>
+        <AddressLine6>Helmand Province</AddressLine6>
+        <AddressCountry>Afghanistan</AddressCountry>
+      </Address>
+      <Address>
+        <AddressLine1>Munsafi Road</AddressLine1>
+        <AddressLine5>Quetta</AddressLine5>
+        <AddressLine6>Baluchistan Province</AddressLine6>
+        <AddressCountry>Pakistan</AddressCountry>
+      </Address>
+      <Address>
+        <AddressLine1>Office number 4, 2nd Floor</AddressLine1>
+        <AddressLine2>Muslim Plaza Building</AddressLine2>
+        <AddressLine3>Doctor Banu Road</AddressLine3>
+        <AddressLine5>Quetta</AddressLine5>
+        <AddressLine6>Baluchistan Province</AddressLine6>
+        <AddressCountry>Pakistan</AddressCountry>
+      </Address>
+      <Address>
+        <AddressLine1>Safar Bazaar</AddressLine1>
+        <AddressLine2>Garmser District</AddressLine2>
+        <AddressLine6>Helmand Province</AddressLine6>
+        <AddressCountry>Afghanistan</AddressCountry>
+      </Address>
+      <Address>
+        <AddressLine1>Shop number 1, 1st Floor</AddressLine1>
+        <AddressLine2>Kadari Place</AddressLine2>
+        <AddressLine3>Abdul Samad Khan Street (next to Fatima Jena Road)</AddressLine3>
+        <AddressLine5>Quetta</AddressLine5>
+        <AddressLine6>Baluchistan Province</AddressLine6>
+        <AddressCountry>Pakistan</AddressCountry>
+      </Address>
+      <Address>
+        <AddressLine1>Shop number 1584</AddressLine1>
+        <AddressLine2>Furqan (Fahr Khan) Centre</AddressLine2>
+        <AddressLine3>Chalhor Mal Road</AddressLine3>
+        <AddressLine5>Quetta</AddressLine5>
+        <AddressLine6>Baluchistan Province</AddressLine6>
+        <AddressCountry>Pakistan</AddressCountry>
+      </Address>
+      <Address>
+        <AddressLine1>Shop number 25, 5th Floor</AddressLine1>
+        <AddressLine2>Sarafi Market</AddressLine2>
+        <AddressLine4>Kandahar City</AddressLine4>
+        <AddressLine5>Kandahar District</AddressLine5>
+        <AddressLine6>Kandahar Province</AddressLine6>
+        <AddressCountry>Afghanistan</AddressCountry>
+      </Address>
+      <Address>
+        <AddressLine1>Zaranj</AddressLine1>
+        <AddressLine6>Nimruz Province</AddressLine6>
+        <AddressCountry>Afghanistan</AddressCountry>
+      </Address>
+      <Address>
+        <AddressLine1>Suite number 8, 4th Floor</AddressLine1>
+        <AddressLine2>Sarafi Market</AddressLine2>
+        <AddressLine3>District number 1</AddressLine3>
+        <AddressLine5>Kandahar City</AddressLine5>
+        <AddressLine6>Kandahar Province</AddressLine6>
+        <AddressCountry>Afghanistan</AddressCountry>
+      </Address>
+    </Addresses>
+  </Designation>
+  <Designation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <LastUpdated>12/01/2022</LastUpdated>
+    <DateDesignated>05/11/2012</DateDesignated>
+    <UniqueID>AFG0003</UniqueID>
+    <OFSIGroupID>12811</OFSIGroupID>
+    <UNReferenceNumber>TAe.012</UNReferenceNumber>
+    <Names>
+      <Name>
+        <Name6>HAQQANI NETWORK (HQN)</Name6>
+        <NameType>Primary Name</NameType>
+      </Name>
+    </Names>
+    <NonLatinNames>
+      <NonLatinName>
+        <NameNonLatinScript>شبکه حقانی</NameNonLatinScript>
+      </NonLatinName>
+    </NonLatinNames>
+    <RegimeName>The Afghanistan (Sanctions) (EU Exit) Regulations 2020</RegimeName>
+    <IndividualEntityShip>Entity</IndividualEntityShip>
+    <DesignationSource>UN</DesignationSource>
+    <SanctionsImposed>Asset freeze</SanctionsImposed>
+    <SanctionsImposedIndicators>
+      <AssetFreeze>true</AssetFreeze>
+      <ArmsEmbargo>false</ArmsEmbargo>
+      <TargetedArmsEmbargo>false</TargetedArmsEmbargo>
+      <CharteringOfShips>false</CharteringOfShips>
+      <ClosureOfRepresentativeOffices>false</ClosureOfRepresentativeOffices>
+      <CrewServicingOfShipsAndAircraft>false</CrewServicingOfShipsAndAircraft>
+      <Deflag>false</Deflag>
+      <PreventionOfBusinessArrangements>false</PreventionOfBusinessArrangements>
+      <ProhibitionOfPortEntry>false</ProhibitionOfPortEntry>
+      <TravelBan>false</TravelBan>
+      <PreventionOfCharteringOfShips>false</PreventionOfCharteringOfShips>
+      <PreventionOfCharteringOfShipsAndAircraft>false</PreventionOfCharteringOfShipsAndAircraft>
+      <TechnicalAssistanceRelatedToAircraft>false</TechnicalAssistanceRelatedToAircraft>
+      <TrustServicesSanctions>false</TrustServicesSanctions>
+      <DirectorDisqualificationSanction>false</DirectorDisqualificationSanction>
+    </SanctionsImposedIndicators>
+    <OtherInformation>Network of Taliban fighters centered around the border between Khost Province, Afghanistan and North Waziristan, Pakistan. Founded by Jalaluddin Haqqani (TAi.040) and currently headed by his son Sirajuddin Jallaloudine Haqqani (TAi.144). Other listed members include Nasiruddin Haqqani (TAi.146), Sangeen Zadran Sher Mohammad (TAi.152), Abdul Aziz Abbasin (TAi.155), Fazl Rabi (TAi.157), Ahmed Jan Wazir (TAi.159), Bakht Gul (TAi.161), Abdul Rauf Zakir (TAi.164). Responsible for suicide attacks and targeted assassination as well as kidnappings in Kabul and other provinces of Afghanistan. Linked to Al-Qaida (QDe.004), Islamic Movement of Uzbekistan (QDe.010), Tehrik-e Taliban Pakistan (QDe.132), Lashkar I Jhangvi (QDe.096), and Jaish-IMohammed (QDe.019). INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Entities click here</OtherInformation>
+    <UKStatementofReasons>
+</UKStatementofReasons>
+  </Designation>
+  <Designation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <LastUpdated>12/01/2022</LastUpdated>
+    <DateDesignated>21/11/2012</DateDesignated>
+    <UniqueID>AFG0004</UniqueID>
+    <OFSIGroupID>12814</OFSIGroupID>
+    <UNReferenceNumber>TAe.013</UNReferenceNumber>
+    <Names>
+      <Name>
+        <Name6>RAHAT LTD.</Name6>
+        <NameType>Primary Name</NameType>
+      </Name>
+      <Name>
+        <Name6>Haji Muhammad Qasim Sarafi</Name6>
+        <NameType>Alias</NameType>
+      </Name>
+      <Name>
+        <Name6>Musa Kalim Hawala</Name6>
+        <NameType>Alias</NameType>
+      </Name>
+      <Name>
+        <Name6>New Chagai Trading</Name6>
+        <NameType>Alias</NameType>
+      </Name>
+      <Name>
+        <Name6>Rahat Trading Company</Name6>
+        <NameType>Alias</NameType>
+      </Name>
+    </Names>
+    <NonLatinNames>
+      <NonLatinName>
+        <NameNonLatinScript>راحت لمتد</NameNonLatinScript>
+      </NonLatinName>
+    </NonLatinNames>
+    <RegimeName>The Afghanistan (Sanctions) (EU Exit) Regulations 2020</RegimeName>
+    <IndividualEntityShip>Entity</IndividualEntityShip>
+    <DesignationSource>UN</DesignationSource>
+    <SanctionsImposed>Asset freeze</SanctionsImposed>
+    <SanctionsImposedIndicators>
+      <AssetFreeze>true</AssetFreeze>
+      <ArmsEmbargo>false</ArmsEmbargo>
+      <TargetedArmsEmbargo>false</TargetedArmsEmbargo>
+      <CharteringOfShips>false</CharteringOfShips>
+      <ClosureOfRepresentativeOffices>false</ClosureOfRepresentativeOffices>
+      <CrewServicingOfShipsAndAircraft>false</CrewServicingOfShipsAndAircraft>
+      <Deflag>false</Deflag>
+      <PreventionOfBusinessArrangements>false</PreventionOfBusinessArrangements>
+      <ProhibitionOfPortEntry>false</ProhibitionOfPortEntry>
+      <TravelBan>false</TravelBan>
+      <PreventionOfCharteringOfShips>false</PreventionOfCharteringOfShips>
+      <PreventionOfCharteringOfShipsAndAircraft>false</PreventionOfCharteringOfShipsAndAircraft>
+      <TechnicalAssistanceRelatedToAircraft>false</TechnicalAssistanceRelatedToAircraft>
+      <TrustServicesSanctions>false</TrustServicesSanctions>
+      <DirectorDisqualificationSanction>false</DirectorDisqualificationSanction>
+    </SanctionsImposedIndicators>
+    <OtherInformation>Rahat Ltd. was used by Taliban leadership to transfer funds originating from external donors and narcotics trafficking to finance Taliban activity as of 2011 and 2012. Owned by Mohammed Qasim Mir Wali Khudai Rahim (TAi.165). Also associated Mohammad Naim Barich Khudaidad (TAi.013). INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Entities click here</OtherInformation>
+    <UKStatementofReasons>
+</UKStatementofReasons>
+    <Addresses>
+      <Address>
+        <AddressLine5>Chaman</AddressLine5>
+        <AddressLine6>Baluchistan Province</AddressLine6>
+        <AddressCountry>Pakistan</AddressCountry>
+      </Address>
+      <Address>
+        <AddressLine5>Zahedan</AddressLine5>
+        <AddressLine6>Zabol Province</AddressLine6>
+        <AddressCountry>Iran</AddressCountry>
+      </Address>
+      <Address>
+        <AddressLine1>Chaghi Bazaar</AddressLine1>
+        <AddressLine5>Chaghi</AddressLine5>
+        <AddressLine6>Baluchistan Province</AddressLine6>
+        <AddressCountry>Pakistan</AddressCountry>
+      </Address>
+      <Address>
+        <AddressLine1>Dr Barno Road</AddressLine1>
+        <AddressLine6>Quetta</AddressLine6>
+        <AddressCountry>Pakistan</AddressCountry>
+      </Address>
+      <Address>
+        <AddressLine1>Gereshk District</AddressLine1>
+        <AddressLine6>Helmand Province</AddressLine6>
+        <AddressCountry>Afghanistan</AddressCountry>
+      </Address>
+      <Address>
+        <AddressLine1>Haji Mohammed Plaza</AddressLine1>
+        <AddressLine2>Tol Aram Road</AddressLine2>
+        <AddressLine3>near Jamaluddin Afghani Road</AddressLine3>
+        <AddressLine6>Quetta</AddressLine6>
+        <AddressCountry>Pakistan</AddressCountry>
+      </Address>
+      <Address>
+        <AddressLine1>Kandahari Bazaar</AddressLine1>
+        <AddressLine6>Quetta</AddressLine6>
+        <AddressCountry>Pakistan</AddressCountry>
+      </Address>
+      <Address>
+        <AddressLine1>Lashkar Gah</AddressLine1>
+        <AddressLine6>Helmand Province</AddressLine6>
+        <AddressCountry>Afghanistan</AddressCountry>
+      </Address>
+      <Address>
+        <AddressLine1>Room number 33</AddressLine1>
+        <AddressLine2>5th Floor</AddressLine2>
+        <AddressLine3>Sarafi Market</AddressLine3>
+        <AddressLine5>Kandahar city</AddressLine5>
+        <AddressLine6>Kandahar Province</AddressLine6>
+        <AddressCountry>Afghanistan</AddressCountry>
+      </Address>
+      <Address>
+        <AddressLine1>Safaar Bazaar</AddressLine1>
+        <AddressLine2>Garmser District</AddressLine2>
+        <AddressLine6>Helmand Province</AddressLine6>
+        <AddressCountry>Afghanistan</AddressCountry>
+      </Address>
+      <Address>
+        <AddressLine1>Shop number 4</AddressLine1>
+        <AddressLine2>Azizi Bank</AddressLine2>
+        <AddressLine3>Haji Muhammad Isa Market</AddressLine3>
+        <AddressLine4>Wesh</AddressLine4>
+        <AddressLine5>Spin Boldak</AddressLine5>
+        <AddressLine6>Kandahar Province</AddressLine6>
+        <AddressCountry>Afghanistan</AddressCountry>
+      </Address>
+      <Address>
+        <AddressLine1>Zaranj District</AddressLine1>
+        <AddressLine6>Nimroz Province</AddressLine6>
+        <AddressCountry>Afghanistan</AddressCountry>
+      </Address>
+    </Addresses>
+  </Designation>
+  <Designation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <LastUpdated>12/01/2022</LastUpdated>
+    <DateDesignated>27/03/2015</DateDesignated>
+    <UniqueID>AFG0005</UniqueID>
+    <OFSIGroupID>13269</OFSIGroupID>
+    <UNReferenceNumber>TAe.014</UNReferenceNumber>
+    <Names>
+      <Name>
+        <Name6>HAJI BASIR AND ZARJMIL COMPANY HAWALA</Name6>
+        <NameType>Primary Name</NameType>
+      </Name>
+      <Name>
+        <Name6>Haji Abdul Basir and Zar Jameel Hawala</Name6>
+        <NameType>Alias</NameType>
+      </Name>
+      <Name>
+        <Name6>Haji Abdul Basir Exchange Shop</Name6>
+        <NameType>Alias</NameType>
+      </Name>
+      <Name>
+        <Name6>Haji Baseer Hawala</Name6>
+        <NameType>Alias</NameType>
+      </Name>
+      <Name>
+        <Name6>Haji Bashir and Zarjmil Hawala Company</Name6>
+        <NameType>Alias</NameType>
+      </Name>
+      <Name>
+        <Name6>Haji Basir and Zarjamil Currency Exchange</Name6>
+        <NameType>Alias</NameType>
+      </Name>
+      <Name>
+        <Name6>Haji Basir Hawala</Name6>
+        <NameType>Alias</NameType>
+      </Name>
+      <Name>
+        <Name6>Haji Zar Jamil, Haji Abdul Baseer Money Changer</Name6>
+        <NameType>Alias</NameType>
+      </Name>
+    </Names>
+    <NonLatinNames>
+      <NonLatinName>
+        <NameNonLatinScript>د حاجی بصیر او ضرجمیل کمپنی حواله</NameNonLatinScript>
+      </NonLatinName>
+    </NonLatinNames>
+    <RegimeName>The Afghanistan (Sanctions) (EU Exit) Regulations 2020</RegimeName>
+    <IndividualEntityShip>Entity</IndividualEntityShip>
+    <DesignationSource>UN</DesignationSource>
+    <SanctionsImposed>Asset freeze</SanctionsImposed>
+    <SanctionsImposedIndicators>
+      <AssetFreeze>true</AssetFreeze>
+      <ArmsEmbargo>false</ArmsEmbargo>
+      <TargetedArmsEmbargo>false</TargetedArmsEmbargo>
+      <CharteringOfShips>false</CharteringOfShips>
+      <ClosureOfRepresentativeOffices>false</ClosureOfRepresentativeOffices>
+      <CrewServicingOfShipsAndAircraft>false</CrewServicingOfShipsAndAircraft>
+      <Deflag>false</Deflag>
+      <PreventionOfBusinessArrangements>false</PreventionOfBusinessArrangements>
+      <ProhibitionOfPortEntry>false</ProhibitionOfPortEntry>
+      <TravelBan>false</TravelBan>
+      <PreventionOfCharteringOfShips>false</PreventionOfCharteringOfShips>
+      <PreventionOfCharteringOfShipsAndAircraft>false</PreventionOfCharteringOfShipsAndAircraft>
+      <TechnicalAssistanceRelatedToAircraft>false</TechnicalAssistanceRelatedToAircraft>
+      <TrustServicesSanctions>false</TrustServicesSanctions>
+      <DirectorDisqualificationSanction>false</DirectorDisqualificationSanction>
+    </SanctionsImposedIndicators>
+    <OtherInformation>Money service provider used by senior Taliban leaders to transfer funds to Taliban commanders in the region. Owned by Abdul Basir Noorzai (TAi.173). INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Entities click here</OtherInformation>
+    <UKStatementofReasons>
+</UKStatementofReasons>
+    <Addresses>
+      <Address>
+        <AddressLine1>Branch Office 1: Sanatan (variant Sanatin) Bazaar</AddressLine1>
+        <AddressLine2>Sanatan</AddressLine2>
+        <AddressLine3>Bazaar Street</AddressLine3>
+        <AddressLine4>near Trench (variant Tranch) Road</AddressLine4>
+        <AddressLine6>Chaman, Baluchistan Province</AddressLine6>
+        <AddressCountry>Pakistan</AddressCountry>
+      </Address>
+      <Address>
+        <AddressLine1>Branch Office 10</AddressLine1>
+        <AddressLine6>Dubai</AddressLine6>
+        <AddressCountry>United Arab Emirates</AddressCountry>
+      </Address>
+      <Address>
+        <AddressLine1>Branch Office 11</AddressLine1>
+        <AddressCountry>Iran</AddressCountry>
+      </Address>
+      <Address>
+        <AddressLine1>Branch Office 2</AddressLine1>
+        <AddressLine6>Quetta</AddressLine6>
+        <AddressCountry>Pakistan</AddressCountry>
+      </Address>
+      <Address>
+        <AddressLine1>Branch Office 3</AddressLine1>
+        <AddressLine6>Lahore</AddressLine6>
+        <AddressCountry>Pakistan</AddressCountry>
+      </Address>
+      <Address>
+        <AddressLine1>Branch Office 4</AddressLine1>
+        <AddressLine6>Peshawar</AddressLine6>
+        <AddressCountry>Pakistan</AddressCountry>
+      </Address>
+      <Address>
+        <AddressLine1>Branch Office 5</AddressLine1>
+        <AddressLine6>Karachi</AddressLine6>
+        <AddressCountry>Pakistan</AddressCountry>
+      </Address>
+      <Address>
+        <AddressLine1>Branch Office 6</AddressLine1>
+        <AddressLine6>Islamabad</AddressLine6>
+        <AddressCountry>Pakistan</AddressCountry>
+      </Address>
+      <Address>
+        <AddressLine1>Branch Office 7</AddressLine1>
+        <AddressLine6>Kandahar Province</AddressLine6>
+        <AddressCountry>Afghanistan</AddressCountry>
+      </Address>
+      <Address>
+        <AddressLine1>Branch Office 9</AddressLine1>
+        <AddressLine6>Helmand Province</AddressLine6>
+        <AddressCountry>Afghanistan</AddressCountry>
+      </Address>
+      <Address>
+        <AddressLine1>Branch Office 8</AddressLine1>
+        <AddressLine6>Herat Province</AddressLine6>
+        <AddressCountry>Afghanistan</AddressCountry>
+      </Address>
+    </Addresses>
+  </Designation>
+  <Designation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <LastUpdated>14/04/2026</LastUpdated>
+    <DateDesignated>25/01/2001</DateDesignated>
+    <UniqueID>AFG0006</UniqueID>
+    <OFSIGroupID>7172</OFSIGroupID>
+    <UNReferenceNumber>TAi.002</UNReferenceNumber>
+    <Names>
+      <Name>
+        <Name1>MOHAMMAD</Name1>
+        <Name2>HASSAN</Name2>
+        <Name6>AKHUND</Name6>
+        <NameType>Primary Name</NameType>
+      </Name>
+    </Names>
+    <NonLatinNames>
+      <NonLatinName>
+        <NameNonLatinScript>محمد حسن آخوند </NameNonLatinScript>
+      </NonLatinName>
+    </NonLatinNames>
+    <Titles>
+      <Title>Mullah</Title>
+      <Title>Haji</Title>
+    </Titles>
+    <RegimeName>The Afghanistan (Sanctions) (EU Exit) Regulations 2020</RegimeName>
+    <IndividualEntityShip>Individual</IndividualEntityShip>
+    <DesignationSource>UN</DesignationSource>
+    <SanctionsImposed>Asset freeze|Travel Ban</SanctionsImposed>
+    <SanctionsImposedIndicators>
+      <AssetFreeze>true</AssetFreeze>
+      <ArmsEmbargo>false</ArmsEmbargo>
+      <TargetedArmsEmbargo>false</TargetedArmsEmbargo>
+      <CharteringOfShips>false</CharteringOfShips>
+      <ClosureOfRepresentativeOffices>false</ClosureOfRepresentativeOffices>
+      <CrewServicingOfShipsAndAircraft>false</CrewServicingOfShipsAndAircraft>
+      <Deflag>false</Deflag>
+      <PreventionOfBusinessArrangements>false</PreventionOfBusinessArrangements>
+      <ProhibitionOfPortEntry>false</ProhibitionOfPortEntry>
+      <TravelBan>true</TravelBan>
+      <PreventionOfCharteringOfShips>false</PreventionOfCharteringOfShips>
+      <PreventionOfCharteringOfShipsAndAircraft>false</PreventionOfCharteringOfShipsAndAircraft>
+      <TechnicalAssistanceRelatedToAircraft>false</TechnicalAssistanceRelatedToAircraft>
+      <TrustServicesSanctions>false</TrustServicesSanctions>
+      <DirectorDisqualificationSanction>false</DirectorDisqualificationSanction>
+    </SanctionsImposedIndicators>
+    <OtherInformation>A close associate of Mullah Mohammed Omar (TAi.004). Member of Taliban Supreme Council as at Dec. 2009. Belongs to Baabar tribe. Review pursuant to Security Council resolution 1822 (2008) was concluded on 21 Jul. 2010. INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/How-we-work/ Notices/View-UN-Notices-Individuals click here</OtherInformation>
+    <UKStatementofReasons>
+</UKStatementofReasons>
+    <Addresses>
+      <Address>
+        <AddressLine6>Kabul</AddressLine6>
+        <AddressCountry>Afghanistan</AddressCountry>
+      </Address>
+    </Addresses>
+    <IndividualDetails>
+      <Individual>
+        <DOBs>
+          <DOB>dd/mm/1945</DOB>
+          <DOB>dd/mm/1946</DOB>
+          <DOB>dd/mm/1947</DOB>
+          <DOB>dd/mm/1948</DOB>
+          <DOB>dd/mm/1949</DOB>
+          <DOB>dd/mm/1950</DOB>
+          <DOB>dd/mm/1955</DOB>
+          <DOB>dd/mm/1956</DOB>
+          <DOB>dd/mm/1957</DOB>
+          <DOB>dd/mm/1958</DOB>
+        </DOBs>
+        <PassportDetails>
+          <Passport>
+            <PassportNumber>P04581926</PassportNumber>
+            <PassportAdditionalInformation>Afghanistan passport number P04581926, issued on 7 August 2024, issued in Kandahar, Afghanistan (expires 7 August 2034)</PassportAdditionalInformation>
+          </Passport>
+          <Passport>
+            <PassportNumber>P04581926</PassportNumber>
+            <PassportAdditionalInformation>Afghanistan passport number P04581926, issued on 7 August 2024, issued in Kandahar, Afghanistan (expires 7 August 2034)</PassportAdditionalInformation>
+          </Passport>
+          <Passport>
+            <PassportNumber>P04581926</PassportNumber>
+            <PassportAdditionalInformation>Afghanistan passport number P04581926, issued on 7 August 2024, issued in Kandahar, Afghanistan (expires 7 August 2034)</PassportAdditionalInformation>
+          </Passport>
+          <Passport>
+            <PassportNumber>P04581926</PassportNumber>
+            <PassportAdditionalInformation>Afghanistan passport number P04581926, issued on 7 August 2024, issued in Kandahar, Afghanistan (expires 7 August 2034)</PassportAdditionalInformation>
+          </Passport>
+          <Passport>
+            <PassportNumber>P04581926</PassportNumber>
+            <PassportAdditionalInformation>Afghanistan passport number P04581926, issued on 7 August 2024, issued in Kandahar, Afghanistan (expires 7 August 2034)</PassportAdditionalInformation>
+          </Passport>
+          <Passport>
+            <PassportNumber>P04581926</PassportNumber>
+            <PassportAdditionalInformation>Afghanistan passport number P04581926, issued on 7 August 2024, issued in Kandahar, Afghanistan (expires 7 August 2034)</PassportAdditionalInformation>
+          </Passport>
+          <Passport>
+            <PassportNumber>P04581926</PassportNumber>
+            <PassportAdditionalInformation>Afghanistan passport number P04581926, issued on 7 August 2024, issued in Kandahar, Afghanistan (expires 7 August 2034)</PassportAdditionalInformation>
+          </Passport>
+          <Passport>
+            <PassportNumber>P04581926</PassportNumber>
+            <PassportAdditionalInformation>Afghanistan passport number P04581926, issued on 7 August 2024, issued in Kandahar, Afghanistan (expires 7 August 2034)</PassportAdditionalInformation>
+          </Passport>
+          <Passport>
+            <PassportNumber>P04581926</PassportNumber>
+            <PassportAdditionalInformation>Afghanistan passport number P04581926, issued on 7 August 2024, issued in Kandahar, Afghanistan (expires 7 August 2034)</PassportAdditionalInformation>
+          </Passport>
+          <Passport>
+            <PassportNumber>P04581926</PassportNumber>
+            <PassportAdditionalInformation>Afghanistan passport number P04581926, issued on 7 August 2024, issued in Kandahar, Afghanistan (expires 7 August 2034)</PassportAdditionalInformation>
+          </Passport>
+        </PassportDetails>
+        <Nationalities>
+          <Nationality>Afghanistan</Nationality>
+        </Nationalities>
+        <Positions>
+          <Position>First Deputy, Council of Ministers under the previous Taliban regime (1996-2001)</Position>
+          <Position>Governor of Kandahar under the previous Taliban regime (1996-2001)</Position>
+          <Position>Foreign Minister under the previous Taliban regime (1996-2001)</Position>
+          <Position>Political Advisor of Mullah Mohammed Omar</Position>
+        </Positions>
+        <BirthDetails>
+          <Location>
+            <TownOfBirth>Pashmul village, Panjwai District, Kandahar Province</TownOfBirth>
+            <CountryOfBirth>Afghanistan</CountryOfBirth>
+          </Location>
+        </BirthDetails>
+      </Individual>
+    </IndividualDetails>
+  </Designation>
+  <Designation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <LastUpdated>29/04/2026</LastUpdated>
+    <DateDesignated>25/01/2001</DateDesignated>
+    <UniqueID>AFG0007</UniqueID>
+    <OFSIGroupID>6909</OFSIGroupID>
+    <UNReferenceNumber>TAi.003</UNReferenceNumber>
+    <Names>
+      <Name>
+        <Name1>Abdul Kabir</Name1>
+        <Name6>MOHAMMAD JAN</Name6>
+        <NameType>Primary Name</NameType>
+      </Name>
+      <Name>
+        <Name1>KABIR</Name1>
+        <Name2>MUHAMMAD JAN</Name2>
+        <Name6>ABDUL</Name6>
+        <NameType>Primary Name Variation</NameType>
+      </Name>
+      <Name>
+        <Name1> ABDUL</Name1>
+        <Name2>KABIR</Name2>
+        <Name3> MUHAMMAD</Name3>
+        <Name6>JAN</Name6>
+        <NameType>Primary Name Variation</NameType>
+      </Name>
+      <Name>
+        <Name6>A Kabir</Name6>
+        <NameType>Alias</NameType>
+        <AliasStrength>Good quality a.k.a</AliasStrength>
+      </Name>
+    </Names>
+    <NonLatinNames>
+      <NonLatinName>
+        <NameNonLatinScript>عبد الکبیر محمد جان</NameNonLatinScript>
+      </NonLatinName>
+    </NonLatinNames>
+    <Titles>
+      <Title>Maulavi</Title>
+    </Titles>
+    <RegimeName>The Afghanistan (Sanctions) (EU Exit) Regulations 2020</RegimeName>
+    <IndividualEntityShip>Individual</IndividualEntityShip>
+    <DesignationSource>UN</DesignationSource>
+    <SanctionsImposed>Asset freeze|Travel Ban</SanctionsImposed>
+    <SanctionsImposedIndicators>
+      <AssetFreeze>true</AssetFreeze>
+      <ArmsEmbargo>false</ArmsEmbargo>
+      <TargetedArmsEmbargo>false</TargetedArmsEmbargo>
+      <CharteringOfShips>false</CharteringOfShips>
+      <ClosureOfRepresentativeOffices>false</ClosureOfRepresentativeOffices>
+      <CrewServicingOfShipsAndAircraft>false</CrewServicingOfShipsAndAircraft>
+      <Deflag>false</Deflag>
+      <PreventionOfBusinessArrangements>false</PreventionOfBusinessArrangements>
+      <ProhibitionOfPortEntry>false</ProhibitionOfPortEntry>
+      <TravelBan>true</TravelBan>
+      <PreventionOfCharteringOfShips>false</PreventionOfCharteringOfShips>
+      <PreventionOfCharteringOfShipsAndAircraft>false</PreventionOfCharteringOfShipsAndAircraft>
+      <TechnicalAssistanceRelatedToAircraft>false</TechnicalAssistanceRelatedToAircraft>
+      <TrustServicesSanctions>false</TrustServicesSanctions>
+      <DirectorDisqualificationSanction>false</DirectorDisqualificationSanction>
+    </SanctionsImposedIndicators>
+    <OtherInformation>Active in terrorist operations in Eastern Afghanistan. Collects money from drug traffickers. Member of the Taliban Supreme Council as at 2009. Family is originally from Neka District, Paktia Province, Afghanistan. Responsible for attack on Afghan parliamentarians in November 2007 in Baghlan; owns land in central Baghlan Province. Belongs to Zadran tribe. Height 185cm. Review pursuant to Security Council resolution 1822 (2008) was concluded on 23 Jul. 2010. Photo available for inclusion in the INTERPOL-UN Security Council Special Notice. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals#2007-47114 </OtherInformation>
+    <UKStatementofReasons>
+</UKStatementofReasons>
+    <Addresses>
+      <Address>
+        <AddressCountry>Afghanistan</AddressCountry>
+      </Address>
+    </Addresses>
+    <IndividualDetails>
+      <Individual>
+        <DOBs>
+          <DOB>dd/mm/1963</DOB>
+          <DOB>30/01/1972</DOB>
+          <DOB>30/01/1972</DOB>
+        </DOBs>
+        <PassportDetails>
+          <Passport>
+            <PassportNumber>D0009925</PassportNumber>
+            <PassportAdditionalInformation>Afghanistan diplomatic passport number D0009925, issued on 22 May 2022, issued in Kabul, Afghanistan, expires 22 May 2027 (Name in Latin script: ABDUL KABIR MUHAMMAD JAN)</PassportAdditionalInformation>
+          </Passport>
+        </PassportDetails>
+        <Nationalities>
+          <Nationality>Afghanistan</Nationality>
+        </Nationalities>
+        <Positions>
+          <Position>Governor of Nangarhar Province under the previous Taliban regime (1996-2001)</Position>
+          <Position>Head of Eastern Zone under the Taliban regime (1996-2001)</Position>
+          <Position>Second Deputy, Economic Affairs, Council of Ministers under the previous Taliban regime (1996-2001)</Position>
+        </Positions>
+        <BirthDetails>
+          <Location>
+            <TownOfBirth>Nahrin District, Baghlan Province</TownOfBirth>
+            <CountryOfBirth>Afghanistan</CountryOfBirth>
+          </Location>
+        </BirthDetails>
+      </Individual>
+    </IndividualDetails>
+  </Designation>
+  <Designation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <LastUpdated>07/02/2022</LastUpdated>
+    <DateDesignated>12/04/2000</DateDesignated>
+    <UniqueID>AFG0008</UniqueID>
+    <OFSIGroupID>7387</OFSIGroupID>
+    <UNReferenceNumber>TAi.004</UNReferenceNumber>
+    <Names>
+      <Name>
+        <Name1>Mohammed</Name1>
+        <Name2>Omar</Name2>
+        <Name6>GHULAM NABI</Name6>
+        <NameType>Primary Name</NameType>
+      </Name>
+    </Names>
+    <NonLatinNames>
+      <NonLatinName>
+        <NameNonLatinScript>محمد عمر غلام نبی</NameNonLatinScript>
+      </NonLatinName>
+    </NonLatinNames>
+    <Titles>
+      <Title>Mullah</Title>
+    </Titles>
+    <RegimeName>The Afghanistan (Sanctions) (EU Exit) Regulations 2020</RegimeName>
+    <IndividualEntityShip>Individual</IndividualEntityShip>
+    <DesignationSource>UN</DesignationSource>
+    <SanctionsImposed>Asset freeze|Travel Ban</SanctionsImposed>
+    <SanctionsImposedIndicators>
+      <AssetFreeze>true</AssetFreeze>
+      <ArmsEmbargo>false</ArmsEmbargo>
+      <TargetedArmsEmbargo>false</TargetedArmsEmbargo>
+      <CharteringOfShips>false</CharteringOfShips>
+      <ClosureOfRepresentativeOffices>false</ClosureOfRepresentativeOffices>
+      <CrewServicingOfShipsAndAircraft>false</CrewServicingOfShipsAndAircraft>
+      <Deflag>false</Deflag>
+      <PreventionOfBusinessArrangements>false</PreventionOfBusinessArrangements>
+      <ProhibitionOfPortEntry>false</ProhibitionOfPortEntry>
+      <TravelBan>true</TravelBan>
+      <PreventionOfCharteringOfShips>false</PreventionOfCharteringOfShips>
+      <PreventionOfCharteringOfShipsAndAircraft>false</PreventionOfCharteringOfShipsAndAircraft>
+      <TechnicalAssistanceRelatedToAircraft>false</TechnicalAssistanceRelatedToAircraft>
+      <TrustServicesSanctions>false</TrustServicesSanctions>
+      <DirectorDisqualificationSanction>false</DirectorDisqualificationSanction>
+    </SanctionsImposedIndicators>
+    <OtherInformation>Father's name is Ghulam Nabi, also known as Mullah Musafir. Left eye missing. Brother-in-law of Ahmad Jan Akhundzada Shukoor Akhundzada (TAi.109). Believed to be in Afghanistan/Pakistan border area. Belongs to Hotak tribe. Review pursuant to Security Council resolution 1822 (2008) was concluded on 27 Jul. 2010. Reportedly deceased as of April 2013. INTERPOLUN Security Council Special Notice web link: https://www.interpol.int/en/How-we-work/Notices/View-UN-NoticesIndividuals click here</OtherInformation>
+    <UKStatementofReasons>
+</UKStatementofReasons>
+    <IndividualDetails>
+      <Individual>
+        <DOBs>
+          <DOB>dd/mm/1966</DOB>
+          <DOB>dd/mm/1960</DOB>
+          <DOB>dd/mm/1953</DOB>
+        </DOBs>
+        <Nationalities>
+          <Nationality>Afghanistan</Nationality>
+        </Nationalities>
+        <Positions>
+          <Position>Leader of the Faithful ('Amir ul-Mumineen'), Afghanistan</Position>
+          <Position>Director of Administrative Affairs under the Taliban regime</Position>
+        </Positions>
+        <BirthDetails>
+          <Location>
+            <TownOfBirth>Naw Deh village, Deh Rawud District, Uruzgan Province</TownOfBirth>
+            <CountryOfBirth>Afghanistan</CountryOfBirth>
+          </Location>
+          <Location>
+            <TownOfBirth>Maiwand District, Kandahar Province</TownOfBirth>
+            <CountryOfBirth>Afghanistan</CountryOfBirth>
+          </Location>
+        </BirthDetails>
+      </Individual>
+    </IndividualDetails>
+  </Designation>
+  <Designation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <LastUpdated>18/12/2021</LastUpdated>
+    <DateDesignated>23/02/2001</DateDesignated>
+    <UniqueID>AFG0009</UniqueID>
+    <OFSIGroupID>7022</OFSIGroupID>
+    <UNReferenceNumber>TAi.005</UNReferenceNumber>
+    <Names>
+      <Name>
+        <Name1>Muhammad</Name1>
+        <Name2>Taher</Name2>
+        <Name6>Anwari</Name6>
+        <NameType>Primary Name</NameType>
+      </Name>
+      <Name>
+        <Name1>Mohammad</Name1>
+        <Name2>Taher</Name2>
+        <Name6>Anwari</Name6>
+        <NameType>Alias</NameType>
+        <AliasStrength>Good quality a.k.a</AliasStrength>
+      </Name>
+      <Name>
+        <Name1>Mohammad</Name1>
+        <Name2>Tahre</Name2>
+        <Name6>Anwari</Name6>
+        <NameType>Alias</NameType>
+        <AliasStrength>Good quality a.k.a</AliasStrength>
+      </Name>
+      <Name>
+        <Name1>Muhammad</Name1>
+        <Name2>Tahir</Name2>
+        <Name6>Anwari</Name6>
+        <NameType>Alias</NameType>
+        <AliasStrength>Good quality a.k.a</AliasStrength>
+      </Name>
+      <Name>
+        <Name6>Mudir</Name6>
+        <NameType>Alias</NameType>
+        <AliasStrength>Low quality a.k.a</AliasStrength>
+      </Name>
+    </Names>
+    <NonLatinNames>
+      <NonLatinName>
+        <NameNonLatinScript>محمد طاهر أنوري</NameNonLatinScript>
+      </NonLatinName>
+    </NonLatinNames>
+    <Titles>
+      <Title>Mullah</Title>
+      <Title>Haji</Title>
+    </Titles>
+    <RegimeName>The Afghanistan (Sanctions) (EU Exit) Regulations 2020</RegimeName>
+    <IndividualEntityShip>Individual</IndividualEntityShip>
+    <DesignationSource>UN</DesignationSource>
+    <SanctionsImposed>Asset freeze|Travel Ban</SanctionsImposed>
+    <SanctionsImposedIndicators>
+      <AssetFreeze>true</AssetFreeze>
+      <ArmsEmbargo>false</ArmsEmbargo>
+      <TargetedArmsEmbargo>false</TargetedArmsEmbargo>
+      <CharteringOfShips>false</CharteringOfShips>
+      <ClosureOfRepresentativeOffices>false</ClosureOfRepresentativeOffices>
+      <CrewServicingOfShipsAndAircraft>false</CrewServicingOfShipsAndAircraft>
+      <Deflag>false</Deflag>
+      <PreventionOfBusinessArrangements>false</PreventionOfBusinessArrangements>
+      <ProhibitionOfPortEntry>false</ProhibitionOfPortEntry>
+      <TravelBan>true</TravelBan>
+      <PreventionOfCharteringOfShips>false</PreventionOfCharteringOfShips>
+      <PreventionOfCharteringOfShipsAndAircraft>false</PreventionOfCharteringOfShipsAndAircraft>
+      <TechnicalAssistanceRelatedToAircraft>false</TechnicalAssistanceRelatedToAircraft>
+      <TrustServicesSanctions>false</TrustServicesSanctions>
+      <DirectorDisqualificationSanction>false</DirectorDisqualificationSanction>
+    </SanctionsImposedIndicators>
+    <OtherInformation>Belongs to Andar tribe. Review pursuant to Security Council resolution 1822 (2008) was concluded on 23 Jul. 2010. INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/How-we-work/Notices/View-UNNotices-Individuals click here</OtherInformation>
+    <UKStatementofReasons>
+</UKStatementofReasons>
+    <IndividualDetails>
+      <Individual>
+        <DOBs>
+          <DOB>dd/mm/1961</DOB>
+        </DOBs>
+        <Nationalities>
+          <Nationality>Afghanistan</Nationality>
+        </Nationalities>
+        <Positions>
+          <Position>Director of Administrative Affairs under the Taliban regime</Position>
+          <Position>Minister of Finance under the Taliban regime</Position>
+        </Positions>
+        <BirthDetails>
+          <Location>
+            <TownOfBirth>Zurmat District, Paktia Province</TownOfBirth>
+            <CountryOfBirth>Afghanistan</CountryOfBirth>
+          </Location>
+        </BirthDetails>
+      </Individual>
+    </IndividualDetails>
+  </Designation>
+  <Designation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <LastUpdated>18/12/2021</LastUpdated>
+    <DateDesignated>31/01/2001</DateDesignated>
+    <UniqueID>AFG0010</UniqueID>
+    <OFSIGroupID>7167</OFSIGroupID>
+    <UNReferenceNumber>TAi.006</UNReferenceNumber>
+    <Names>
+      <Name>
+        <Name1>SAYYED MOHAMMED</Name1>
+        <Name6>HAQQANI</Name6>
+        <NameType>Primary Name</NameType>
+      </Name>
+      <Name>
+        <Name1>Sayyed</Name1>
+        <Name2>Mohammad</Name2>
+        <Name6>HAQQANI</Name6>
+        <NameType>Alias</NameType>
+        <AliasStrength>Good quality a.k.a</AliasStrength>
+      </Name>
+    </Names>
+    <NonLatinNames>
+      <NonLatinName>
+        <NameNonLatinScript>سيد محمد حقانی</NameNonLatinScript>
+      </NonLatinName>
+    </NonLatinNames>
+    <Titles>
+      <Title>Mullah</Title>
+    </Titles>
+    <RegimeName>The Afghanistan (Sanctions) (EU Exit) Regulations 2020</RegimeName>
+    <IndividualEntityShip>Individual</IndividualEntityShip>
+    <DesignationSource>UN</DesignationSource>
+    <SanctionsImposed>Asset freeze|Travel Ban</SanctionsImposed>
+    <SanctionsImposedIndicators>
+      <AssetFreeze>true</AssetFreeze>
+      <ArmsEmbargo>false</ArmsEmbargo>
+      <TargetedArmsEmbargo>false</TargetedArmsEmbargo>
+      <CharteringOfShips>false</CharteringOfShips>
+      <ClosureOfRepresentativeOffices>false</ClosureOfRepresentativeOffices>
+      <CrewServicingOfShipsAndAircraft>false</CrewServicingOfShipsAndAircraft>
+      <Deflag>false</Deflag>
+      <PreventionOfBusinessArrangements>false</PreventionOfBusinessArrangements>
+      <ProhibitionOfPortEntry>false</ProhibitionOfPortEntry>
+      <TravelBan>true</TravelBan>
+      <PreventionOfCharteringOfShips>false</PreventionOfCharteringOfShips>
+      <PreventionOfCharteringOfShipsAndAircraft>false</PreventionOfCharteringOfShipsAndAircraft>
+      <TechnicalAssistanceRelatedToAircraft>false</TechnicalAssistanceRelatedToAircraft>
+      <TrustServicesSanctions>false</TrustServicesSanctions>
+      <DirectorDisqualificationSanction>false</DirectorDisqualificationSanction>
+    </SanctionsImposedIndicators>
+    <OtherInformation>Graduate of the Haqqaniya madrasa in Akora Khattak, Pakistan. Believed to have had close relations with Taliban Leader Mullah Mohammed Omar (TAi.004). Believed to be in Afghanistan/Pakistan border area. Member of Taliban Supreme Council as at June 2010. Belongs to Barakzai tribe. Review pursuant to Security Council resolution 1822 (2008) was concluded on 27 Jul. 2010. Photo available for inclusion in the INTERPOL-UN Security Council Special Notice. Reportedly deceased as of January 2016. INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals click here</OtherInformation>
+    <UKStatementofReasons>
+</UKStatementofReasons>
+    <IndividualDetails>
+      <Individual>
+        <DOBs>
+          <DOB>dd/mm/1965</DOB>
+        </DOBs>
+        <Nationalities>
+          <Nationality>Afghanistan</Nationality>
+        </Nationalities>
+        <Positions>
+          <Position>Director of Administrative Affairs under the Taliban regime</Position>
+          <Position>Head of Information and Culture in Kandahar Province under the Taliban regime</Position>
+        </Positions>
+        <BirthDetails>
+          <Location>
+            <TownOfBirth>Chaharbagh village, Arghandab District, Kandahar Province</TownOfBirth>
+            <CountryOfBirth>Afghanistan</CountryOfBirth>
+          </Location>
+        </BirthDetails>
+      </Individual>
+    </IndividualDetails>
+  </Designation>
+  <Designation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <LastUpdated>29/04/2026</LastUpdated>
+    <DateDesignated>31/01/2001</DateDesignated>
+    <UniqueID>AFG0011</UniqueID>
+    <OFSIGroupID>7270</OFSIGroupID>
+    <UNReferenceNumber>TAi.007</UNReferenceNumber>
+    <Names>
+      <Name>
+        <Name1>ABDUL</Name1>
+        <Name2>LATIF</Name2>
+        <Name6>MANSUR</Name6>
+        <NameType>Primary Name</NameType>
+      </Name>
+      <Name>
+        <Name1>Abdul</Name1>
+        <Name2>Latif</Name2>
+        <Name6>MANSOOR</Name6>
+        <NameType>Alias</NameType>
+        <AliasStrength>Good quality a.k.a</AliasStrength>
+      </Name>
+      <Name>
+        <Name1>Wali</Name1>
+        <Name6>MOHAMMAD</Name6>
+        <NameType>Alias</NameType>
+        <AliasStrength>Good quality a.k.a</AliasStrength>
+      </Name>
+    </Names>
+    <NonLatinNames>
+      <NonLatinName>
+        <NameNonLatinScript>عبد اللطيف منصور</NameNonLatinScript>
+      </NonLatinName>
+    </NonLatinNames>
+    <Titles>
+      <Title>Maulavi</Title>
+    </Titles>
+    <RegimeName>The Afghanistan (Sanctions) (EU Exit) Regulations 2020</RegimeName>
+    <IndividualEntityShip>Individual</IndividualEntityShip>
+    <DesignationSource>UN</DesignationSource>
+    <SanctionsImposed>Asset freeze|Travel Ban</SanctionsImposed>
+    <SanctionsImposedIndicators>
+      <AssetFreeze>true</AssetFreeze>
+      <ArmsEmbargo>false</ArmsEmbargo>
+      <TargetedArmsEmbargo>false</TargetedArmsEmbargo>
+      <CharteringOfShips>false</CharteringOfShips>
+      <ClosureOfRepresentativeOffices>false</ClosureOfRepresentativeOffices>
+      <CrewServicingOfShipsAndAircraft>false</CrewServicingOfShipsAndAircraft>
+      <Deflag>false</Deflag>
+      <PreventionOfBusinessArrangements>false</PreventionOfBusinessArrangements>
+      <ProhibitionOfPortEntry>false</ProhibitionOfPortEntry>
+      <TravelBan>true</TravelBan>
+      <PreventionOfCharteringOfShips>false</PreventionOfCharteringOfShips>
+      <PreventionOfCharteringOfShipsAndAircraft>false</PreventionOfCharteringOfShipsAndAircraft>
+      <TechnicalAssistanceRelatedToAircraft>false</TechnicalAssistanceRelatedToAircraft>
+      <TrustServicesSanctions>false</TrustServicesSanctions>
+      <DirectorDisqualificationSanction>false</DirectorDisqualificationSanction>
+    </SanctionsImposedIndicators>
+    <OtherInformation>Taliban Shadow Governor for Logar Province as of late 2012. Belongs to Sahak tribe (Ghilzai). Height 170cm . Review pursuant to Security Council resolution 1822 (2008) was concluded on 27 Jul. 2010. Photo available for inclusion in the INTERPOL-UN Security Council Special Notice. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals#2006-25913</OtherInformation>
+    <UKStatementofReasons>
+</UKStatementofReasons>
+    <Addresses>
+      <Address>
+        <AddressLine1>Darul Aman</AddressLine1>
+        <AddressLine2>Kabul</AddressLine2>
+        <AddressCountry>Afghanistan</AddressCountry>
+      </Address>
+    </Addresses>
+    <IndividualDetails>
+      <Individual>
+        <DOBs>
+          <DOB>dd/mm/1968</DOB>
+          <DOB>12/11/1967</DOB>
+          <DOB>12/11/1967</DOB>
+        </DOBs>
+        <PassportDetails>
+          <Passport>
+            <PassportNumber> D0009720</PassportNumber>
+            <PassportAdditionalInformation>Afghanistan diplomatic passport number D0009720, issued on 12 Oct. 2021 issued in Kabul, Afghanistan, expires 12 Oct. 2026 (Name in Latin script: ABDUL LATIF MANSOOR)</PassportAdditionalInformation>
+          </Passport>
+          <Passport>
+            <PassportNumber>D0010442</PassportNumber>
+            <PassportAdditionalInformation>Afghanistan diplomatic passport D0010442, issued on 13 Nov. 2024, expires 13 Nov. 2029</PassportAdditionalInformation>
+          </Passport>
+        </PassportDetails>
+        <Nationalities>
+          <Nationality>Afghanistan</Nationality>
+        </Nationalities>
+        <Positions>
+          <Position>Minister of Agriculture under the previous Taliban regime  (1996-2001)</Position>
+        </Positions>
+        <BirthDetails>
+          <Location>
+            <TownOfBirth>Zurmat District, Paktia Province</TownOfBirth>
+            <CountryOfBirth>Afghanistan</CountryOfBirth>
+          </Location>
+          <Location>
+            <TownOfBirth>Garda Saray District, Paktia Province</TownOfBirth>
+            <CountryOfBirth>Afghanistan</CountryOfBirth>
+          </Location>
+          <Location>
+            <CountryOfBirth>Afghanistan</CountryOfBirth>
+          </Location>
+        </BirthDetails>
+      </Individual>
+    </IndividualDetails>
+  </Designation>
+  <Designation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <LastUpdated>18/12/2021</LastUpdated>
+    <DateDesignated>23/02/2001</DateDesignated>
+    <UniqueID>AFG0012</UniqueID>
+    <OFSIGroupID>7532</OFSIGroupID>
+    <UNReferenceNumber>TAi.008</UNReferenceNumber>
+    <Names>
+      <Name>
+        <Name1>Shams </Name1>
+        <Name2>Ur-Rahman</Name2>
+        <Name6> ABDUL ZAHIR</Name6>
+        <NameType>Primary Name</NameType>
+      </Name>
+      <Name>
+        <Name1>Shamsurrahman</Name1>
+        <Name6>Abdurahman</Name6>
+        <NameType>Alias</NameType>
+        <AliasStrength>Good quality a.k.a</AliasStrength>
+      </Name>
+      <Name>
+        <Name1>Shams</Name1>
+        <Name2>ur-Rahman</Name2>
+        <Name3>Sher</Name3>
+        <Name6>Alam</Name6>
+        <NameType>Alias</NameType>
+        <AliasStrength>Low quality a.k.a</AliasStrength>
+      </Name>
+      <Name>
+        <Name6>Shams-u-Rahman</Name6>
+        <NameType>Alias</NameType>
+        <AliasStrength>Good quality a.k.a</AliasStrength>
+      </Name>
+      <Name>
+        <Name6>Shamsurrahman</Name6>
+        <NameType>Alias</NameType>
+        <AliasStrength>Good quality a.k.a</AliasStrength>
+      </Name>
+    </Names>
+    <NonLatinNames>
+      <NonLatinName>
+        <NameNonLatinScript>شمس الرحمن عبد الظاهر</NameNonLatinScript>
+      </NonLatinName>
+    </NonLatinNames>
+    <Titles>
+      <Title>Mullah</Title>
+    </Titles>
+    <RegimeName>The Afghanistan (Sanctions) (EU Exit) Regulations 2020</RegimeName>
+    <IndividualEntityShip>Individual</IndividualEntityShip>
+    <DesignationSource>UN</DesignationSource>
+    <SanctionsImposed>Asset freeze|Travel Ban</SanctionsImposed>
+    <SanctionsImposedIndicators>
+      <AssetFreeze>true</AssetFreeze>
+      <ArmsEmbargo>false</ArmsEmbargo>
+      <TargetedArmsEmbargo>false</TargetedArmsEmbargo>
+      <CharteringOfShips>false</CharteringOfShips>
+      <ClosureOfRepresentativeOffices>false</ClosureOfRepresentativeOffices>
+      <CrewServicingOfShipsAndAircraft>false</CrewServicingOfShipsAndAircraft>
+      <Deflag>false</Deflag>
+      <PreventionOfBusinessArrangements>false</PreventionOfBusinessArrangements>
+      <ProhibitionOfPortEntry>false</ProhibitionOfPortEntry>
+      <TravelBan>true</TravelBan>
+      <PreventionOfCharteringOfShips>false</PreventionOfCharteringOfShips>
+      <PreventionOfCharteringOfShipsAndAircraft>false</PreventionOfCharteringOfShipsAndAircraft>
+      <TechnicalAssistanceRelatedToAircraft>false</TechnicalAssistanceRelatedToAircraft>
+      <TrustServicesSanctions>false</TrustServicesSanctions>
+      <DirectorDisqualificationSanction>false</DirectorDisqualificationSanction>
+    </SanctionsImposedIndicators>
+    <OtherInformation>Believed to be in Afghanistan/Pakistan border area. Involved in drug trafficking. Belongs to Ghilzai tribe. Review pursuant to Security Council resolution 1822 (2008) was concluded on 27 Jul. 2010. INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals click here</OtherInformation>
+    <UKStatementofReasons>
+</UKStatementofReasons>
+    <IndividualDetails>
+      <Individual>
+        <DOBs>
+          <DOB>dd/mm/1969</DOB>
+        </DOBs>
+        <Nationalities>
+          <Nationality>Afghanistan</Nationality>
+        </Nationalities>
+        <NationalIdentifierDetails>
+          <NationalIdentifier>
+            <NationalIdentifierNumber>2132370</NationalIdentifierNumber>
+            <NationalIdentifierAdditionalInformation>Afghan national identification card (tazkira) number </NationalIdentifierAdditionalInformation>
+          </NationalIdentifier>
+          <NationalIdentifier>
+            <NationalIdentifierNumber>812673</NationalIdentifierNumber>
+            <NationalIdentifierAdditionalInformation>Afghan national identification card (tazkira) number </NationalIdentifierAdditionalInformation>
+          </NationalIdentifier>
+        </NationalIdentifierDetails>
+        <Positions>
+          <Position>Deputy Minister of Agriculture under the Taliban regime</Position>
+        </Positions>
+        <BirthDetails>
+          <Location>
+            <TownOfBirth>Waka Uzbin village, Sarobi District, Kabul Province</TownOfBirth>
+            <CountryOfBirth>Afghanistan</CountryOfBirth>
+          </Location>
+        </BirthDetails>
+      </Individual>
+    </IndividualDetails>
+  </Designation>
+  <Designation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <LastUpdated>18/12/2021</LastUpdated>
+    <DateDesignated>23/02/2001</DateDesignated>
+    <UniqueID>AFG0013</UniqueID>
+    <OFSIGroupID>6952</OFSIGroupID>
+    <UNReferenceNumber>TAi.009</UNReferenceNumber>
+    <Names>
+      <Name>
+        <Name1>ATTIQULLAH</Name1>
+        <Name6>AKHUND</Name6>
+        <NameType>Primary Name</NameType>
+      </Name>
+    </Names>
+    <NonLatinNames>
+      <NonLatinName>
+        <NameNonLatinScript>عتیق الله آخوند</NameNonLatinScript>
+      </NonLatinName>
+    </NonLatinNames>
+    <Titles>
+      <Title>Maulavi</Title>
+    </Titles>
+    <RegimeName>The Afghanistan (Sanctions) (EU Exit) Regulations 2020</RegimeName>
+    <IndividualEntityShip>Individual</IndividualEntityShip>
+    <DesignationSource>UN</DesignationSource>
+    <SanctionsImposed>Asset freeze|Travel Ban</SanctionsImposed>
+    <SanctionsImposedIndicators>
+      <AssetFreeze>true</AssetFreeze>
+      <ArmsEmbargo>false</ArmsEmbargo>
+      <TargetedArmsEmbargo>false</TargetedArmsEmbargo>
+      <CharteringOfShips>false</CharteringOfShips>
+      <ClosureOfRepresentativeOffices>false</ClosureOfRepresentativeOffices>
+      <CrewServicingOfShipsAndAircraft>false</CrewServicingOfShipsAndAircraft>
+      <Deflag>false</Deflag>
+      <PreventionOfBusinessArrangements>false</PreventionOfBusinessArrangements>
+      <ProhibitionOfPortEntry>false</ProhibitionOfPortEntry>
+      <TravelBan>true</TravelBan>
+      <PreventionOfCharteringOfShips>false</PreventionOfCharteringOfShips>
+      <PreventionOfCharteringOfShipsAndAircraft>false</PreventionOfCharteringOfShipsAndAircraft>
+      <TechnicalAssistanceRelatedToAircraft>false</TechnicalAssistanceRelatedToAircraft>
+      <TrustServicesSanctions>false</TrustServicesSanctions>
+      <DirectorDisqualificationSanction>false</DirectorDisqualificationSanction>
+    </SanctionsImposedIndicators>
+    <OtherInformation>Member of Taliban Supreme Military Council as well as Taliban Supreme Council as at June 2010. Belongs to Popalzai tribe. Review pursuant to Security Council resolution 1822 (2008) was concluded on 23 Jul. 2010. INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals click here</OtherInformation>
+    <UKStatementofReasons>
+</UKStatementofReasons>
+    <IndividualDetails>
+      <Individual>
+        <DOBs>
+          <DOB>dd/mm/1953</DOB>
+        </DOBs>
+        <Nationalities>
+          <Nationality>Afghanistan</Nationality>
+        </Nationalities>
+        <Positions>
+          <Position>Deputy Minister of Agriculture under the Taliban regime</Position>
+        </Positions>
+        <BirthDetails>
+          <Location>
+            <TownOfBirth>Shah Wali Kot District, Kandahar Province</TownOfBirth>
+            <CountryOfBirth>Afghanistan</CountryOfBirth>
+          </Location>
+        </BirthDetails>
+      </Individual>
+    </IndividualDetails>
+  </Designation>
+  <Designation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <LastUpdated>18/12/2021</LastUpdated>
+    <DateDesignated>25/01/2001</DateDesignated>
+    <UniqueID>AFG0014</UniqueID>
+    <OFSIGroupID>7269</OFSIGroupID>
+    <UNReferenceNumber>TAi.011</UNReferenceNumber>
+    <Names>
+      <Name>
+        <Name1>AKHTAR</Name1>
+        <Name2>MOHAMMAD</Name2>
+        <Name3>MANSOUR</Name3>
+        <Name6>SHAH MOHAMMED</Name6>
+        <NameType>Primary Name</NameType>
+      </Name>
+      <Name>
+        <Name1>Naib</Name1>
+        <Name6>Imam</Name6>
+        <NameType>Alias</NameType>
+        <AliasStrength>Low quality a.k.a</AliasStrength>
+      </Name>
+      <Name>
+        <Name1>Akhtar</Name1>
+        <Name2>Muhammad</Name2>
+        <Name6>Mansoor</Name6>
+        <NameType>Alias</NameType>
+        <AliasStrength>Good quality a.k.a</AliasStrength>
+      </Name>
+      <Name>
+        <Name1>Akhtar</Name1>
+        <Name2>Mohammad</Name2>
+        <Name3>Mansour</Name3>
+        <Name4>Khan</Name4>
+        <Name6>Muhammad</Name6>
+        <NameType>Alias</NameType>
+        <AliasStrength>Good quality a.k.a</AliasStrength>
+      </Name>
+    </Names>
+    <NonLatinNames>
+      <NonLatinName>
+        <NameNonLatinScript>اختر محمد منصور شاه محمد </NameNonLatinScript>
+      </NonLatinName>
+    </NonLatinNames>
+    <Titles>
+      <Title>Maulavi</Title>
+    </Titles>
+    <RegimeName>The Afghanistan (Sanctions) (EU Exit) Regulations 2020</RegimeName>
+    <IndividualEntityShip>Individual</IndividualEntityShip>
+    <DesignationSource>UN</DesignationSource>
+    <SanctionsImposed>Asset freeze|Travel Ban</SanctionsImposed>
+    <SanctionsImposedIndicators>
+      <AssetFreeze>true</AssetFreeze>
+      <ArmsEmbargo>false</ArmsEmbargo>
+      <TargetedArmsEmbargo>false</TargetedArmsEmbargo>
+      <CharteringOfShips>false</CharteringOfShips>
+      <ClosureOfRepresentativeOffices>false</ClosureOfRepresentativeOffices>
+      <CrewServicingOfShipsAndAircraft>false</CrewServicingOfShipsAndAircraft>
+      <Deflag>false</Deflag>
+      <PreventionOfBusinessArrangements>false</PreventionOfBusinessArrangements>
+      <ProhibitionOfPortEntry>false</ProhibitionOfPortEntry>
+      <TravelBan>true</TravelBan>
+      <PreventionOfCharteringOfShips>false</PreventionOfCharteringOfShips>
+      <PreventionOfCharteringOfShipsAndAircraft>false</PreventionOfCharteringOfShipsAndAircraft>
+      <TechnicalAssistanceRelatedToAircraft>false</TechnicalAssistanceRelatedToAircraft>
+      <TrustServicesSanctions>false</TrustServicesSanctions>
+      <DirectorDisqualificationSanction>false</DirectorDisqualificationSanction>
+    </SanctionsImposedIndicators>
+    <OtherInformation>Involved in drug trafficking as of 2011, primarily through Gerd-e-Jangal, Afghanistan. Active in the provinces of Khost, Paktia and Paktika, Afghanistan as of May 2007. Taliban "Governor" of Kandahar as of May 2007. Deputy to Mullah Abdul Ghani Baradar (TAi.024) in the Taliban Supreme Council as of 2009. Taliban official responsible for four southern provinces of Afghanistan. Following the arrest of Mullah Baradar in February 2010 he was temporarily-in-charge of the Taliban Supreme Council. Believed to be in Afghanistan/Pakistan border area. Belongs to Ishaqzai tribe. Review pursuant to Security Council resolution 1822 (2008) was concluded on 21 Jul. 2010. Reportedly killed in May 2016. INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/How-we-work/Notices/View-UN-NoticesIndividuals click here</OtherInformation>
+    <UKStatementofReasons>
+</UKStatementofReasons>
+    <IndividualDetails>
+      <Individual>
+        <DOBs>
+          <DOB>dd/mm/1966</DOB>
+          <DOB>dd/mm/1960</DOB>
+        </DOBs>
+        <PassportDetails>
+          <Passport>
+            <PassportNumber>SE-011697</PassportNumber>
+            <PassportAdditionalInformation>Afghan. Issued on 25 Jan 1988 in Kabul. Expiry date 23 Feb 2000.</PassportAdditionalInformation>
+          </Passport>
+        </PassportDetails>
+        <Nationalities>
+          <Nationality>Afghanistan</Nationality>
+        </Nationalities>
+        <Positions>
+          <Position>Minister of Civil Aviation and Transportation under the Taliban regime</Position>
+        </Positions>
+        <BirthDetails>
+          <Location>
+            <TownOfBirth>Band-e-Timur village, Maiwand District, Kandahar Province</TownOfBirth>
+            <CountryOfBirth>Afghanistan</CountryOfBirth>
+          </Location>
+        </BirthDetails>
+      </Individual>
+    </IndividualDetails>
+  </Designation>
+  <Designation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <LastUpdated>18/12/2021</LastUpdated>
+    <DateDesignated>23/02/2001</DateDesignated>
+    <UniqueID>AFG0015</UniqueID>
+    <OFSIGroupID>7354</OFSIGroupID>
+    <UNReferenceNumber>TAi.013</UNReferenceNumber>
+    <Names>
+      <Name>
+        <Name1>MOHAMMAD NAIM</Name1>
+        <Name2>BARICH</Name2>
+        <Name6>KHUDAIDAD</Name6>
+        <NameType>Primary Name</NameType>
+      </Name>
+      <Name>
+        <Name1>Naim</Name1>
+        <Name2>Barech</Name2>
+        <Name6>Akhund</Name6>
+        <NameType>Alias</NameType>
+        <AliasStrength>Good quality a.k.a</AliasStrength>
+      </Name>
+      <Name>
+        <Name1>Naeem</Name1>
+        <Name6>Baraich</Name6>
+        <NameType>Alias</NameType>
+        <AliasStrength>Good quality a.k.a</AliasStrength>
+      </Name>
+      <Name>
+        <Name1>Naeem</Name1>
+        <Name6>Barech</Name6>
+        <NameType>Alias</NameType>
+        <AliasStrength>Good quality a.k.a</AliasStrength>
+      </Name>
+      <Name>
+        <Name1>Naim</Name1>
+        <Name6>Barech</Name6>
+        <NameType>Alias</NameType>
+        <AliasStrength>Good quality a.k.a</AliasStrength>
+      </Name>
+      <Name>
+        <Name1>Naim</Name1>
+        <Name6>Bareh</Name6>
+        <NameType>Alias</NameType>
+        <AliasStrength>Good quality a.k.a</AliasStrength>
+      </Name>
+      <Name>
+        <Name1>Naeem</Name1>
+        <Name6>Baric</Name6>
+        <NameType>Alias</NameType>
+        <AliasStrength>Good quality a.k.a</AliasStrength>
+      </Name>
+      <Name>
+        <Name1>Gul</Name1>
+        <Name2>Mohammed</Name2>
+        <Name3>Naim</Name3>
+        <Name6>Barich</Name6>
+        <NameType>Alias</NameType>
+        <AliasStrength>Good quality a.k.a</AliasStrength>
+      </Name>
+      <Name>
+        <Name1>Naim</Name1>
+        <Name2>Naim</Name2>
+        <Name6>Barich</Name6>
+        <NameType>Alias</NameType>
+        <AliasStrength>Good quality a.k.a</AliasStrength>
+      </Name>
+      <Name>
+        <Name1>Naim</Name1>
+        <Name6>Berich</Name6>
+        <NameType>Alias</NameType>
+        <AliasStrength>Good quality a.k.a</AliasStrength>
+      </Name>
+      <Name>
+        <Name1>Gul</Name1>
+        <Name2>Mohammad</Name2>
+        <Name6>Kamran</Name6>
+        <NameType>Alias</NameType>
+        <AliasStrength>Good quality a.k.a</AliasStrength>
+      </Name>
+      <Name>
+        <Name1>Ghul</Name1>
+        <Name6>Mohammad</Name6>
+        <NameType>Alias</NameType>
+        <AliasStrength>Good quality a.k.a</AliasStrength>
+      </Name>
+      <Name>
+        <Name1>Gul</Name1>
+        <Name6>Mohammad</Name6>
+        <NameType>Alias</NameType>
+        <AliasStrength>Good quality a.k.a</AliasStrength>
+      </Name>
+      <Name>
+        <Name1>Mohammad</Name1>
+        <Name6>Naim</Name6>
+        <NameType>Alias</NameType>
+        <AliasStrength>Good quality a.k.a</AliasStrength>
+      </Name>
+      <Name>
+        <Name6>Naimullah</Name6>
+        <NameType>Alias</NameType>
+        <AliasStrength>Good quality a.k.a</AliasStrength>
+      </Name>
+      <Name>
+        <Name1>Spen</Name1>
+        <Name6>Zrae</Name6>
+        <NameType>Alias</NameType>
+        <AliasStrength>Low quality a.k.a</AliasStrength>
+      </Name>
+    </Names>
+    <NonLatinNames>
+      <NonLatinName>
+        <NameNonLatinScript>محمد نعيم بريخ خدايداد</NameNonLatinScript>
+      </NonLatinName>
+    </NonLatinNames>
+    <Titles>
+      <Title>Mullah</Title>
+      <Title>Haji</Title>
+      <Title>Mawlawi</Title>
+    </Titles>
+    <RegimeName>The Afghanistan (Sanctions) (EU Exit) Regulations 2020</RegimeName>
+    <IndividualEntityShip>Individual</IndividualEntityShip>
+    <DesignationSource>UN</DesignationSource>
+    <SanctionsImposed>Asset freeze|Travel Ban</SanctionsImposed>
+    <SanctionsImposedIndicators>
+      <AssetFreeze>true</AssetFreeze>
+      <ArmsEmbargo>false</ArmsEmbargo>
+      <TargetedArmsEmbargo>false</TargetedArmsEmbargo>
+      <CharteringOfShips>false</CharteringOfShips>
+      <ClosureOfRepresentativeOffices>false</ClosureOfRepresentativeOffices>
+      <CrewServicingOfShipsAndAircraft>false</CrewServicingOfShipsAndAircraft>
+      <Deflag>false</Deflag>
+      <PreventionOfBusinessArrangements>false</PreventionOfBusinessArrangements>
+      <ProhibitionOfPortEntry>false</ProhibitionOfPortEntry>
+      <TravelBan>true</TravelBan>
+      <PreventionOfCharteringOfShips>false</PreventionOfCharteringOfShips>
+      <PreventionOfCharteringOfShipsAndAircraft>false</PreventionOfCharteringOfShipsAndAircraft>
+      <TechnicalAssistanceRelatedToAircraft>false</TechnicalAssistanceRelatedToAircraft>
+      <TrustServicesSanctions>false</TrustServicesSanctions>
+      <DirectorDisqualificationSanction>false</DirectorDisqualificationSanction>
+    </SanctionsImposedIndicators>
+    <OtherInformation>Member of the Taliban Military Commission as at mid-2013. Believed to be in Afghanistan/Pakistan border area. Belongs to Barich tribe. Review pursuant to Security Council resolution 1822 (2008) was concluded on 1 Jun. 2010. INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals click here</OtherInformation>
+    <UKStatementofReasons>
+</UKStatementofReasons>
+    <IndividualDetails>
+      <Individual>
+        <DOBs>
+          <DOB>dd/mm/1975</DOB>
+        </DOBs>
+        <Nationalities>
+          <Nationality>Afghanistan</Nationality>
+        </Nationalities>
+        <Positions>
+          <Position>Deputy Minister of Civil Aviation under the Taliban</Position>
+        </Positions>
+        <Genders>
+          <Gender>Male</Gender>
+        </Genders>
+        <BirthDetails>
+          <Location>
+            <TownOfBirth>Lakhi village, Hazarjuft area, Garmsir District, Helmand Province</TownOfBirth>
+            <CountryOfBirth>Afghanistan</CountryOfBirth>
+          </Location>
+          <Location>
+            <TownOfBirth>Laki village, Garmsir District, Helmand Province</TownOfBirth>
+            <CountryOfBirth>Afghanistan</CountryOfBirth>
+          </Location>
+          <Location>
+            <TownOfBirth>De Luy Wiyalah village, Garmsir District, Helmand Province</TownOfBirth>
+            <CountryOfBirth>Afghanistan</CountryOfBirth>
+          </Location>
+          <Location>
+            <TownOfBirth>Darvishan, Garmsir District, Helmand Province</TownOfBirth>
+            <CountryOfBirth>Afghanistan</CountryOfBirth>
+          </Location>
+          <Location>
+            <TownOfBirth>Lakari village, Garmsir District, Helmand Province</TownOfBirth>
+            <CountryOfBirth>Afghanistan</CountryOfBirth>
+          </Location>
+        </BirthDetails>
+      </Individual>
+    </IndividualDetails>
+  </Designation>
+  <Designation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <LastUpdated>18/12/2021</LastUpdated>
+    <DateDesignated>08/03/2001</DateDesignated>
+    <UniqueID>AFG0016</UniqueID>
+    <OFSIGroupID>6936</OFSIGroupID>
+    <UNReferenceNumber>TAi.014</UNReferenceNumber>
+    <Names>
+      <Name>
+        <Name6>HIDAYATULLAH</Name6>
+        <NameType>Primary Name</NameType>
+      </Name>
+      <Name>
+        <Name1>ABU</Name1>
+        <Name6>TURAB</Name6>
+        <NameType>Alias</NameType>
+        <AliasStrength>Good quality a.k.a</AliasStrength>
+      </Name>
+    </Names>
+    <NonLatinNames>
+      <NonLatinName>
+        <NameNonLatinScript>هدايت الله </NameNonLatinScript>
+      </NonLatinName>
+    </NonLatinNames>
+    <RegimeName>The Afghanistan (Sanctions) (EU Exit) Regulations 2020</RegimeName>
+    <IndividualEntityShip>Individual</IndividualEntityShip>
+    <DesignationSource>UN</DesignationSource>
+    <SanctionsImposed>Asset freeze|Travel Ban</SanctionsImposed>
+    <SanctionsImposedIndicators>
+      <AssetFreeze>true</AssetFreeze>
+      <ArmsEmbargo>false</ArmsEmbargo>
+      <TargetedArmsEmbargo>false</TargetedArmsEmbargo>
+      <CharteringOfShips>false</CharteringOfShips>
+      <ClosureOfRepresentativeOffices>false</ClosureOfRepresentativeOffices>
+      <CrewServicingOfShipsAndAircraft>false</CrewServicingOfShipsAndAircraft>
+      <Deflag>false</Deflag>
+      <PreventionOfBusinessArrangements>false</PreventionOfBusinessArrangements>
+      <ProhibitionOfPortEntry>false</ProhibitionOfPortEntry>
+      <TravelBan>true</TravelBan>
+      <PreventionOfCharteringOfShips>false</PreventionOfCharteringOfShips>
+      <PreventionOfCharteringOfShipsAndAircraft>false</PreventionOfCharteringOfShipsAndAircraft>
+      <TechnicalAssistanceRelatedToAircraft>false</TechnicalAssistanceRelatedToAircraft>
+      <TrustServicesSanctions>false</TrustServicesSanctions>
+      <DirectorDisqualificationSanction>false</DirectorDisqualificationSanction>
+    </SanctionsImposedIndicators>
+    <OtherInformation>Believed to be in Afghanistan/Pakistan border area. Belongs to Ghilzai tribe. Review pursuant to Security Council resolution 1822 (2008) was concluded on 29 Jul. 2010. INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals click here</OtherInformation>
+    <UKStatementofReasons>
+</UKStatementofReasons>
+    <IndividualDetails>
+      <Individual>
+        <DOBs>
+          <DOB>dd/mm/1968</DOB>
+        </DOBs>
+        <Nationalities>
+          <Nationality>Afghanistan</Nationality>
+        </Nationalities>
+        <Positions>
+          <Position>Deputy Minister of Civil Aviation and Tourism under the Taliban regime</Position>
+        </Positions>
+        <BirthDetails>
+          <Location>
+            <TownOfBirth>Arghandab District, Kandahar Province</TownOfBirth>
+            <CountryOfBirth>Afghanistan</CountryOfBirth>
+          </Location>
+        </BirthDetails>
+      </Individual>
+    </IndividualDetails>
+  </Designation>
+  <Designation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <LastUpdated>18/12/2021</LastUpdated>
+    <DateDesignated>25/01/2001</DateDesignated>
+    <UniqueID>AFG0017</UniqueID>
+    <OFSIGroupID>7409</OFSIGroupID>
+    <UNReferenceNumber>TAi.015</UNReferenceNumber>
+    <Names>
+      <Name>
+        <Name1>YAR</Name1>
+        <Name2>MOHAMMAD</Name2>
+        <Name6>RAHIMI</Name6>
+        <NameType>Primary Name</NameType>
+      </Name>
+    </Names>
+    <NonLatinNames>
+      <NonLatinName>
+        <NameNonLatinScript>یار محمد رحیمی </NameNonLatinScript>
+      </NonLatinName>
+    </NonLatinNames>
+    <Titles>
+      <Title>Mullah</Title>
+    </Titles>
+    <RegimeName>The Afghanistan (Sanctions) (EU Exit) Regulations 2020</RegimeName>
+    <IndividualEntityShip>Individual</IndividualEntityShip>
+    <DesignationSource>UN</DesignationSource>
+    <SanctionsImposed>Asset freeze|Travel Ban</SanctionsImposed>
+    <SanctionsImposedIndicators>
+      <AssetFreeze>true</AssetFreeze>
+      <ArmsEmbargo>false</ArmsEmbargo>
+      <TargetedArmsEmbargo>false</TargetedArmsEmbargo>
+      <CharteringOfShips>false</CharteringOfShips>
+      <ClosureOfRepresentativeOffices>false</ClosureOfRepresentativeOffices>
+      <CrewServicingOfShipsAndAircraft>false</CrewServicingOfShipsAndAircraft>
+      <Deflag>false</Deflag>
+      <PreventionOfBusinessArrangements>false</PreventionOfBusinessArrangements>
+      <ProhibitionOfPortEntry>false</ProhibitionOfPortEntry>
+      <TravelBan>true</TravelBan>
+      <PreventionOfCharteringOfShips>false</PreventionOfCharteringOfShips>
+      <PreventionOfCharteringOfShipsAndAircraft>false</PreventionOfCharteringOfShipsAndAircraft>
+      <TechnicalAssistanceRelatedToAircraft>false</TechnicalAssistanceRelatedToAircraft>
+      <TrustServicesSanctions>false</TrustServicesSanctions>
+      <DirectorDisqualificationSanction>false</DirectorDisqualificationSanction>
+    </SanctionsImposedIndicators>
+    <OtherInformation>Member of Taliban Supreme Council as at 2009. Believed to be in Afghanistan/Pakistan border area. Belongs to Nurzai tribe. Review pursuant to Security Council resolution 1822 (2008) was concluded on 23 Jul. 2010. INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals click here</OtherInformation>
+    <UKStatementofReasons>
+</UKStatementofReasons>
+    <IndividualDetails>
+      <Individual>
+        <DOBs>
+          <DOB>dd/mm/1953</DOB>
+        </DOBs>
+        <Nationalities>
+          <Nationality>Afghanistan</Nationality>
+        </Nationalities>
+        <Positions>
+          <Position>Minister of Communication of the Taliban regime</Position>
+        </Positions>
+        <BirthDetails>
+          <Location>
+            <TownOfBirth>Talugan village, Panjwai District, Kandahar Province</TownOfBirth>
+            <CountryOfBirth>Afghanistan</CountryOfBirth>
+          </Location>
+        </BirthDetails>
+      </Individual>
+    </IndividualDetails>
+  </Designation>
+  <Designation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <LastUpdated>18/12/2021</LastUpdated>
+    <DateDesignated>25/01/2001</DateDesignated>
+    <UniqueID>AFG0018</UniqueID>
+    <OFSIGroupID>7483</OFSIGroupID>
+    <UNReferenceNumber>TAi.016</UNReferenceNumber>
+    <Names>
+      <Name>
+        <Name1>ALLAH DAD</Name1>
+        <Name2>TAYEB</Name2>
+        <Name3>WALI</Name3>
+        <Name6>MUHAMMAD</Name6>
+        <NameType>Primary Name</NameType>
+      </Name>
+      <Name>
+        <Name1>Allah Dad</Name1>
+        <Name6>Tabeeb</Name6>
+        <NameType>Alias</NameType>
+        <AliasStrength>Good quality a.k.a</AliasStrength>
+      </Name>
+      <Name>
+        <Name1>Allah Dad</Name1>
+        <Name6>Tayyab</Name6>
+        <NameType>Alias</NameType>
+        <AliasStrength>Good quality a.k.a</AliasStrength>
+      </Name>
+    </Names>
+    <NonLatinNames>
+      <NonLatinName>
+        <NameNonLatinScript>الله داد طیب ولی محمد</NameNonLatinScript>
+      </NonLatinName>
+    </NonLatinNames>
+    <Titles>
+      <Title>Mullah</Title>
+    </Titles>
+    <RegimeName>The Afghanistan (Sanctions) (EU Exit) Regulations 2020</RegimeName>
+    <IndividualEntityShip>Individual</IndividualEntityShip>
+    <DesignationSource>UN</DesignationSource>
+    <SanctionsImposed>Asset freeze|Travel Ban</SanctionsImposed>
+    <SanctionsImposedIndicators>
+      <AssetFreeze>true</AssetFreeze>
+      <ArmsEmbargo>false</ArmsEmbargo>
+      <TargetedArmsEmbargo>false</TargetedArmsEmbargo>
+      <CharteringOfShips>false</CharteringOfShips>
+      <ClosureOfRepresentativeOffices>false</ClosureOfRepresentativeOffices>
+      <CrewServicingOfShipsAndAircraft>false</CrewServicingOfShipsAndAircraft>
+      <Deflag>false</Deflag>
+      <PreventionOfBusinessArrangements>false</PreventionOfBusinessArrangements>
+      <ProhibitionOfPortEntry>false</ProhibitionOfPortEntry>
+      <TravelBan>true</TravelBan>
+      <PreventionOfCharteringOfShips>false</PreventionOfCharteringOfShips>
+      <PreventionOfCharteringOfShipsAndAircraft>false</PreventionOfCharteringOfShipsAndAircraft>
+      <TechnicalAssistanceRelatedToAircraft>false</TechnicalAssistanceRelatedToAircraft>
+      <TrustServicesSanctions>false</TrustServicesSanctions>
+      <DirectorDisqualificationSanction>false</DirectorDisqualificationSanction>
+    </SanctionsImposedIndicators>
+    <OtherInformation>Belongs to Popalzai tribe. Review pursuant to Security Council resolution 1822 (2008) was concluded on 29 Jul. 2010. Photo available for inclusion in the INTERPOL-UN Security Council Special Notice. Deceased as of November 2015. INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/How-we-work/Notices/View-UNNotices-Individuals click here</OtherInformation>
+    <UKStatementofReasons>
+</UKStatementofReasons>
+    <IndividualDetails>
+      <Individual>
+        <DOBs>
+          <DOB>dd/mm/1963</DOB>
+        </DOBs>
+        <Nationalities>
+          <Nationality>Afghanistan</Nationality>
+        </Nationalities>
+        <Positions>
+          <Position>Deputy Minister of Communication under the Taliban regime</Position>
+        </Positions>
+        <BirthDetails>
+          <Location>
+            <TownOfBirth>Ghorak District, Kandahar Province</TownOfBirth>
+            <CountryOfBirth>Afghanistan</CountryOfBirth>
+          </Location>
+          <Location>
+            <TownOfBirth>Nesh District, Uruzgan Province</TownOfBirth>
+            <CountryOfBirth>Afghanistan</CountryOfBirth>
+          </Location>
+        </BirthDetails>
+      </Individual>
+    </IndividualDetails>
+  </Designation>
+  <Designation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <LastUpdated>18/12/2021</LastUpdated>
+    <DateDesignated>31/01/2001</DateDesignated>
+    <UniqueID>AFG0019</UniqueID>
+    <OFSIGroupID>7299</OFSIGroupID>
+    <UNReferenceNumber>TAi.019</UNReferenceNumber>
+    <Names>
+      <Name>
+        <Name1>NIK MOHAMMAD </Name1>
+        <Name6>DOST MOHAMMAD</Name6>
+        <NameType>Primary Name</NameType>
+      </Name>
+      <Name>
+        <Name1>Nik </Name1>
+        <Name6>Mohammad</Name6>
+        <NameType>Alias</NameType>
+        <AliasStrength>Good quality a.k.a</AliasStrength>
+      </Name>
+    </Names>
+    <NonLatinNames>
+      <NonLatinName>
+        <NameNonLatinScript> نیک محمد دوست محمد</NameNonLatinScript>
+      </NonLatinName>
+    </NonLatinNames>
+    <Titles>
+      <Title>Maulavi</Title>
+    </Titles>
+    <RegimeName>The Afghanistan (Sanctions) (EU Exit) Regulations 2020</RegimeName>
+    <IndividualEntityShip>Individual</IndividualEntityShip>
+    <DesignationSource>UN</DesignationSource>
+    <SanctionsImposed>Asset freeze|Travel Ban</SanctionsImposed>
+    <SanctionsImposedIndicators>
+      <AssetFreeze>true</AssetFreeze>
+      <ArmsEmbargo>false</ArmsEmbargo>
+      <TargetedArmsEmbargo>false</TargetedArmsEmbargo>
+      <CharteringOfShips>false</CharteringOfShips>
+      <ClosureOfRepresentativeOffices>false</ClosureOfRepresentativeOffices>
+      <CrewServicingOfShipsAndAircraft>false</CrewServicingOfShipsAndAircraft>
+      <Deflag>false</Deflag>
+      <PreventionOfBusinessArrangements>false</PreventionOfBusinessArrangements>
+      <ProhibitionOfPortEntry>false</ProhibitionOfPortEntry>
+      <TravelBan>true</TravelBan>
+      <PreventionOfCharteringOfShips>false</PreventionOfCharteringOfShips>
+      <PreventionOfCharteringOfShipsAndAircraft>false</PreventionOfCharteringOfShipsAndAircraft>
+      <TechnicalAssistanceRelatedToAircraft>false</TechnicalAssistanceRelatedToAircraft>
+      <TrustServicesSanctions>false</TrustServicesSanctions>
+      <DirectorDisqualificationSanction>false</DirectorDisqualificationSanction>
+    </SanctionsImposedIndicators>
+    <OtherInformation>Leads a commission to register enemies of the Taliban as of mid-2013. Believed to be in Afghanistan/Pakistan border area. Belongs to Nurzai tribe. Review pursuant to Security Council resolution 1822 (2008) was concluded on 27 Jul. 2010. INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals click here</OtherInformation>
+    <UKStatementofReasons>
+</UKStatementofReasons>
+    <IndividualDetails>
+      <Individual>
+        <DOBs>
+          <DOB>dd/mm/1957</DOB>
+        </DOBs>
+        <Nationalities>
+          <Nationality>Afghanistan</Nationality>
+        </Nationalities>
+        <Positions>
+          <Position>Deputy Minister of Commerce under the Taliban regime</Position>
+        </Positions>
+        <BirthDetails>
+          <Location>
+            <TownOfBirth>Zangi Abad village, Panjwai District, Kandahar Province</TownOfBirth>
+            <CountryOfBirth>Afghanistan</CountryOfBirth>
+          </Location>
+        </BirthDetails>
+      </Individual>
+    </IndividualDetails>
+  </Designation>
+  <Designation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <LastUpdated>18/12/2021</LastUpdated>
+    <DateDesignated>23/02/2001</DateDesignated>
+    <UniqueID>AFG0020</UniqueID>
+    <OFSIGroupID>7278</OFSIGroupID>
+    <UNReferenceNumber>TAi.020</UNReferenceNumber>
+    <Names>
+      <Name>
+        <Name6>MATIULLAH</Name6>
+        <NameType>Primary Name</NameType>
+      </Name>
+    </Names>
+    <NonLatinNames>
+      <NonLatinName>
+        <NameNonLatinScript>مطيع الله</NameNonLatinScript>
+        <NonLatinScriptType>Arabic</NonLatinScriptType>
+      </NonLatinName>
+    </NonLatinNames>
+    <Titles>
+      <Title>Mullah</Title>
+    </Titles>
+    <RegimeName>The Afghanistan (Sanctions) (EU Exit) Regulations 2020</RegimeName>
+    <IndividualEntityShip>Individual</IndividualEntityShip>
+    <DesignationSource>UN</DesignationSource>
+    <SanctionsImposed>Asset freeze|Travel Ban</SanctionsImposed>
+    <SanctionsImposedIndicators>
+      <AssetFreeze>true</AssetFreeze>
+      <ArmsEmbargo>false</ArmsEmbargo>
+      <TargetedArmsEmbargo>false</TargetedArmsEmbargo>
+      <CharteringOfShips>false</CharteringOfShips>
+      <ClosureOfRepresentativeOffices>false</ClosureOfRepresentativeOffices>
+      <CrewServicingOfShipsAndAircraft>false</CrewServicingOfShipsAndAircraft>
+      <Deflag>false</Deflag>
+      <PreventionOfBusinessArrangements>false</PreventionOfBusinessArrangements>
+      <ProhibitionOfPortEntry>false</ProhibitionOfPortEntry>
+      <TravelBan>true</TravelBan>
+      <PreventionOfCharteringOfShips>false</PreventionOfCharteringOfShips>
+      <PreventionOfCharteringOfShipsAndAircraft>false</PreventionOfCharteringOfShipsAndAircraft>
+      <TechnicalAssistanceRelatedToAircraft>false</TechnicalAssistanceRelatedToAircraft>
+      <TrustServicesSanctions>false</TrustServicesSanctions>
+      <DirectorDisqualificationSanction>false</DirectorDisqualificationSanction>
+    </SanctionsImposedIndicators>
+    <OtherInformation>Works on recruitment for the Taliban movement as of mid-2013. Believed to be in Afghanistan/Pakistan border area. Belongs to Popalzai tribe. Review pursuant to Security Council resolution 1822 (2008) was concluded on 23 Jul. 2010. INTERPOLUN Security Council Special Notice web link: https://www.interpol.int/en/How-we-work/Notices/View-UN-NoticesIndividuals click here</OtherInformation>
+    <UKStatementofReasons>
+</UKStatementofReasons>
+    <IndividualDetails>
+      <Individual>
+        <DOBs>
+          <DOB>dd/mm/1973</DOB>
+        </DOBs>
+        <Nationalities>
+          <Nationality>Afghanistan</Nationality>
+        </Nationalities>
+        <Positions>
+          <Position>Director, Kabul Custom House under the Taliban regime</Position>
+        </Positions>
+        <BirthDetails>
+          <Location>
+            <TownOfBirth>Daman District, Kandahar Province</TownOfBirth>
+            <CountryOfBirth>Afghanistan</CountryOfBirth>
+          </Location>
+        </BirthDetails>
+      </Individual>
+    </IndividualDetails>
+  </Designation>
+  <Designation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <LastUpdated>18/12/2021</LastUpdated>
+    <DateDesignated>31/01/2001</DateDesignated>
+    <UniqueID>AFG0021</UniqueID>
+    <OFSIGroupID>6953</OFSIGroupID>
+    <UNReferenceNumber>TAi.021</UNReferenceNumber>
+    <Names>
+      <Name>
+        <Name1>ALLAH DAD</Name1>
+        <Name6>MATIN</Name6>
+        <NameType>Primary Name</NameType>
+      </Name>
+      <Name>
+        <Name6>AKHUND</Name6>
+        <NameType>Alias</NameType>
+        <AliasStrength>Low quality a.k.a</AliasStrength>
+      </Name>
+      <Name>
+        <Name6>ALLAHDAD</Name6>
+        <NameType>Alias</NameType>
+        <AliasStrength>Good quality a.k.a</AliasStrength>
+      </Name>
+      <Name>
+        <Name6>SHAHIDWROR</Name6>
+        <NameType>Alias</NameType>
+        <AliasStrength>Good quality a.k.a</AliasStrength>
+      </Name>
+    </Names>
+    <NonLatinNames>
+      <NonLatinName>
+        <NameNonLatinScript>الله داد متین </NameNonLatinScript>
+        <NonLatinScriptType>Arabic</NonLatinScriptType>
+      </NonLatinName>
+    </NonLatinNames>
+    <Titles>
+      <Title>Mullah</Title>
+    </Titles>
+    <RegimeName>The Afghanistan (Sanctions) (EU Exit) Regulations 2020</RegimeName>
+    <IndividualEntityShip>Individual</IndividualEntityShip>
+    <DesignationSource>UN</DesignationSource>
+    <SanctionsImposed>Asset freeze|Travel Ban</SanctionsImposed>
+    <SanctionsImposedIndicators>
+      <AssetFreeze>true</AssetFreeze>
+      <ArmsEmbargo>false</ArmsEmbargo>
+      <TargetedArmsEmbargo>false</TargetedArmsEmbargo>
+      <CharteringOfShips>false</CharteringOfShips>
+      <ClosureOfRepresentativeOffices>false</ClosureOfRepresentativeOffices>
+      <CrewServicingOfShipsAndAircraft>false</CrewServicingOfShipsAndAircraft>
+      <Deflag>false</Deflag>
+      <PreventionOfBusinessArrangements>false</PreventionOfBusinessArrangements>
+      <ProhibitionOfPortEntry>false</ProhibitionOfPortEntry>
+      <TravelBan>true</TravelBan>
+      <PreventionOfCharteringOfShips>false</PreventionOfCharteringOfShips>
+      <PreventionOfCharteringOfShipsAndAircraft>false</PreventionOfCharteringOfShipsAndAircraft>
+      <TechnicalAssistanceRelatedToAircraft>false</TechnicalAssistanceRelatedToAircraft>
+      <TrustServicesSanctions>false</TrustServicesSanctions>
+      <DirectorDisqualificationSanction>false</DirectorDisqualificationSanction>
+    </SanctionsImposedIndicators>
+    <OtherInformation>One foot lost in landmine explosion. Believed to be in Afghanistan/Pakistan border area. Belongs to Nurzai tribe. Review pursuant to Security Council resolution 1822 (2008) was concluded on 27 Jul. 2010. INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals click here</OtherInformation>
+    <UKStatementofReasons>
+</UKStatementofReasons>
+    <IndividualDetails>
+      <Individual>
+        <DOBs>
+          <DOB>dd/mm/1953</DOB>
+          <DOB>dd/mm/1960</DOB>
+        </DOBs>
+        <Nationalities>
+          <Nationality>Afghanistan</Nationality>
+        </Nationalities>
+        <Positions>
+          <Position>Minister of Urban Development under the Taliban regime</Position>
+          <Position>President of Central Bank (Da Afghanistan Bank) under the Taliban regime</Position>
+          <Position>Head of Ariana Afghan Airlines under the Taliban regime</Position>
+        </Positions>
+        <BirthDetails>
+          <Location>
+            <TownOfBirth>Kadani village, Spin Boldak District, Kandahar Province</TownOfBirth>
+            <CountryOfBirth>Afghanistan</CountryOfBirth>
+          </Location>
+        </BirthDetails>
+      </Individual>
+    </IndividualDetails>
+  </Designation>
+  <Designation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <LastUpdated>18/12/2021</LastUpdated>
+    <DateDesignated>25/01/2001</DateDesignated>
+    <UniqueID>AFG0022</UniqueID>
+    <OFSIGroupID>6956</OFSIGroupID>
+    <UNReferenceNumber>TAi.022</UNReferenceNumber>
+    <Names>
+      <Name>
+        <Name1>Ubaidullah</Name1>
+        <Name2>Akhund</Name2>
+        <Name6>YAR MOHAMMAD AKHUND</Name6>
+        <NameType>Primary Name</NameType>
+      </Name>
+      <Name>
+        <Name1>Obaid</Name1>
+        <Name2>Ullah</Name2>
+        <Name6>Akhund</Name6>
+        <NameType>Alias</NameType>
+        <AliasStrength>Good quality a.k.a</AliasStrength>
+      </Name>
+      <Name>
+        <Name1>Obaidullah</Name1>
+        <Name6>Akhund</Name6>
+        <NameType>Alias</NameType>
+        <AliasStrength>Good quality a.k.a</AliasStrength>
+      </Name>
+    </Names>
+    <NonLatinNames>
+      <NonLatinName>
+        <NameNonLatinScript>عبیدالله آخوند یار محمد آخوند</NameNonLatinScript>
+        <NonLatinScriptType>Arabic</NonLatinScriptType>
+      </NonLatinName>
+    </NonLatinNames>
+    <Titles>
+      <Title>Mullah</Title>
+    </Titles>
+    <RegimeName>The Afghanistan (Sanctions) (EU Exit) Regulations 2020</RegimeName>
+    <IndividualEntityShip>Individual</IndividualEntityShip>
+    <DesignationSource>UN</DesignationSource>
+    <SanctionsImposed>Asset freeze|Travel Ban</SanctionsImposed>
+    <SanctionsImposedIndicators>
+      <AssetFreeze>true</AssetFreeze>
+      <ArmsEmbargo>false</ArmsEmbargo>
+      <TargetedArmsEmbargo>false</TargetedArmsEmbargo>
+      <CharteringOfShips>false</CharteringOfShips>
+      <ClosureOfRepresentativeOffices>false</ClosureOfRepresentativeOffices>
+      <CrewServicingOfShipsAndAircraft>false</CrewServicingOfShipsAndAircraft>
+      <Deflag>false</Deflag>
+      <PreventionOfBusinessArrangements>false</PreventionOfBusinessArrangements>
+      <ProhibitionOfPortEntry>false</ProhibitionOfPortEntry>
+      <TravelBan>true</TravelBan>
+      <PreventionOfCharteringOfShips>false</PreventionOfCharteringOfShips>
+      <PreventionOfCharteringOfShipsAndAircraft>false</PreventionOfCharteringOfShipsAndAircraft>
+      <TechnicalAssistanceRelatedToAircraft>false</TechnicalAssistanceRelatedToAircraft>
+      <TrustServicesSanctions>false</TrustServicesSanctions>
+      <DirectorDisqualificationSanction>false</DirectorDisqualificationSanction>
+    </SanctionsImposedIndicators>
+    <OtherInformation>He was one of the deputies of Mullah Mohammed Omar (TAi.004) and a member of the Taliban's Supreme Council, in charge of military operations. Arrested in 2007 and was in custody in Pakistan. Confirmed deceased in March 2010 and buried in Karachi, Pakistan. Linked by marriage to Saleh Mohammad Kakar Akhtar Muhammad (TAi.149). Belonged to Alokozai tribe. Review pursuant to Security Council resolution 1822 (2008) was concluded on 21 Jul. 2010. INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/How-we-work/Notices/View-UNNotices-Individuals click here</OtherInformation>
+    <UKStatementofReasons>
+</UKStatementofReasons>
+    <IndividualDetails>
+      <Individual>
+        <DOBs>
+          <DOB>dd/mm/1968</DOB>
+          <DOB>dd/mm/1969</DOB>
+        </DOBs>
+        <Nationalities>
+          <Nationality>Afghanistan</Nationality>
+        </Nationalities>
+        <Positions>
+          <Position>Minister of Defence under the Taliban regime</Position>
+        </Positions>
+        <BirthDetails>
+          <Location>
+            <TownOfBirth>Sangisar village, Panjwai District,Kandahar Province</TownOfBirth>
+            <CountryOfBirth>Afghanistan</CountryOfBirth>
+          </Location>
+          <Location>
+            <TownOfBirth>Arghandab District, Kandahar Province</TownOfBirth>
+            <CountryOfBirth>Afghanistan</CountryOfBirth>
+          </Location>
+          <Location>
+            <TownOfBirth>Zheray District, Kandahar Province</TownOfBirth>
+            <CountryOfBirth>Afghanistan</CountryOfBirth>
+          </Location>
+        </BirthDetails>
+      </Individual>
+    </IndividualDetails>
+  </Designation>
+  <Designation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <LastUpdated>29/04/2026</LastUpdated>
+    <DateDesignated>23/02/2001</DateDesignated>
+    <UniqueID>AFG0023</UniqueID>
+    <OFSIGroupID>7281</OFSIGroupID>
+    <UNReferenceNumber>TAi.023</UNReferenceNumber>
+    <Names>
+      <Name>
+        <Name1>FAZL</Name1>
+        <Name2>MOHAMMAD</Name2>
+        <Name6>MAZLOOM</Name6>
+        <NameType>Primary Name</NameType>
+      </Name>
+      <Name>
+        <Name1>Molah</Name1>
+        <Name6>Fazl</Name6>
+        <NameType>Alias</NameType>
+        <AliasStrength>Good quality a.k.a</AliasStrength>
+      </Name>
+      <Name>
+        <Name1>Fazel</Name1>
+        <Name2>Mohammad</Name2>
+        <Name6>Mazloom</Name6>
+        <NameType>Alias</NameType>
+        <AliasStrength>Good quality a.k.a</AliasStrength>
+      </Name>
+      <Name>
+        <Name1>FADEL</Name1>
+        <Name2>AAKHUND</Name2>
+        <Name6>MOHAMMAD</Name6>
+        <NameType>Alias</NameType>
+      </Name>
+    </Names>
+    <NonLatinNames>
+      <NonLatinName>
+        <NameNonLatinScript>فضل محمد مظلوم</NameNonLatinScript>
+        <NonLatinScriptType>Arabic</NonLatinScriptType>
+      </NonLatinName>
+      <NonLatinName>
+        <NameNonLatinScript>محمد فاضل آخوند</NameNonLatinScript>
+        <NonLatinScriptType>Arabic</NonLatinScriptType>
+        <NonLatinScriptLanguage>Arabic</NonLatinScriptLanguage>
+      </NonLatinName>
+    </NonLatinNames>
+    <Titles>
+      <Title>Mullah</Title>
+    </Titles>
+    <RegimeName>The Afghanistan (Sanctions) (EU Exit) Regulations 2020</RegimeName>
+    <IndividualEntityShip>Individual</IndividualEntityShip>
+    <DesignationSource>UN</DesignationSource>
+    <SanctionsImposed>Asset freeze|Travel Ban</SanctionsImposed>
+    <SanctionsImposedIndicators>
+      <AssetFreeze>true</AssetFreeze>
+      <ArmsEmbargo>false</ArmsEmbargo>
+      <TargetedArmsEmbargo>false</TargetedArmsEmbargo>
+      <CharteringOfShips>false</CharteringOfShips>
+      <ClosureOfRepresentativeOffices>false</ClosureOfRepresentativeOffices>
+      <CrewServicingOfShipsAndAircraft>false</CrewServicingOfShipsAndAircraft>
+      <Deflag>false</Deflag>
+      <PreventionOfBusinessArrangements>false</PreventionOfBusinessArrangements>
+      <ProhibitionOfPortEntry>false</ProhibitionOfPortEntry>
+      <TravelBan>true</TravelBan>
+      <PreventionOfCharteringOfShips>false</PreventionOfCharteringOfShips>
+      <PreventionOfCharteringOfShipsAndAircraft>false</PreventionOfCharteringOfShipsAndAircraft>
+      <TechnicalAssistanceRelatedToAircraft>false</TechnicalAssistanceRelatedToAircraft>
+      <TrustServicesSanctions>false</TrustServicesSanctions>
+      <DirectorDisqualificationSanction>false</DirectorDisqualificationSanction>
+    </SanctionsImposedIndicators>
+    <OtherInformation>Missing left leg since 1996. Serious injury on his right foot . Height 168 cm . Review pursuant to Security Council resolution 1822 (2008) was concluded on 23 Jul. 2010. Photo available for inclusion in the INTERPOL-UN Security Council Special Notice. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals#2012-316058</OtherInformation>
+    <UKStatementofReasons>
+</UKStatementofReasons>
+    <Addresses>
+      <Address>
+        <AddressLine1>Pule Mahmood Khan</AddressLine1>
+        <AddressLine2>PD2</AddressLine2>
+        <AddressLine3>10011</AddressLine3>
+        <AddressLine4>Kabul</AddressLine4>
+        <AddressCountry>Afghanistan</AddressCountry>
+      </Address>
+    </Addresses>
+    <IndividualDetails>
+      <Individual>
+        <DOBs>
+          <DOB>dd/mm/1963</DOB>
+          <DOB>dd/mm/1964</DOB>
+          <DOB>dd/mm/1965</DOB>
+          <DOB>dd/mm/1966</DOB>
+          <DOB>dd/mm/1967</DOB>
+          <DOB>dd/mm/1968</DOB>
+          <DOB>24/10/1971</DOB>
+        </DOBs>
+        <PassportDetails>
+          <Passport>
+            <PassportNumber>D0009726</PassportNumber>
+            <PassportAdditionalInformation>Afghanistan diplomatic passport D0009726, issued on 13 Oct. 2021, issued  in Kabul, Afghanistan, expires 13 Oct. 2026 (Name in Latin script: Mohammad Fadel Aakhund; name in original script: محمد آخوند فاضل)</PassportAdditionalInformation>
+          </Passport>
+          <Passport>
+            <PassportNumber>D0009726</PassportNumber>
+            <PassportAdditionalInformation>Afghanistan diplomatic passport number D0009726, issued on 13 Oct. 2021, issued in Kabul, Afghanistan</PassportAdditionalInformation>
+          </Passport>
+        </PassportDetails>
+        <Nationalities>
+          <Nationality>Afghanistan</Nationality>
+        </Nationalities>
+        <Positions>
+          <Position>Deputy Chief of Army Staff of the previous Taliban regime (1996-2001)</Position>
+        </Positions>
+        <BirthDetails>
+          <Location>
+            <TownOfBirth>Uruzgan</TownOfBirth>
+            <CountryOfBirth>Afghanistan</CountryOfBirth>
+          </Location>
+        </BirthDetails>
+      </Individual>
+    </IndividualDetails>
+  </Designation>
+  <Designation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <LastUpdated>14/04/2026</LastUpdated>
+    <DateDesignated>23/02/2001</DateDesignated>
+    <UniqueID>AFG0024</UniqueID>
+    <OFSIGroupID>7060</OFSIGroupID>
+    <UNReferenceNumber>TAi.024</UNReferenceNumber>
+    <Names>
+      <Name>
+        <Name1>ABDUL GHANI</Name1>
+        <Name2>BARADAR</Name2>
+        <Name6>ABDUL AHMAD TURK</Name6>
+        <NameType>Primary Name</NameType>
+      </Name>
+      <Name>
+        <Name1>Baradar</Name1>
+        <Name6>AKHUND</Name6>
+        <NameType>Alias</NameType>
+        <AliasStrength>Good quality a.k.a</AliasStrength>
+      </Name>
+      <Name>
+        <Name1>Abdul</Name1>
+        <Name2>Ghani</Name2>
+        <Name6>Baradar</Name6>
+        <NameType>Alias</NameType>
+        <AliasStrength>Good quality a.k.a</AliasStrength>
+      </Name>
+    </Names>
+    <NonLatinNames>
+      <NonLatinName>
+        <NameNonLatinScript>عبدالغنی برادر عبد الاحمد ترک</NameNonLatinScript>
+      </NonLatinName>
+    </NonLatinNames>
+    <Titles>
+      <Title>Mullah</Title>
+    </Titles>
+    <RegimeName>The Afghanistan (Sanctions) (EU Exit) Regulations 2020</RegimeName>
+    <IndividualEntityShip>Individual</IndividualEntityShip>
+    <DesignationSource>UN</DesignationSource>
+    <SanctionsImposed>Asset freeze|Travel Ban</SanctionsImposed>
+    <SanctionsImposedIndicators>
+      <AssetFreeze>true</AssetFreeze>
+      <ArmsEmbargo>false</ArmsEmbargo>
+      <TargetedArmsEmbargo>false</TargetedArmsEmbargo>
+      <CharteringOfShips>false</CharteringOfShips>
+      <ClosureOfRepresentativeOffices>false</ClosureOfRepresentativeOffices>
+      <CrewServicingOfShipsAndAircraft>false</CrewServicingOfShipsAndAircraft>
+      <Deflag>false</Deflag>
+      <PreventionOfBusinessArrangements>false</PreventionOfBusinessArrangements>
+      <ProhibitionOfPortEntry>false</ProhibitionOfPortEntry>
+      <TravelBan>true</TravelBan>
+      <PreventionOfCharteringOfShips>false</PreventionOfCharteringOfShips>
+      <PreventionOfCharteringOfShipsAndAircraft>false</PreventionOfCharteringOfShipsAndAircraft>
+      <TechnicalAssistanceRelatedToAircraft>false</TechnicalAssistanceRelatedToAircraft>
+      <TrustServicesSanctions>false</TrustServicesSanctions>
+      <DirectorDisqualificationSanction>false</DirectorDisqualificationSanction>
+    </SanctionsImposedIndicators>
+    <OtherInformation>Belongs to Popalzai tribe. Height 173cm. Review pursuant to Security Council resolution 1822 (2008) was concluded on 1 Jun. 2010. Photo available for inclusion in the INTERPOL-UN Security Council Special Notice. INTERPOL-UN Security Council Special Notice web link: https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals click here</OtherInformation>
+    <UKStatementofReasons>
+</UKStatementofReasons>
+    <Addresses>
+      <Address>
+        <AddressLine6>Kabul</AddressLine6>
+        <AddressCountry>Afghanistan</AddressCountry>
+      </Address>
+    </Addresses>
+    <IndividualDetails>
+      <Individual>
+        <DOBs>
+          <DOB>dd/mm/1968</DOB>
+          <DOB>29/09/1963</DOB>
+        </DOBs>
+        <PassportDetails>
+          <Passport>
+            <PassportNumber>D0009751</PassportNumber>
+            <PassportAdditionalInformation>Afghanistan diplomatic passport D0009751, issued on 16 Oct. 2021, issued in Kabul, Afghanistan  (expires 16 Oct. 2026)</PassportAdditionalInformation>
+          </Passport>
+          <Passport>
+            <PassportNumber>D0009751</PassportNumber>
+            <PassportAdditionalInformation>Afghanistan diplomatic passport number P04999950, issued on 4 Feb. 2025 (expires 4 Feb. 2035)</PassportAdditionalInformation>
+          </Passport>
+        </PassportDetails>
+        <Nationalities>
+          <Nationality>Afghanistan</Nationality>
+        </Nationalities>
+        <Positions>
+          <Position>Deputy Minister of Defence under the previous Taliban regime</Position>
+        </Positions>
+        <BirthDetails>
+          <Location>
+            <TownOfBirth>Yatimak village, Dehrawood District, Uruzgan Province</TownOfBirth>
+            <CountryOfBirth>Afghanistan</CountryOfBirth>
+          </Location>
+        </BirthDetails>
+      </Individual>
+    </IndividualDetails>
+  </Designation>
+  <Designation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <LastUpdated>09/04/2025</LastUpdated>
+    <DateDesignated>31/12/2020</DateDesignated>
+    <UniqueID>BEL0065</UniqueID>
+    <OFSIGroupID>14039</OFSIGroupID>
+    <Names>
+      <Name>
+        <Name6>LLC Synesis</Name6>
+        <NameType>Primary name</NameType>
+      </Name>
+    </Names>
+    <NonLatinNames>
+      <NonLatinName>
+        <NameNonLatinScript>ООО “Синезис”</NameNonLatinScript>
+        <NonLatinScriptType>Cyrillic</NonLatinScriptType>
+        <NonLatinScriptLanguage>Russian</NonLatinScriptLanguage>
+      </NonLatinName>
+    </NonLatinNames>
+    <RegimeName>The Republic of Belarus (Sanctions) (EU Exit) Regulations 2019</RegimeName>
+    <IndividualEntityShip>Entity</IndividualEntityShip>
+    <DesignationSource>UK</DesignationSource>
+    <SanctionsImposed>Asset freeze|Director Disqualification Sanction</SanctionsImposed>
+    <SanctionsImposedIndicators>
+      <AssetFreeze>true</AssetFreeze>
+      <ArmsEmbargo>false</ArmsEmbargo>
+      <TargetedArmsEmbargo>false</TargetedArmsEmbargo>
+      <CharteringOfShips>false</CharteringOfShips>
+      <ClosureOfRepresentativeOffices>false</ClosureOfRepresentativeOffices>
+      <CrewServicingOfShipsAndAircraft>false</CrewServicingOfShipsAndAircraft>
+      <Deflag>false</Deflag>
+      <PreventionOfBusinessArrangements>false</PreventionOfBusinessArrangements>
+      <ProhibitionOfPortEntry>false</ProhibitionOfPortEntry>
+      <TravelBan>false</TravelBan>
+      <PreventionOfCharteringOfShips>false</PreventionOfCharteringOfShips>
+      <PreventionOfCharteringOfShipsAndAircraft>false</PreventionOfCharteringOfShipsAndAircraft>
+      <TechnicalAssistanceRelatedToAircraft>false</TechnicalAssistanceRelatedToAircraft>
+      <TrustServicesSanctions>false</TrustServicesSanctions>
+      <DirectorDisqualificationSanction>true</DirectorDisqualificationSanction>
+    </SanctionsImposedIndicators>
+    <OtherInformation>The Director Disqualification Sanction was imposed on 09/04/2025.</OtherInformation>
+    <UKStatementofReasons>
+LLC Synesis (“Synesis”), including through its former wholly-owned subsidiary, LLC 24x7 Panoptes (“Panoptes”), has supplied the Kipod Technology (“Kipod”) to the Republic of Belarus for use with the “Republican System for Monitoring Public Safety” (“RSMPS”), which is a video surveillance and monitoring system. The RSMPS is used by the Belarus Ministry of Internal Affairs, as the State body authorised to coordinate the use of the RSMPS, and law enforcement agencies, including by security and police units. Kipod is a key part of the RSMPS.  
+The RSMPS, relying on Kipod, has provided the Ministry of Internal Affairs and law enforcement agencies with the capability inter alia, to track down civil society and pro-democracy activists, in order to repress them. Further, that capability has been so used. For example, following the elections on 9 August 2020, Nikolay Dedok, a civil society activist who was in hiding was tracked down by the RSMPS using the Kipod system. He was subsequently detained and tortured.  
+Synesis has therefore been involved in the commission of a serious human rights violation or abuse in Belarus and/or the repression of civil society or democratic opposition in Belarus as Synesis has been responsible for and/or has provided support for, either or both such activities; and/or that Synesis has been involved in the supply to Belarus of technology which could contribute to either or both such activities. 
+</UKStatementofReasons>
+    <Addresses>
+      <Address>
+        <AddressLine1>20B Platonova street</AddressLine1>
+        <AddressLine6>Minsk</AddressLine6>
+        <AddressCountry>Belarus</AddressCountry>
+      </Address>
+      <Address>
+        <AddressLine1>Mantulinskaya 24</AddressLine1>
+        <AddressLine6>Moscow</AddressLine6>
+        <AddressPostalCode>123100</AddressPostalCode>
+        <AddressCountry>Russia</AddressCountry>
+      </Address>
+    </Addresses>
+    <PhoneNumbers>
+      <PhoneNumber>00375 1 72 40 36 50</PhoneNumber>
+    </PhoneNumbers>
+    <Websites>
+      <Website>https://synesis.partners </Website>
+    </Websites>
+    <EmailAddresses>
+      <EmailAddress>S@synesis.y</EmailAddress>
+    </EmailAddresses>
+    <EntityDetails>
+      <Entity>
+        <TypeOfEntities>
+          <TypeOfEntity>Software company</TypeOfEntity>
+        </TypeOfEntities>
+        <BusinessRegistrationNumbers>
+          <BusinessRegistrationNumber>(УНН/ИНН): 190950894 (Belarus),  
+7704734000/770301001 (Russia) </BusinessRegistrationNumber>
+        </BusinessRegistrationNumbers>
+      </Entity>
+    </EntityDetails>
+  </Designation>
+  <Designation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <LastUpdated>09/04/2025</LastUpdated>
+    <DateDesignated>01/10/2024</DateDesignated>
+    <UniqueID>CYB0051</UniqueID>
+    <OFSIGroupID>16588</OFSIGroupID>
+    <Names>
+      <Name>
+        <Name1>Dmitry</Name1>
+        <Name2>Konstantinovich</Name2>
+        <Name6>Smirnov</Name6>
+        <NameType>Primary Name</NameType>
+      </Name>
+    </Names>
+    <NonLatinNames>
+      <NonLatinName>
+        <NameNonLatinScript>Дмитрий Константинович СМИРНОВ</NameNonLatinScript>
+        <NonLatinScriptType>Cyrillic</NonLatinScriptType>
+        <NonLatinScriptLanguage>Russian</NonLatinScriptLanguage>
+      </NonLatinName>
+    </NonLatinNames>
+    <RegimeName>The Cyber (Sanctions) (EU Exit) Regulations 2020</RegimeName>
+    <IndividualEntityShip>Individual</IndividualEntityShip>
+    <DesignationSource>UK</DesignationSource>
+    <SanctionsImposed>Asset freeze|Travel Ban|Director Disqualification Sanction</SanctionsImposed>
+    <SanctionsImposedIndicators>
+      <AssetFreeze>true</AssetFreeze>
+      <ArmsEmbargo>false</ArmsEmbargo>
+      <TargetedArmsEmbargo>false</TargetedArmsEmbargo>
+      <CharteringOfShips>false</CharteringOfShips>
+      <ClosureOfRepresentativeOffices>false</ClosureOfRepresentativeOffices>
+      <CrewServicingOfShipsAndAircraft>false</CrewServicingOfShipsAndAircraft>
+      <Deflag>false</Deflag>
+      <PreventionOfBusinessArrangements>false</PreventionOfBusinessArrangements>
+      <ProhibitionOfPortEntry>false</ProhibitionOfPortEntry>
+      <TravelBan>true</TravelBan>
+      <PreventionOfCharteringOfShips>false</PreventionOfCharteringOfShips>
+      <PreventionOfCharteringOfShipsAndAircraft>false</PreventionOfCharteringOfShipsAndAircraft>
+      <TechnicalAssistanceRelatedToAircraft>false</TechnicalAssistanceRelatedToAircraft>
+      <TrustServicesSanctions>false</TrustServicesSanctions>
+      <DirectorDisqualificationSanction>true</DirectorDisqualificationSanction>
+    </SanctionsImposedIndicators>
+    <OtherInformation>The Director Disqualification Sanction was imposed on 09/04/2025.</OtherInformation>
+    <UKStatementofReasons>
+Dmitry Konstantinovich SMIRNOV is a member of Evil Corp, and has been involved in relevant cyber activity, including being responsible for, engaging in and providing support for malicious cyber activity that resulted in the unauthorised access and exfiltration of sensitive data from UK infrastructure and networks. He has also provided financial services that could contribute to relevant cyber activity.
+Dmitry SMIRNOV was involved in laundering the proceeds for Evil Corp's cyber activity, and other financial activities including the coordination of payment for those involved in developing and maintaining Evil Corp’s tools and infrastructure.
+Evil Corp's malicious cyber activity involved a concerted effort to compromise UK health, government and public sector institutions, and commercial technology companies, for financial gain, which undermined or was intended to undermine the integrity, prosperity and security of the United Kingdom and its allies.
+</UKStatementofReasons>
+    <IndividualDetails>
+      <Individual>
+        <DOBs>
+          <DOB>10/11/1987</DOB>
+        </DOBs>
+        <Genders>
+          <Gender>Male</Gender>
+        </Genders>
+      </Individual>
+    </IndividualDetails>
+  </Designation>
+  <Designation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <LastUpdated>09/04/2025</LastUpdated>
+    <DateDesignated>11/02/2025</DateDesignated>
+    <UniqueID>CYB0069</UniqueID>
+    <OFSIGroupID>16751</OFSIGroupID>
+    <Names>
+      <Name>
+        <Name1>Dmitry </Name1>
+        <Name2>Konstantinovich </Name2>
+        <Name6>Bolshakov </Name6>
+        <NameType>Primary Name</NameType>
+      </Name>
+      <Name>
+        <Name1>Dmitriy</Name1>
+        <Name2>Konstantinovich </Name2>
+        <Name6>Bolshakov </Name6>
+        <NameType>Primary Name Variation</NameType>
+      </Name>
+      <Name>
+        <Name6>bolshak_junior</Name6>
+        <NameType>Alias</NameType>
+      </Name>
+      <Name>
+        <Name6>sergeyvasil</Name6>
+        <NameType>Alias</NameType>
+      </Name>
+    </Names>
+    <RegimeName>The Cyber (Sanctions) (EU Exit) Regulations 2020</RegimeName>
+    <IndividualEntityShip>Individual</IndividualEntityShip>
+    <DesignationSource>UK</DesignationSource>
+    <SanctionsImposed>Asset freeze|Travel Ban|Director Disqualification Sanction</SanctionsImposed>
+    <SanctionsImposedIndicators>
+      <AssetFreeze>true</AssetFreeze>
+      <ArmsEmbargo>false</ArmsEmbargo>
+      <TargetedArmsEmbargo>false</TargetedArmsEmbargo>
+      <CharteringOfShips>false</CharteringOfShips>
+      <ClosureOfRepresentativeOffices>false</ClosureOfRepresentativeOffices>
+      <CrewServicingOfShipsAndAircraft>false</CrewServicingOfShipsAndAircraft>
+      <Deflag>false</Deflag>
+      <PreventionOfBusinessArrangements>false</PreventionOfBusinessArrangements>
+      <ProhibitionOfPortEntry>false</ProhibitionOfPortEntry>
+      <TravelBan>true</TravelBan>
+      <PreventionOfCharteringOfShips>false</PreventionOfCharteringOfShips>
+      <PreventionOfCharteringOfShipsAndAircraft>false</PreventionOfCharteringOfShipsAndAircraft>
+      <TechnicalAssistanceRelatedToAircraft>false</TechnicalAssistanceRelatedToAircraft>
+      <TrustServicesSanctions>false</TrustServicesSanctions>
+      <DirectorDisqualificationSanction>true</DirectorDisqualificationSanction>
+    </SanctionsImposedIndicators>
+    <OtherInformation>The Director Disqualification Sanction was imposed on 09/04/2025.</OtherInformation>
+    <UKStatementofReasons>
+Dmitry Konstantinovich BOLSHAKOV is an involved person through his role in and association with ZSERVERS, an involved person identified as a key enabler of the cybercrime ecosystem. 
+  
+In this capacity, Dmitry Konstantinovich BOLSHAKOV was directly involved in the supply of goods or technology that could contribute to relevant cyber activity. Dmitry Konstantinovich BOLSHAKOV is therefore involved in enabling cybercrime.
+  
+In this role, Dmitry Konstantinovich BOLSHAKOV was involved in relevant cyber activity that, directly or indirectly caused, or was intended to cause, economic loss to, or prejudice to the commercial interests of, those affected by the activity.
+</UKStatementofReasons>
+    <IndividualDetails>
+      <Individual>
+        <DOBs>
+          <DOB>23/08/2001</DOB>
+        </DOBs>
+        <Genders>
+          <Gender>Male</Gender>
+        </Genders>
+        <BirthDetails>
+          <Location>
+            <TownOfBirth>Altayskiy Kray</TownOfBirth>
+            <CountryOfBirth>Russia</CountryOfBirth>
+          </Location>
+        </BirthDetails>
+      </Individual>
+    </IndividualDetails>
+  </Designation>
+  <Designation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <LastUpdated>18/12/2021</LastUpdated>
+    <DateDesignated>03/10/2017</DateDesignated>
+    <UniqueID>DPR0075</UniqueID>
+    <Names>
+      <Name>
+        <Name6>Petrel 8</Name6>
+        <NameType>Primary name</NameType>
+      </Name>
+      <Name>
+        <Name6>Jal Vahini</Name6>
+        <NameType>Alias</NameType>
+      </Name>
+      <Name>
+        <Name6>Jal_Vahini</Name6>
+        <NameType>Alias</NameType>
+      </Name>
+      <Name>
+        <Name6>Tian Tai 36</Name6>
+        <NameType>Alias</NameType>
+      </Name>
+    </Names>
+    <RegimeName>The Democratic People's Republic of Korea (Sanctions) (EU Exit) Regulations 2019</RegimeName>
+    <IndividualEntityShip>Ship</IndividualEntityShip>
+    <DesignationSource>UN</DesignationSource>
+    <SanctionsImposed>Prohibition of port entry</SanctionsImposed>
+    <SanctionsImposedIndicators>
+      <AssetFreeze>false</AssetFreeze>
+      <ArmsEmbargo>false</ArmsEmbargo>
+      <TargetedArmsEmbargo>false</TargetedArmsEmbargo>
+      <CharteringOfShips>false</CharteringOfShips>
+      <ClosureOfRepresentativeOffices>false</ClosureOfRepresentativeOffices>
+      <CrewServicingOfShipsAndAircraft>false</CrewServicingOfShipsAndAircraft>
+      <Deflag>false</Deflag>
+      <PreventionOfBusinessArrangements>false</PreventionOfBusinessArrangements>
+      <ProhibitionOfPortEntry>true</ProhibitionOfPortEntry>
+      <TravelBan>false</TravelBan>
+      <PreventionOfCharteringOfShips>false</PreventionOfCharteringOfShips>
+      <PreventionOfCharteringOfShipsAndAircraft>false</PreventionOfCharteringOfShipsAndAircraft>
+      <TechnicalAssistanceRelatedToAircraft>false</TechnicalAssistanceRelatedToAircraft>
+      <TrustServicesSanctions>false</TrustServicesSanctions>
+      <DirectorDisqualificationSanction>false</DirectorDisqualificationSanction>
+    </SanctionsImposedIndicators>
+    <OtherInformation>Pursuant to paragraph 6 of Security Council Resolution 2371 (2017) and paragraph 6 of Security Council Resolution 2375 (2017)</OtherInformation>
+    <UKStatementofReasons>
+</UKStatementofReasons>
+    <ShipDetails>
+      <Ship>
+        <IMONumbers>
+          <IMONumber>IMO9562233</IMONumber>
+        </IMONumbers>
+        <CurrentOwnerOperators>
+          <CurrentOwnerOperator>Global United Shipping India </CurrentOwnerOperator>
+        </CurrentOwnerOperators>
+        <CurrentBelievedFlagOfShips>
+          <CurrentBelievedFlagOfShip>Comoros</CurrentBelievedFlagOfShip>
+        </CurrentBelievedFlagOfShips>
+        <PreviousFlags>
+          <PreviousFlag>India</PreviousFlag>
+        </PreviousFlags>
+        <TypeOfShipDetails>
+          <TypeOfShip>Bulk Carrier</TypeOfShip>
+        </TypeOfShipDetails>
+        <TonnageOfShipDetails>
+          <TonnageOfShip>7078</TonnageOfShip>
+        </TonnageOfShipDetails>
+        <LengthOfShipDetails>
+          <LengthOfShip>134.5</LengthOfShip>
+        </LengthOfShipDetails>
+        <YearsBuilt>
+          <YearBuilt>2011</YearBuilt>
+        </YearsBuilt>
+      </Ship>
+    </ShipDetails>
+  </Designation>
+  <Designation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <LastUpdated>09/04/2025</LastUpdated>
+    <DateDesignated>31/12/2020</DateDesignated>
+    <UniqueID>IRN0048</UniqueID>
+    <OFSIGroupID>12191</OFSIGroupID>
+    <Names>
+      <Name>
+        <Name1>Mehrdad</Name1>
+        <Name6>Omidi</Name6>
+        <NameType>Primary name</NameType>
+      </Name>
+      <Name>
+        <Name1>Reza</Name1>
+        <Name6>OMIDI</Name6>
+        <NameType>Alias</NameType>
+      </Name>
+      <Name>
+        <Name6>REZA</Name6>
+        <NameType>Alias</NameType>
+      </Name>
+    </Names>
+    <RegimeName>The Iran (Sanctions) Regulations 2023</RegimeName>
+    <IndividualEntityShip>Individual</IndividualEntityShip>
+    <DesignationSource>UK</DesignationSource>
+    <SanctionsImposed>Asset freeze|Travel Ban|Director Disqualification Sanction</SanctionsImposed>
+    <SanctionsImposedIndicators>
+      <AssetFreeze>true</AssetFreeze>
+      <ArmsEmbargo>false</ArmsEmbargo>
+      <TargetedArmsEmbargo>false</TargetedArmsEmbargo>
+      <CharteringOfShips>false</CharteringOfShips>
+      <ClosureOfRepresentativeOffices>false</ClosureOfRepresentativeOffices>
+      <CrewServicingOfShipsAndAircraft>false</CrewServicingOfShipsAndAircraft>
+      <Deflag>false</Deflag>
+      <PreventionOfBusinessArrangements>false</PreventionOfBusinessArrangements>
+      <ProhibitionOfPortEntry>false</ProhibitionOfPortEntry>
+      <TravelBan>true</TravelBan>
+      <PreventionOfCharteringOfShips>false</PreventionOfCharteringOfShips>
+      <PreventionOfCharteringOfShipsAndAircraft>false</PreventionOfCharteringOfShipsAndAircraft>
+      <TechnicalAssistanceRelatedToAircraft>false</TechnicalAssistanceRelatedToAircraft>
+      <TrustServicesSanctions>false</TrustServicesSanctions>
+      <DirectorDisqualificationSanction>true</DirectorDisqualificationSanction>
+    </SanctionsImposedIndicators>
+    <OtherInformation>The Director Disqualification Sanction was imposed on 09/04/2025.</OtherInformation>
+    <UKStatementofReasons>
+Head of section VI of the police, investigation department. Former Head of the Intelligence Services within the Iranian Police. Former Head of the Computer Crimes Unit of the Iranian Police. He was responsible for thousands of investigations and indictments of reformists and political opponents using the Internet. He was thus responsible for grave human rights violations in the repression of persons who speak out in defence of their legitimate rights, including freedom of expression during and after the 2009 Green Movement.</UKStatementofReasons>
+    <IndividualDetails>
+      <Individual>
+        <Positions>
+          <Position>Head of section VI of the police, investigation department.</Position>
+        </Positions>
+        <Genders>
+          <Gender>Male</Gender>
+        </Genders>
+      </Individual>
+    </IndividualDetails>
+  </Designation>
+  <Designation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <LastUpdated>09/04/2025</LastUpdated>
+    <DateDesignated>31/12/2020</DateDesignated>
+    <UniqueID>RUS0001</UniqueID>
+    <OFSIGroupID>12944</OFSIGroupID>
+    <Names>
+      <Name>
+        <Name1>Dmitry</Name1>
+        <Name2>Konstantinovich</Name2>
+        <Name6>Kiselyov</Name6>
+        <NameType>Primary name</NameType>
+      </Name>
+      <Name>
+        <Name1>Dmitrii</Name1>
+        <Name2>Konstantinovich</Name2>
+        <Name6>Kiselev</Name6>
+        <NameType>Primary name variation</NameType>
+      </Name>
+      <Name>
+        <Name1>Dmitry</Name1>
+        <Name2>Konstantinovich</Name2>
+        <Name6>Kiselev</Name6>
+        <NameType>Primary name variation</NameType>
+      </Name>
+      <Name>
+        <Name1>Dmitrii</Name1>
+        <Name2>Konstantinovich</Name2>
+        <Name6>Kiselyov</Name6>
+        <NameType>Primary name variation</NameType>
+      </Name>
+    </Names>
+    <RegimeName>The Russia (Sanctions) (EU Exit) Regulations 2019</RegimeName>
+    <IndividualEntityShip>Individual</IndividualEntityShip>
+    <DesignationSource>UK</DesignationSource>
+    <SanctionsImposed>Asset freeze|Travel Ban|Trust Services Sanctions|Director Disqualification Sanction</SanctionsImposed>
+    <SanctionsImposedIndicators>
+      <AssetFreeze>true</AssetFreeze>
+      <ArmsEmbargo>false</ArmsEmbargo>
+      <TargetedArmsEmbargo>false</TargetedArmsEmbargo>
+      <CharteringOfShips>false</CharteringOfShips>
+      <ClosureOfRepresentativeOffices>false</ClosureOfRepresentativeOffices>
+      <CrewServicingOfShipsAndAircraft>false</CrewServicingOfShipsAndAircraft>
+      <Deflag>false</Deflag>
+      <PreventionOfBusinessArrangements>false</PreventionOfBusinessArrangements>
+      <ProhibitionOfPortEntry>false</ProhibitionOfPortEntry>
+      <TravelBan>true</TravelBan>
+      <PreventionOfCharteringOfShips>false</PreventionOfCharteringOfShips>
+      <PreventionOfCharteringOfShipsAndAircraft>false</PreventionOfCharteringOfShipsAndAircraft>
+      <TechnicalAssistanceRelatedToAircraft>false</TechnicalAssistanceRelatedToAircraft>
+      <TrustServicesSanctions>true</TrustServicesSanctions>
+      <DirectorDisqualificationSanction>true</DirectorDisqualificationSanction>
+    </SanctionsImposedIndicators>
+    <OtherInformation>The Director Disqualification Sanction was imposed on 09/04/2025.</OtherInformation>
+    <UKStatementofReasons>
+Appointed by Presidential Decree on 9 December 2013 Head of the Russian Federal State news agency "Rossiya Segodnya".  Central figure of the Russian government propaganda supporting the illegal annexation of Crimea and in promoting policies and actions which destabilise Ukraine or undermine or threaten the territorial integrity, sovereignty and independence of Ukraine. 
+ The trust services sanctions were imposed on 21/03/2023.</UKStatementofReasons>
+    <Addresses>
+      <Address>
+        <AddressCountry>Russia</AddressCountry>
+      </Address>
+    </Addresses>
+    <IndividualDetails>
+      <Individual>
+        <DOBs>
+          <DOB>26/04/1954</DOB>
+        </DOBs>
+        <Nationalities>
+          <Nationality>Russia</Nationality>
+        </Nationalities>
+        <Positions>
+          <Position>Head of the Russian Federal State News Agency 'Rossiya Segodnya'.</Position>
+        </Positions>
+        <Genders>
+          <Gender>Male</Gender>
+        </Genders>
+        <BirthDetails>
+          <Location>
+            <TownOfBirth>Moscow</TownOfBirth>
+            <CountryOfBirth>Russia</CountryOfBirth>
+          </Location>
+        </BirthDetails>
+      </Individual>
+    </IndividualDetails>
+  </Designation>
+</Designations>

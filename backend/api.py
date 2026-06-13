@@ -19,10 +19,21 @@ app = Flask(__name__, static_folder=str(_WEB_DIR), static_url_path="")
 app.config["MAX_CONTENT_LENGTH"] = 16 * 1024 * 1024  # 16 MB — allows uploaded images
 CORS(app)
 
+# KYB & UK Sanctions Intelligence module — adds /api/company/* + /api/screening/*
+# and warms the sanctions index in the background.
+from backend.kyb.api import register_kyb  # noqa: E402
+register_kyb(app)
+
 
 @app.route("/")
 def index():
     return send_from_directory(_WEB_DIR, "Triage.html")
+
+
+@app.route("/kyb")
+def kyb_console():
+    # The KYB dossier / sanction-check console (same RAG design language as Triage).
+    return send_from_directory(_WEB_DIR, "KYB.html")
 
 
 @app.route("/FCA.md")
