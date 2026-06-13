@@ -1,0 +1,6 @@
+anthropic
+flask
+flask-cors
+python-dotenv
+streamlit
+requests
