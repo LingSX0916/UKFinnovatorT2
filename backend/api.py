@@ -8,6 +8,7 @@ load_dotenv()
 
 from backend.scanner import scan_advert
 from backend.warning_list_checker import find_warning_list_matches
+from backend import store
 
 _ROOT = Path(__file__).parent.parent
 _WEB_DIR = _ROOT / "web"
@@ -60,9 +61,38 @@ def scan():
     return jsonify(result)
 
 
+@app.route("/complaints", methods=["GET"])
+def list_complaints():
+    """Persisted complaints for the board. Empty + persistence:false if Supabase
+    isn't configured, so the UI just shows its demo data."""
+    if not store.enabled():
+        return jsonify({"complaints": [], "persistence": False})
+    try:
+        return jsonify({"complaints": store.list_complaints(), "persistence": True})
+    except Exception as exc:
+        app.logger.warning("list_complaints failed: %s", exc)
+        return jsonify({"complaints": [], "persistence": False, "error": str(exc)})
+
+
+@app.route("/complaints", methods=["POST"])
+def save_complaint():
+    """Persist one triaged complaint card (the full UI payload)."""
+    if not store.enabled():
+        return jsonify({"saved": False, "persistence": False})
+    card = request.get_json(force=True) or {}
+    if not card.get("ref"):
+        return jsonify({"error": "ref is required"}), 400
+    try:
+        store.save_complaint(card)
+        return jsonify({"saved": True})
+    except Exception as exc:
+        app.logger.warning("save_complaint failed: %s", exc)
+        return jsonify({"saved": False, "error": str(exc)}), 502
+
+
 @app.route("/health")
 def health():
-    return jsonify({"status": "ok"})
+    return jsonify({"status": "ok", "persistence": store.enabled()})
 
 
 if __name__ == "__main__":

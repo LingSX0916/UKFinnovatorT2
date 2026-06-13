@@ -4,3 +4,5 @@ flask-cors
 python-dotenv
 streamlit
 requests
+gunicorn
+supabase

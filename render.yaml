@@ -1,0 +1,22 @@
+# Render Blueprint — deploys the Triage app (Flask serving the web/ UI + /scan).
+# In Render: New → Blueprint → connect this repo. Render reads this file, then
+# you set the secret env vars below in the dashboard (they are NOT stored here).
+services:
+  - type: web
+    name: fca-triage
+    runtime: python
+    plan: free
+    buildCommand: pip install -r backend/requirements.txt
+    # gunicorn imports the Flask app object from backend/api.py and binds $PORT.
+    startCommand: gunicorn backend.api:app --bind 0.0.0.0:$PORT --workers 2 --timeout 120
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.12.6"
+      - key: OPENAI_API_KEY
+        sync: false            # set in the Render dashboard
+      - key: OPENAI_MODEL
+        value: gpt-4o
+      - key: SUPABASE_URL
+        sync: false            # https://kbcstsfoipforuapqtev.supabase.co
+      - key: SUPABASE_SERVICE_ROLE_KEY
+        sync: false            # service-role key (rotate the one shared in chat first)

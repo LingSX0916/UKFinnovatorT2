@@ -43,6 +43,8 @@ function App() {
         setAnalysingNow(null);
         busy.current = false;
         setFreshRef(r => (r === card.ref ? null : r));
+        // persist complaints logged through the intake form (not the demo seeds)
+        if (card.persist) window.saveComplaint({ ...card, analysis, stage: analysis.rag });
         setTimeout(processNext, 700);
       }, wait);
     });
@@ -57,6 +59,22 @@ function App() {
     patch(next.ref, { stage: "analysing" });
     triageCard(next);
   };
+
+  // load previously persisted (Supabase-backed) complaints, deduped by ref
+  useEffect(() => {
+    let cancelled = false;
+    window.fetchSavedComplaints && window.fetchSavedComplaints().then(saved => {
+      if (cancelled || !saved.length) return;
+      setComplaints(prev => {
+        const have = new Set(prev.map(c => c.ref));
+        const add = saved
+          .filter(c => c && c.ref && !have.has(c.ref))
+          .map(c => ({ ...c, persist: true, stage: c.analysis ? c.analysis.rag : "inbox" }));
+        return [...add, ...prev];
+      });
+    });
+    return () => { cancelled = true; };
+  }, []);
 
   // kick off the background agent on load; drop a live complaint in mid-stream
   useEffect(() => {
@@ -78,7 +96,7 @@ function App() {
   const goNew = () => setView("intake");
 
   const submitComplaint = (complaint) => {
-    const c = { ...complaint, analysis: null, stage: "inbox" };
+    const c = { ...complaint, analysis: null, stage: "inbox", persist: true };
     setComplaints(prev => [c, ...prev]);
     setFreshRef(c.ref);
     setView("queue");
