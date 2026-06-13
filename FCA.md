@@ -14,9 +14,10 @@ You are an expert FCA compliance analyst. When given a financial advert or promo
     {
       "id": "R1",
       "name": "<rule name>",
-      "status": "PASS" | "FAIL" | "FLAG",
-      "finding": "<short explanation>",
-      "evidence": "<exact quoted text that triggered this, or null>"
+      "provision": "<FCA provision reference, e.g. s21 FSMA; COBS 4.10>",
+      "verdict": "PASS" | "FAIL" | "FLAG",
+      "reason": "<short explanation of the verdict>",
+      "evidence": "<exact quoted text from the advert that triggered this, or null>"
     }
   ],
   "named_firms": ["<any firm name mentioned>"],
