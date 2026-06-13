@@ -33,6 +33,7 @@ function KCard({ c, fresh, onOpen }) {
       <div className="kc-meta">
         <span className="kp"><Icon name="pin" size={11} />{chanShort}</span>
         <span className="kp"><Icon name="doc" size={11} />{c.productTypes[0]}</span>
+        {c.image ? <span className="kp"><Icon name="image" size={11} />Image</span> : null}
       </div>
 
       {c.stage === "inbox" ? (
@@ -170,7 +171,7 @@ function CaseDossier({ c, t }) {
               <Icon name="doc" size={17} /><h3>Reported advert</h3>
               <span className="count">{data.breaches.length} flag{data.breaches.length === 1 ? "" : "s"}</span>
             </div>
-            <div className="card-pad"><AdvertView advert={data.advert} quotes={quotes} activeQuote={active} /></div>
+            <div className="card-pad"><AdvertView advert={data.advert} quotes={quotes} activeQuote={active} image={c.image} /></div>
           </div>
           <div className="card">
             <div className="card-head"><Icon name="inbox" size={17} /><h3>Complaint record</h3>
@@ -245,7 +246,7 @@ function CaseSignal({ c, t }) {
       <main className="layB-main">
         <div className="section">
           <div className="section-h"><h2>Reported advert</h2><span className="num">{data.breaches.length} flags</span></div>
-          <div className="card card-pad"><AdvertView advert={data.advert} quotes={quotes} activeQuote={active} /></div>
+          <div className="card card-pad"><AdvertView advert={data.advert} quotes={quotes} activeQuote={active} image={c.image} /></div>
         </div>
         <div className="section">
           <div className="section-h"><h2>Rule breaches</h2><span className="num">{data.breaches.length}</span></div>
@@ -293,6 +294,29 @@ function CaseView({ c, t, onBack, onToggleStyle }) {
 const CHANNEL_OPTS = ["Social media (Instagram)", "Social media (Facebook)", "Social media (TikTok)", "Website", "Search engine advert", "Mobile app", "Newspaper", "Email / post", "TV or radio"];
 const PRODUCT_OPTS = ["Investments", "Crypto", "Pensions", "Consumer credit", "Buy Now Pay Later", "Mortgages", "Insurance", "Financial advice", "Claims management"];
 
+// read an image file, downscaling its longest edge to maxDim, as a JPEG data URL
+function readImageDownscaled(file, maxDim, cb) {
+  const reader = new FileReader();
+  reader.onload = e => {
+    const img = new Image();
+    img.onload = () => {
+      let { width, height } = img;
+      if (Math.max(width, height) > maxDim) {
+        const s = maxDim / Math.max(width, height);
+        width = Math.round(width * s); height = Math.round(height * s);
+      }
+      const canvas = document.createElement("canvas");
+      canvas.width = width; canvas.height = height;
+      canvas.getContext("2d").drawImage(img, 0, 0, width, height);
+      try { cb(canvas.toDataURL("image/jpeg", 0.85)); }
+      catch (err) { cb(e.target.result); } // fallback to original (e.g. cross-origin)
+    };
+    img.onerror = () => cb(e.target.result);
+    img.src = e.target.result;
+  };
+  reader.readAsDataURL(file);
+}
+
 function IntakeView({ onSubmit, onCancel }) {
   const [promoter, setPromoter] = useStateV("");
   const [advert, setAdvert] = useStateV("");
@@ -301,7 +325,15 @@ function IntakeView({ onSubmit, onCancel }) {
   const [product, setProduct] = useStateV(PRODUCT_OPTS[0]);
   const [auth, setAuth] = useStateV("Unsure");
   const [where, setWhere] = useStateV("");
-  const ready = advert.trim().length > 12;
+  const [image, setImage] = useStateV(null);
+  const [imageName, setImageName] = useStateV("");
+  const ready = advert.trim().length > 12 || !!image;
+  const onPickImage = (e) => {
+    const f = e.target.files && e.target.files[0];
+    if (!f) return;
+    setImageName(f.name);
+    readImageDownscaled(f, 1600, setImage);
+  };
   const submit = () => {
     if (!ready) return;
     onSubmit({
@@ -311,7 +343,7 @@ function IntakeView({ onSubmit, onCancel }) {
       authorisedClaim: auth, productTypes: [product],
       whenSeen: "13 Jun 2026, just now", whereSeen: where.trim() || channel,
       reason: reason.trim() || "No further detail provided.",
-      advert: advert.trim()
+      advert: advert.trim(), image: image || null
     });
   };
   return (
@@ -323,10 +355,28 @@ function IntakeView({ onSubmit, onCancel }) {
 
         <div className="intake-grid">
           <div className="full">
-            <div className="field-label"><span>Advert copy reported</span><span className="hint">required</span></div>
-            <textarea className="advert-input" style={{ minHeight: 170 }} value={advert}
+            <div className="field-label"><span>Advert copy reported</span><span className="hint">text and / or image</span></div>
+            <textarea className="advert-input" style={{ minHeight: 150 }} value={advert}
               onChange={e => setAdvert(e.target.value)}
               placeholder="Paste the text of the financial promotion the complainant reported…" />
+          </div>
+          <div className="full">
+            <div className="field-label"><span>Advert screenshot / image</span><span className="hint">optional — read by the AI</span></div>
+            {image ? (
+              <div className="image-preview">
+                <img src={image} alt="advert preview" />
+                <div className="image-meta">
+                  <span className="image-name">{imageName || "uploaded image"}</span>
+                  <button className="btn-link" onClick={() => { setImage(null); setImageName(""); }}>Remove</button>
+                </div>
+              </div>
+            ) : (
+              <label className="image-drop">
+                <Icon name="image" size={22} />
+                <span>Click to upload a screenshot of the advert (PNG / JPG)</span>
+                <input type="file" accept="image/*" style={{ display: "none" }} onChange={onPickImage} />
+              </label>
+            )}
           </div>
           <div>
             <div className="field-label"><span>Who is advertising?</span><span className="hint">optional</span></div>
@@ -364,7 +414,7 @@ function IntakeView({ onSubmit, onCancel }) {
           <button className="btn btn-primary" disabled={!ready} onClick={submit}>
             <Icon name="scan" size={18} /> Submit to agent
           </button>
-          <span className="action-note">{ready ? "The agent will triage this against COBS 4 & the Warning List." : "Paste the advert copy to continue."}</span>
+          <span className="action-note">{ready ? "The agent will triage this against the FCA rulebook & the Warning List." : "Paste the advert text or upload an image to continue."}</span>
         </div>
       </div>
     </div>

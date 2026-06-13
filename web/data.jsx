@@ -221,12 +221,12 @@ function fallbackAnalysis(advert, company) {
   };
 }
 
-async function analyseAdvert(advert, company, context) {
+async function analyseAdvert(advert, company, context, image) {
   try {
     const res = await fetch(SCAN_ENDPOINT, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ advert, advertText: advert, promoter: company || "", context: context || "" })
+      body: JSON.stringify({ advert, advertText: advert, promoter: company || "", context: context || "", image: image || null })
     });
     if (!res.ok) throw new Error("scan failed: HTTP " + res.status);
     const data = await res.json();

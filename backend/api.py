@@ -16,6 +16,7 @@ _WEB_DIR = _ROOT / "web"
 # Serve the Triage web frontend from the same origin as the API → no CORS,
 # one process, one `python main.py` to run the whole thing.
 app = Flask(__name__, static_folder=str(_WEB_DIR), static_url_path="")
+app.config["MAX_CONTENT_LENGTH"] = 16 * 1024 * 1024  # 16 MB — allows uploaded images
 CORS(app)
 
 
@@ -35,14 +36,15 @@ def rulebook():
 def scan():
     data = request.get_json(force=True) or {}
     advert = (data.get("advert") or data.get("advertText") or "").strip()
-    if not advert:
-        return jsonify({"error": "advert text is required"}), 400
+    image = data.get("image") or None  # data: URL for vision analysis
+    if not advert and not image:
+        return jsonify({"error": "advert text or an image is required"}), 400
 
     promoter = (data.get("promoter") or "").strip()
     context = (data.get("context") or "").strip()
 
     try:
-        result = scan_advert(advert, promoter=promoter, context=context)
+        result = scan_advert(advert, promoter=promoter, context=context, image_data_url=image)
     except Exception as exc:  # missing/invalid key, model/parse error, etc.
         # Return clean JSON so the frontend falls back to its local heuristic
         # instead of choking on a 500 HTML page.
