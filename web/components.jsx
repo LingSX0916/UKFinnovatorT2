@@ -213,6 +213,9 @@ function Topbar({ onHome, onNew, onDashboard, view }) {
         {view !== "dashboard" ? (
           <button className="btn-link" onClick={onDashboard}>Dashboard</button>
         ) : null}
+        <a className="btn-link" href="/kyb" style={{ display: "inline-flex", alignItems: "center", gap: 6 }} title="Company due-diligence & sanctions screening">
+          <Icon name="shield" size={15} /> KYB
+        </a>
         <button className="btn-link" style={{ display: "inline-flex", alignItems: "center", gap: 6 }} onClick={onNew}>
           <Icon name="plus" size={15} stroke={2.4} /> Log complaint
         </button>
