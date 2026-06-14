@@ -294,27 +294,61 @@ function CaseView({ c, t, onBack, onToggleStyle }) {
 const CHANNEL_OPTS = ["Social media (Instagram)", "Social media (Facebook)", "Social media (TikTok)", "Website", "Search engine advert", "Mobile app", "Newspaper", "Email / post", "TV or radio"];
 const PRODUCT_OPTS = ["Investments", "Crypto", "Pensions", "Consumer credit", "Buy Now Pay Later", "Mortgages", "Insurance", "Financial advice", "Claims management"];
 
-// read an image file, downscaling its longest edge to maxDim, as a JPEG data URL
-function readImageDownscaled(file, maxDim, cb) {
-  const reader = new FileReader();
-  reader.onload = e => {
-    const img = new Image();
-    img.onload = () => {
-      let { width, height } = img;
-      if (Math.max(width, height) > maxDim) {
-        const s = maxDim / Math.max(width, height);
-        width = Math.round(width * s); height = Math.round(height * s);
-      }
-      const canvas = document.createElement("canvas");
-      canvas.width = width; canvas.height = height;
-      canvas.getContext("2d").drawImage(img, 0, 0, width, height);
-      try { cb(canvas.toDataURL("image/jpeg", 0.85)); }
-      catch (err) { cb(e.target.result); } // fallback to original (e.g. cross-origin)
+// iPhone photos are HEIC/HEIF, which browsers can't decode or display and which
+// gpt-4o vision can't read — detect them so we can convert first.
+function isHeic(file) {
+  const t = (file.type || "").toLowerCase(), n = (file.name || "").toLowerCase();
+  return t.includes("heic") || t.includes("heif") || n.endsWith(".heic") || n.endsWith(".heif");
+}
+
+// lazy-load heic2any (CDN) only when a HEIC is actually picked
+let _heic2any = null;
+function loadHeic2any() {
+  if (_heic2any) return Promise.resolve(_heic2any);
+  return new Promise((resolve, reject) => {
+    const s = document.createElement("script");
+    s.src = "https://cdn.jsdelivr.net/npm/heic2any@0.0.4/dist/heic2any.min.js";
+    s.onload = () => { _heic2any = window.heic2any; _heic2any ? resolve(_heic2any) : reject(new Error("no heic2any")); };
+    s.onerror = () => reject(new Error("heic2any load failed"));
+    document.head.appendChild(s);
+  });
+}
+
+// Read an image file as a downscaled JPEG data URL (renderable + vision-readable).
+// onOk(dataUrl); onErr(message) on any unreadable/undecodable file — never returns
+// a broken/unrenderable URL silently.
+function readImageAsJpeg(file, maxDim, onOk, onErr) {
+  const encode = (blob) => {
+    const reader = new FileReader();
+    reader.onload = e => {
+      const img = new Image();
+      img.onload = () => {
+        let { width, height } = img;
+        if (!width || !height) { onErr("That image looks empty or corrupt. Try another file."); return; }
+        if (Math.max(width, height) > maxDim) {
+          const s = maxDim / Math.max(width, height);
+          width = Math.round(width * s); height = Math.round(height * s);
+        }
+        const canvas = document.createElement("canvas");
+        canvas.width = width; canvas.height = height;
+        canvas.getContext("2d").drawImage(img, 0, 0, width, height);
+        try { onOk(canvas.toDataURL("image/jpeg", 0.85)); }
+        catch (err) { onErr("Could not process that image. Please try a PNG or JPG screenshot."); }
+      };
+      img.onerror = () => onErr("Could not read that image format. Please upload a PNG or JPG (e.g. a screenshot).");
+      img.src = e.target.result;
     };
-    img.onerror = () => cb(e.target.result);
-    img.src = e.target.result;
+    reader.onerror = () => onErr("Could not read that file.");
+    reader.readAsDataURL(blob);
   };
-  reader.readAsDataURL(file);
+  if (isHeic(file)) {
+    loadHeic2any()
+      .then(h2a => h2a({ blob: file, toType: "image/jpeg", quality: 0.85 }))
+      .then(jpeg => encode(Array.isArray(jpeg) ? jpeg[0] : jpeg))
+      .catch(() => onErr("Couldn't convert that iPhone (HEIC) photo. Please upload a PNG or JPG screenshot."));
+  } else {
+    encode(file);
+  }
 }
 
 function IntakeView({ onSubmit, onCancel }) {
@@ -327,12 +361,16 @@ function IntakeView({ onSubmit, onCancel }) {
   const [where, setWhere] = useStateV("");
   const [image, setImage] = useStateV(null);
   const [imageName, setImageName] = useStateV("");
-  const ready = advert.trim().length > 12 || !!image;
+  const [imageErr, setImageErr] = useStateV("");
+  const [imageLoading, setImageLoading] = useStateV(false);
+  const ready = (advert.trim().length > 12 || !!image) && !imageLoading;
   const onPickImage = (e) => {
     const f = e.target.files && e.target.files[0];
     if (!f) return;
-    setImageName(f.name);
-    readImageDownscaled(f, 1600, setImage);
+    setImageErr(""); setImage(null); setImageName(f.name); setImageLoading(true);
+    readImageAsJpeg(f, 1600,
+      (dataUrl) => { setImage(dataUrl); setImageLoading(false); },
+      (msg) => { setImage(null); setImageName(""); setImageLoading(false); setImageErr(msg); });
   };
   const submit = () => {
     if (!ready) return;
@@ -367,16 +405,19 @@ function IntakeView({ onSubmit, onCancel }) {
                 <img src={image} alt="advert preview" />
                 <div className="image-meta">
                   <span className="image-name">{imageName || "uploaded image"}</span>
-                  <button className="btn-link" onClick={() => { setImage(null); setImageName(""); }}>Remove</button>
+                  <button className="btn-link" onClick={() => { setImage(null); setImageName(""); setImageErr(""); }}>Remove</button>
                 </div>
               </div>
+            ) : imageLoading ? (
+              <div className="image-drop"><span className="spinner" /><span>Reading image…</span></div>
             ) : (
               <label className="image-drop">
                 <Icon name="image" size={22} />
-                <span>Click to upload a screenshot of the advert (PNG / JPG)</span>
-                <input type="file" accept="image/*" style={{ display: "none" }} onChange={onPickImage} />
+                <span>Click to upload an advert screenshot — PNG, JPG, or iPhone (HEIC) photo</span>
+                <input type="file" accept="image/*,.heic,.heif" style={{ display: "none" }} onChange={onPickImage} />
               </label>
             )}
+            {imageErr ? <div className="image-err"><Icon name="alert" size={14} /> {imageErr}</div> : null}
           </div>
           <div>
             <div className="field-label"><span>Who is advertising?</span><span className="hint">optional</span></div>
