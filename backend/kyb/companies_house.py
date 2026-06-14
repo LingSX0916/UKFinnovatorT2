@@ -157,6 +157,12 @@ class CompaniesHouseClient:
                 return resp.json()
             if resp.status_code == 404:
                 return None
+            if resp.status_code in (401, 403):  # bad / expired / unauthorised key
+                import logging
+                logging.getLogger(__name__).warning(
+                    "Companies House auth failed (HTTP %s) — check COMPANIES_HOUSE_API_KEY",
+                    resp.status_code)
+                return None
             if resp.status_code == 429:  # rate limited — exponential backoff
                 wait = float(resp.headers.get("Retry-After", backoff))
                 time.sleep(wait)

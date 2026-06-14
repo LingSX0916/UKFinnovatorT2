@@ -30,6 +30,10 @@ function SearchView({ onOpen }) {
   const [results, setResults] = useS(null);
   const [busy, setBusy] = useS(false);
   const [err, setErr] = useS(null);
+  const [mode, setMode] = useS(null);
+
+  useE(() => { window.KYB.health().then(setMode).catch(() => {}); }, []);
+  const isLive = mode && mode.companies_house === "live";
 
   const run = async () => {
     if (!q.trim()) return;
@@ -49,6 +53,15 @@ function SearchView({ onOpen }) {
             <p className="sub">Search Companies House, open a dossier, then run a one-click sanctions &amp; Warning-List check across every officer and beneficial owner.</p>
           </div>
         </div>
+
+        {mode ? (
+          <div className={"mode-banner " + (isLive ? "live" : "demo")}>
+            <Icon name={isLive ? "check" : "info"} size={15} />
+            {isLive
+              ? <span><b>Live</b> — connected to the Companies House API; search returns real UK companies.</span>
+              : <span><b>Demo data</b> — Companies House search is limited to the bundled demo companies below. Set <code>COMPANIES_HOUSE_API_KEY</code> in <code>.env</code> and restart the server for live search.</span>}
+          </div>
+        ) : null}
 
         <div className="search-bar">
           <input className="text-input" placeholder="Company name or number…" value={q}
@@ -71,7 +84,8 @@ function SearchView({ onOpen }) {
 
         {results ? (
           results.length === 0 && !err
-            ? <div className="empty-note"><Icon name="info" size={16} /> No companies matched “{q}”.</div>
+            ? <div className="empty-note"><Icon name="info" size={16} /> No companies matched “{q}”.
+                {!isLive ? " Demo mode only searches the bundled companies — add a Companies House API key for live search." : ""}</div>
             : (
               <table className="kyb-table">
                 <thead><tr><th>Company</th><th>Number</th><th>Status</th><th></th></tr></thead>
