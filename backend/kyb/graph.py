@@ -142,26 +142,23 @@ def build_ownership_graph(client, company_number: str, *, max_depth: int = DEFAU
                 if country and country.strip().lower() not in {"england", "wales", "scotland",
                                                                 "united kingdom", "uk", "northern ireland", "england/wales"}:
                     foreign_rle = True
+                resolved = _resolve_company(client, psc)
+                ids = [ident["registration_number"]] if ident.get("registration_number") else []
+                if resolved and resolved not in ids:
+                    ids.append(resolved)
                 subjects.append(Subject(
                     name=psc["name"], subject_type="entity", ref=node_id,
-                    identifiers=[ident["registration_number"]] if ident.get("registration_number") else [],
-                    country=country))
-                # recurse into the owning company if we can resolve it
-                resolved = _resolve_company(client, psc)
-                if resolved and resolved.upper() not in visited:
-                    visited.add(resolved.upper())
-                    comp_node_id = f"company:{resolved}"
-                    if comp_node_id not in nodes:
-                        rp = client.get_profile(resolved) or {}
-                        nodes[comp_node_id] = {
-                            "id": comp_node_id, "kind": "company",
-                            "name": rp.get("name") or resolved, "company_number": resolved,
-                            "depth": depth, "effective_pct": round(eff, 1), "screening": None,
-                        }
-                        edges.append({"from": comp_node_id, "to": node_id, "is_direct": False,
-                                      "depth": depth, "natures_of_control": ["holding company"]})
-                    walk(resolved, comp_node_id, eff or parent_pct,
-                         eff_max or parent_pct_max, depth + 1)
+                    identifiers=ids, country=country))
+                # ONE node per corporate owner: if we can resolve it to a UK
+                # company, attach its own PSCs to THIS node (no duplicate company
+                # node) so the chain reads owner -> owner -> beneficial owner.
+                if resolved:
+                    node["company_number"] = resolved
+                    node["registration_number"] = ident.get("registration_number") or resolved
+                    if resolved.upper() not in visited:
+                        visited.add(resolved.upper())
+                        walk(resolved, node_id, eff or parent_pct,
+                             eff_max or parent_pct_max, depth + 1)
             else:
                 subjects.append(Subject(
                     name=psc["name"], subject_type="psc", ref=node_id,

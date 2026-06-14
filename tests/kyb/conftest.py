@@ -10,11 +10,15 @@ FIXTURES = Path(__file__).parent / "fixtures"
 SAMPLE = FIXTURES / "uksl_sample.xml"
 SAMPLE_DESIGNATION_COUNT = 30  # designations in uksl_sample.xml (see test_ingest)
 
-# Pin the engines to fixtures BEFORE backend.kyb is imported anywhere.
+# Pin the engines to fixtures/offline BEFORE backend.kyb is imported anywhere.
+# Set the secrets to "" rather than pop()-ing them: backend.api calls
+# load_dotenv() on import, which would otherwise repopulate a real key from a
+# local .env and flip the tests into live mode. load_dotenv(override=False) skips
+# variables that already exist, so an explicit "" keeps the suite offline.
 os.environ["UKSL_XML_PATH"] = str(SAMPLE)
 os.environ["KYB_WARM_INDEX"] = "0"
 for secret in ("COMPANIES_HOUSE_API_KEY", "SUPABASE_URL", "SUPABASE_SERVICE_ROLE_KEY"):
-    os.environ.pop(secret, None)
+    os.environ[secret] = ""
 
 
 @pytest.fixture(scope="session")
